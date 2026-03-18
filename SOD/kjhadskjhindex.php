@@ -1,0 +1,1562 @@
+   <!DOCTYPE html>
+   <html lang="en">
+
+   <head>
+     <title>Fashion Designing Colleges in Pune | Product Design Colleges in Pune</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="">
+
+     <link rel="shortcut icon" href="img/logo/favicon.ico" type="image/png">
+     <link rel="preload" as="style" href="styles/bootstrap.min.css">
+     <link rel="stylesheet" href="styles/bootstrap.min.css" type="text/css">
+     <link rel="preload" as="style" href="styles/animate.min.css">
+     <link rel="stylesheet" href="styles/animate.min.css" type="text/css">
+     <link rel="preload" as="style" href="styles/styles.css">
+     <link rel="preload" as="style" href="styles/style.css">
+     <link rel="stylesheet" href="styles/styles.css" type="text/css">
+     <link rel="preload" as="style" href="styles/responsive.css">
+     <link rel="stylesheet" href="styles/responsive.css" type="text/css">
+     <link rel="preload" as="style" href="styles/main.css">
+     <link rel="stylesheet" href="styles/main.css" type="text/css">
+     <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+       type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" as="style"
+       onload="this.onload=null;this.rel='stylesheet'">
+     <noscript>
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"></noscript>
+     <!-- Google Tag Manager -->
+     <script>
+       (function (w, d, s, l, i) {
+         w[l] = w[l] || [];
+         w[l].push({
+           'gtm.start': new Date().getTime(),
+           event: 'gtm.js'
+         });
+         var f = d.getElementsByTagName(s)[0],
+           j = d.createElement(s),
+           dl = l != 'dataLayer' ? '&l=' + l : '';
+         j.async = true;
+         j.src =
+           'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+         f.parentNode.insertBefore(j, f);
+       })(window, document, 'script', 'dataLayer', 'GTM-5LRMWG6R');
+     </script>
+     <!-- End Google Tag Manager -->
+   </head>
+
+   <body data-spy="scroll" data-target=".navbar" data-offset="120">
+
+     <header>
+       <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+         <div class="topnav">
+           <div class="container">
+             <div class="row">
+               <div class="col-md-3">
+                 <a class="navbar-brand" href="#home">
+                   <img class="lazyload" alt="" data-src="img/logo/1.webp" style="padding: 10px 0px;width:180px;">
+                 </a>
+               </div>
+               <div class="col-md-9">
+                 <div class="collapse navbar-collapse w-100 py-1 justify-content-end" id="navbarResponsive">
+                   <ul class="navbar-nav">
+                     <li class="nav-item">
+                       <a class="nav-link" href="#applynow">Home</a>
+                     </li>
+
+                     <li>
+                       <a class="nav-link" href="#dpu">About</a>
+                     </li>
+
+                     <li class="nav-item">
+                       <a class="nav-link" href="#programs">Programs</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="#inspiration">Get Inspired</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="#placement">Placement</a>
+                     </li>
+                     <li class="nav-item">
+                       <a href="#applynow" class="nav-link download_btn" style=" color: #fff !important;">APPLY NOW</a>
+                     </li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="clearfix"></div>
+         <div class="w-100 d-lg-none">
+           <a class="navbar-brand pl-2 d-lg-none d-inline-block" href="#">
+             <img alt="logo" data-src="img/logo/1.webp" class="img-fluid lazyload"
+               style="width: 180px !important;padding: 8px 0px;">
+           </a>
+           <!-- Toggler/collapsibe Button -->
+
+
+           <button id="nav-btn" class="navbar-toggler navbar-toggler-right float-right" style="margin-top: 20px;"
+             type="button" data-toggle="collapse" data-target="#navbarDiv" aria-expanded="false"
+             aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+
+
+           <div class="collapse navbar-collapse" id="navbarDiv">
+             <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                 <a class="nav-link" href="#applynow">Home</a>
+               </li>
+
+               <li>
+                 <a class="nav-link" href="#dpu">About</a>
+               </li>
+
+               <li class="nav-item">
+                 <a class="nav-link" href="#programs">Programs</a>
+               </li>
+
+               <li class="nav-item">
+                 <a class="nav-link" href="#admission">Admission Process</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#inspiration">Get Inspired</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#placement">Placement</a>
+               </li>
+               <li class="nav-item">
+                 <a href="#applynow" class="nav-link download_btn" style=" color: #fff !important;">APPLY NOW</a>
+               </li>
+             </ul>
+           </div>
+
+         </div>
+       </nav>
+     </header>
+
+     <!-- Hero ===================== -->
+
+     <div class="hero-section position-relative pt-5">
+
+       <video autoplay muted loop playsinline class="hero-video">
+         <source src="https://schoolofdesign.dpu.edu.in/images/all/sodvdo1.mp4" type="video/mp4">
+       </video>
+
+       <div class="contact_from" style="top:20px;">
+         <div class="formdekstopmt mar-t pt-4" id="applynow">
+           <div align="center">
+             <span
+               style="font-size:18px;background-color:#9e1b35;padding:0px 10px;font-weight: 800;color: white;">Admissions
+               Open 2026</span>
+             <div class="col-md-12" style="height: 1px; background: #5C4688;margin: 5px;"></div>
+             <div id="zf_div_7raFFcYFoELnNsQNHmI-zElun-fGaMef4PXas_tgJ1c"></div>
+
+           </div>
+         </div>
+         <div class="clearfix"></div>
+       </div>
+     </div>
+
+
+     <!--====== about start ==========-->
+     <section class="program_info" id="dat1">
+       <div class="container">
+         <div class="row">
+           <!--<div class="col-md-5 order-lg-1 order-2  wow fadeInLeft animated" data-wow-duration="1.3s">
+                  <img class="lazyload" src="images/444.jpg" class="img-fluid">
+               </div>-->
+           <div class="col-md-7 wow fadeInLeft animated" data-wow-duration="1.2s">
+             <div class="programmeme_detl">
+               <h3 class="title1" id="dpu">About DPU, <br><span>Dr. D. Y. Patil School of Design</span></h3>
+
+
+
+               <!-- <div class="c-statistics dd-none" data-component="StatisticsComponent" id="c-statistics-6">
+
+
+                 <div class="statistics__content content_number_4">
+                   <div class="statistics__card wow fadeInLeft animated" data-wow-duration="1.2s">
+                     <div class="statistics__card__value">500+</div>
+                     <div class="statistics__card__text">Research <br>Scientists</div>
+
+                   </div>
+                   <div class="statistics__card wow fadeInLeft animated" data-wow-duration="1.2s">
+                     <div class="statistics__card__value">6<sup>th</sup></div>
+                     <div class="statistics__card__text">Best Cricket Arena In The World By <br>Architects Journal Of
+                       Britain</div>
+                   </div>
+
+                   <div class="statistics__card wow fadeInRight animated" data-wow-duration="1.2s">
+                     <div class="statistics__card__value">1500+</div>
+                     <div class="statistics__card__text">Experienced Faculty</div>
+                   </div>
+
+
+                   <div class="statistics__card wow fadeInRight animated" data-wow-duration="1.2s">
+                     <div class="statistics__card__value">50,000+</div>
+                     <div class="statistics__card__text">Alumni Across The <br>Nation</div>
+                   </div>
+
+                 </div>
+               </div> -->
+
+
+               <p>Established in 2022, DPU | Dr. D. Y. Patil School of Design enriches the legacy of Dr. D. Y. Patil
+                 Vidyapeeth, Pune, with a focus on exceptional design education. Our programs empower students to
+                 creatively solve real-world design challenges by blending innovation, technical skill, and design
+                 empathy. We offer an AICTE-approved Bachelor of Design with specializations in Fashion Design,
+                 Communication Design, Interior Spatial & Furniture, Product Design, UX Design and Animation, and VFX
+                 Design. Supported by cutting-edge facilities and guided by experts from premier institutes like NID and
+                 IIT, our faculty fosters a dynamic learning environment shaping the institute as best design institutes
+                 across India. DPU SOD strives to be a leading hub for design innovation and education, nurturing the
+                 next generation of design leaders in India.</p>
+             </div>
+           </div>
+           <div class="col-md-5">
+             <figure class="splide__slide">
+
+               <img class=" ls-is-cached lazyloaded" width="auto" height="55" data-src="img/why/2.jpg"
+                 src="img/why/3.png">
+             </figure>
+           </div>
+
+
+           <!-- <div class="c-statistics m-none" data-component="StatisticsComponent" id="c-statistics-6">
+
+
+             <div class="statistics__content content_number_4">
+               <div class="statistics__card wow fadeInLeft animated" data-wow-duration="1.2s">
+                 <div class="statistics__card__value">17+</div>
+                 <div class="statistics__card__text">Years <br>of Legacy</div>
+
+               </div>
+               <div class="statistics__card wow fadeInLeft animated" data-wow-duration="1.2s">
+                 <div class="statistics__card__value">50+</div>
+                 <div class="statistics__card__text">Design <br>Awards</div>
+               </div>
+
+               <div class="statistics__card wow fadeInRight animated" data-wow-duration="1.2s">
+                 <div class="statistics__card__value">125+</div>
+                 <div class="statistics__card__text">Acres of <br>Residential Campus</div>
+               </div>
+
+
+               <div class="statistics__card wow fadeInRight animated" data-wow-duration="1.2s">
+                 <div class="statistics__card__value">50+</div>
+                 <div class="statistics__card__text">International <br>Collaborators</div>
+               </div>
+
+             </div>
+           </div> -->
+
+
+
+
+
+           <div class="clearfix"></div>
+         </div>
+
+
+         <div class="row">
+           <!--<div class="col-md-5 order-lg-1 order-2  wow fadeInLeft animated" data-wow-duration="1.3s">
+                  <img class="lazyload" src="images/444.jpg" class="img-fluid">
+               </div>-->
+           <div class="col-md-12 wow fadeInLeft animated" data-wow-duration="1.2s">
+             <div class="programmeme_detl">
+               <h3 class="title1" style="margin-top: 2rem;" id="dat">Dr. D. Y. Patil School of Design, <span
+                   class="text-red"> Tathawade, Pune | India</span></h3>
+
+               <p>Dr. D. Y. Patil School of Design, Pune, India, is a flagship institute of Dr. D. Y. Patil Vidyapeeth
+                 (Deemed-to-be-University), under the visionary leadership of Dr. P. D. Patil, Chancellor, and the
+                 guidance of Dr. Smita Jadhav, Pro-Vice-Chancellor of Dr. D. Y. Patil Vidyapeeth. <br>DPU-SOD being one
+                 of best design institutes in Pune; invites aspirants who are a "niche", who do not think alike and the
+                 ones who are quite inquisitive, curious and believe in having their own creation. </p>
+             </div>
+
+             <div class="row  wow fadeInUp animated" id="awards">
+               <div class="col-md-3 col-6">
+                 <figure class="splide__slide awards_img">
+
+                   <img class="lazyload" data-src="img\achivement\1.jpg">
+
+                 </figure>
+               </div>
+
+               <div class="col-md-3 col-6">
+                 <figure class="splide__slide awards_img">
+
+                   <img class="lazyload" data-src="img\achivement\2.jpg">
+
+                 </figure>
+
+               </div>
+
+               <div class="col-md-3 col-6">
+                 <figure class="splide__slide awards_img">
+
+                   <img class="lazyload" data-src="img\achivement\3.jpg">
+
+                 </figure>
+
+               </div>
+
+               <div class="col-md-3 col-6">
+                 <figure class="splide__slide awards_img">
+                   <img class="lazyload" data-src="img\achivement\4.jpg">
+
+                 </figure>
+
+               </div>
+
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+
+
+     <section class="py-md-7 h-5 wow fadeInUp animated" data-wow-duration="1.2s" id="aboutus">
+       <div class="c-three-columns specia" id="c-three-columns-1" data-anchor="course_career"
+         data-component="ThreeColumnsComponent" data-color-title="" data-color-bg="">
+         <div class="three-cols__wrapper">
+           <div class="three-cols__title" data-wrapper-title> </div>
+           <div class="three-cols__columns" data-column-hl="0">
+             <span class="three-cols__bg-box" data-bg-box data-wrapper-bg></span>
+             <div class="column card-light highlight "
+               data-card-bg-src="images/bg-card-01.jpgon=javascript-1.4.3&updatedAt=1671779363471"
+               data-card-color-title="#F5C55C" data-card>
+               <div data-card-bg-img>
+                 <img class="lazyload" data-placeholder data-src="images/bg-card-01.jpg">
+               </div>
+               <div class="column__wrapper" style="color:#fff">
+                 <div class="column__title" data-card-title style="margin-top:20px;color:#fff">WHY DPU, Dr. D. Y. Patil
+                   School of
+                   Design</div>
+
+                 <div class="column__description" style="color:#fff">
+                   <ol style="color:#fff">
+                     <li>Periodic workshops and sessions by design folks</li>
+                     <li>Design corridors to exhibit their design collection</li>
+                     <li>Summit and Conclaves</li>
+                     <li>Live Projects and Internships.</li>
+                     <li>Portfolios and prototypes</li>
+                     <li>Internships, placements, entrepreneurship and incubation centre</li>
+                   </ol>
+
+                 </div>
+               </div>
+               </a>
+             </div>
+             <div class="column card-light   " data-card-bg-src="img/why/4.jpg" data-card-color-title="#FFFFFF"
+               data-card>
+               <div data-card-bg-img>
+                 <img class="lazyload" data-src="img/why/4.jpg">
+               </div>
+               <div class="column__wrapper">
+                 <h3 class="column__title text-light" id="dat">WHY Design Courses? </h3>
+
+                 <div class="column__description text-light whydesignsec">
+                   <ul>
+                     <li>Recognized as Centre for Excellence for programmes in Animation & VFX. </li>
+                     <li>ISO 9001:2015 & 14001:2015 Certified.</li>
+                     <li>41st in university category by NIRF</li>
+                   </ul>
+
+
+                 </div>
+               </div>
+               </a>
+             </div>
+             <div class="column card-dark" id="scholarships" data-card-color-title="#002855" data-card>
+               <div data-card-bg-img>
+                 <img class="lazyload" data-src="images/scholarship.png">
+               </div>
+               <div class="column__wrapper">
+                 <div class="column__title"
+                   style="color:#fff; text-align: center;font-size:2.5rem !important;margin-top:1rem;" data-card-title>
+                   DPU 2026</div>
+
+                 <div class="column__description"
+                   style="color:#fff; text-align: center;font-size: 2rem;margin-top: -1.5rem;">UI/UX | Product Design
+                 </div>
+                 <div><a href="#applynow" class="column__cta">APPLY NOW</a>
+
+                 </div>
+                 </a>
+               </div>
+             </div>
+           </div>
+         </div>
+
+
+     </section>
+
+     <section class="c-study-areas wow fadeInUp animated" id="Specializations" data-component="StudyAreasComponent"
+       data-color-bg="" data-color-title="#7997A9" data-color-bg-cards="#002855" data-color-cards-title="#F5C55C"
+       data-color-cards-subtitle="white">
+       <div class="study-areas__wrapper">
+         <span class="study-areas__bg" data-wrapper-bg></span>
+         <div class="study-areas__header__wrapper">
+           <div class="study-areas__title  pt-3" id="programs" data-wrapper-title>Key Specializations at School of
+             Design </div>
+           <!-- <div class="study-areas__description">
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </div> -->
+         </div>
+         <div class="c-card-study-area " data-card-index="1">
+           <div class="card-study__link">
+             <div class="card-study__body" data-card-body="">
+               <a href="">
+                 <div class="card-study__title"> Fashion Design and Communication </div>
+               </a>
+               <div class="card-study__text">
+                 <p>Fashion is an omnipresent term among the people all over the world and attracts everyone. Because it
+                   is always adorned with vibrant colours and vast range of designs metamorphosing from season to
+                   season.</p>
+
+               </div>
+             </div>
+
+             <a href="#">
+               <picture class="card-study__image ind" data-card-img="">
+                 <source media="(min-width: 768px)" srcset="">
+                 <source media="(max-width: 767px)" srcset="">
+                 <img class="lazyload" data-src="img/key/1.png" title="Industrial" alt="Industrial">
+               </picture>
+             </a>
+           </div>
+         </div>
+         <div class="c-card-study-area " data-card-index="2">
+           <div class="card-study__link">
+             <div class="card-study__body" data-card-body="">
+               <a href="">
+                 <div class="card-study__title">Communication Design</div>
+               </a>
+               <div class="card-study__text">
+                 <p>Communication Design focuses on creating visual solutions that communicate ideas effectively across
+                   various media platforms and audiences.</p>
+               </div>
+             </div>
+
+             <a href="">
+               <picture class="card-study__image comm" data-card-img="">
+                 <source media="(min-width: 768px)" srcset="">
+                 <source media="(max-width: 767px)" srcset="">
+                 <img class="lazyload" data-src="img/key/2.png" title="Comm" alt="Comm">
+               </picture>
+             </a>
+           </div>
+         </div>
+         <div class="c-card-study-area " data-card-index="3">
+           <div class="card-study__link">
+             <div class="card-study__body w-50" data-card-body="">
+               <a href="">
+                 <div class="card-study__title">UI UX Design</div>
+               </a>
+               <div class="card-study__text ">
+                 <p>UI/UX Design combines user interface design with user experience research to create intuitive and
+                   engaging digital products.</p>
+               </div>
+             </div>
+
+             <a href="">
+               <picture class="card-study__image fashion" data-card-img="">
+                 <source media="(min-width: 768px)" srcset="">
+                 <source media="(max-width: 767px)" srcset="">
+                 <img class=" lazyloaded" data-src="img/key/3.png" height="330" title="Fashion" alt="Fashion"
+                   src="img/key/3.png">
+               </picture>
+             </a>
+           </div>
+         </div>
+         <div class="c-card-study-area " data-card-index="4">
+           <div class="card-study__link">
+             <div class="card-study__body" data-card-body="">
+               <a href="#">
+                 <div class="card-study__title">Product Design</div>
+               </a>
+               <div class="card-study__text">
+                 <p>Product Design integrates form and function to create innovative solutions that meet user needs and
+                   market demands.</p>
+               </div>
+             </div>
+
+             <a href="/courses/experience/">
+               <img class="lazyload" data-src="img/key/4.png" height="330" title="Management" alt="Management">
+
+             </a>
+           </div>
+         </div>
+         <div class="c-card-study-area " data-card-index="5">
+           <div class="card-study__link">
+             <div class="card-study__body" data-card-body="">
+               <a href="">
+                 <div class="card-study__title">Interior Spatial and Furniture Design</div>
+               </a>
+               <div class="card-study__text">
+                 <p>Interior Spatial and Furniture Design creates functional and aesthetic environments that enhance
+                   human experience and well-being.</p>
+               </div>
+             </div>
+
+             <a href="">
+               <picture class="card-study__image comm" data-card-img="">
+                 <source media="(min-width: 768px)" srcset="">
+                 <source media="(max-width: 767px)" srcset="">
+                 <img class=" ls-is-cached lazyloaded" data-src="img/key/5.png" title="Comm" alt="Comm"
+                   src="img/key/5.png">
+               </picture>
+             </a>
+           </div>
+         </div>
+       </div>
+     </section>
+
+
+     <section class="py-3 py-md-5 h-5 red" id="admission">
+       <div class="container">
+         <div class="row">
+           <div class="col-md-12 text-center wow fadeInUp animated" data-wow-duration="1.2s">
+             <h3 class="title1">Programs Detail</h3>
+           </div>
+         </div>
+
+         <div class="row mt-4">
+           <div class="col-md-12 mx-auto wow fadeInUp animated" data-wow-duration="1.2s">
+             <div class="adm_tabs">
+               <ul class="nav nav-pills nav-justified  text-center" role="tablist">
+                 <li class="nav-item ">
+                   <a class="nav-link active" data-toggle="pill" href="#a3">Key Specializations</a>
+                 </li>
+                 <!-- <li class="nav-item">
+                   <a class="nav-link" data-toggle="pill" href="#a2">Duration</a>
+                 </li> -->
+               </ul>
+               <!-- Tab panes -->
+               <div class="tab-content mt-4">
+                 <div id="a2" class="tab-pane  fadeInLeft animated" data-wow-duration="1.2s"
+                   style="color:#1a1a1a;padding: 15px;border: 1px solid #9e1b35;">
+                   <ul>
+                     <li><b>Fashion Design and Communication : </b>4-Year Full-Time Program</li>
+                     <li><b>Communication Design : </b>3-Year Full-Time Program</li>
+                     <li><b>UI UX Design : </b>4-Year Full-Time Program</li>
+                     <li><b>Product Design : </b>4-Year Full-Time Program</li>
+                     <li><b>Interior Spatial and Furniture Design : </b>4-Year Full-Time Program</li>
+                   </ul>
+                 </div>
+                 <div id="a3" class="tab-pane active fadeInLeft animated" data-wow-duration="1.2s"
+                   style="color:#1a1a1a;padding: 15px;border: 1px solid #9e1b35;">
+                   <div style="overflow-x:auto;">
+                     <table class="dates">
+                       <tbody>
+
+                         <tr>
+                           <td class="yellow">Fashion Design and Communication</td>
+                           <td>
+                             <ul>
+                               <li>4-Year Full-Time Program</li>
+                               <li>Classroom Training</li>
+                               <li>Specialisation- Fashion Lifestyle & Boutique Management</li>
+                               <li>Online Fashion Design Course Bonus</li>
+                               <li>Webinars With Industry Experts</li>
+                               <li>Industrial Visits</li>
+                               <li>Placement Assistance</li>
+                             </ul>
+                           </td>
+
+                         </tr>
+                         <tr>
+                           <td class="yellow">Communication Design</td>
+                           <td>
+                             <ul>
+                               <li>4-Year Full-Time Program</li>
+                               <li>Digital Media Training</li>
+                               <li>Brand Identity Development</li>
+                               <li>Portfolio Development</li>
+                               <li>Industry Mentorship</li>
+                               <li>Internship Opportunities</li>
+                               <li>Career Guidance</li>
+                             </ul>
+                           </td>
+
+                         </tr>
+                         <tr>
+                           <td class="yellow">UI UX Design</td>
+                           <td>
+                             <ul>
+                               <li>3-Year Full-Time Program</li>
+                               <li>Interactive Design Training</li>
+                               <li>User Research Methods</li>
+                               <li>Prototyping & Testing</li>
+                               <li>Tech Industry Exposure</li>
+                               <li>Live Project Experience</li>
+                               <li>Job Placement Support</li>
+                             </ul>
+                           </td>
+
+                         </tr>
+                         <tr>
+                           <td class="yellow"> Product Design</td>
+                           <td>
+                             <ul>
+                               <li>4-Year Full-Time Program</li>
+                               <li>Design Thinking Workshop</li>
+                               <li>Material & Manufacturing</li>
+                               <li>Sustainable Design Focus</li>
+                               <li>Innovation Labs</li>
+                               <li>Industry Collaborations</li>
+                               <li>Entrepreneurship Support</li>
+                             </ul>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td class="yellow"> Interior Spatial and Furniture Design</td>
+                           <td>
+                             <ul>
+                               <li>4-Year Full- Time Program</li>
+                               <li>Space Planning & Design</li>
+                               <li>Furniture Design Studio</li>
+                               <li>3D Visualization Training</li>
+                               <li>Site Visits & Workshops</li>
+                               <li>Client Project Experience</li>
+                               <li>Design Firm Partnerships</li>
+                             </ul>
+                           </td>
+                         </tr>
+                       </tbody>
+                     </table>
+                   </div>
+
+
+
+                 </div>
+
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+
+
+
+     <section class="wow fadeInRight animated" data-wow-duration="1.2s">
+
+       <div class="c-content-slider" id="c-content-slider-4" data-component="ContentSliderComponent" data-color-bg="">
+         <div class="content-slider__wrapper-bg" data-wrapper-bg></div>
+         <div class="content-slider__wrapper">
+           <div class="content-slider__head">
+             <div class="study-areas__title  pt-5" id="inspiration" data-wrapper-title>Get Inspired <br>by our students
+             </div>
+
+           </div>
+           <div class="content-slider__gallery splide splide--slide splide--ltr splide--draggable is-active"
+             data-gallery="" id="splide02" style="visibility: visible;">
+             <div class="content-slider__bg-controls">
+
+               <div class="content-slider__bg"></div>
+             </div>
+             <div class="c-splide-controls splide__arrows">
+               <button class="splide__arrow splide__arrow--prev" type="button">
+
+                 <i> <svg width="20px" height="20px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                       d="M9.163 4.516c.418.408 4.502 4.695 4.502 4.695a1.095 1.095 0 0 1 0 1.576s-4.084 4.289-4.502 4.695c-.418.408-1.17.436-1.615 0-.446-.434-.481-1.041 0-1.574L11.295 10 7.548 6.092c-.481-.533-.446-1.141 0-1.576.445-.436 1.197-.409 1.615 0z" />
+                   </svg></i>
+               </button>
+               <button class="splide__arrow splide__arrow--next" type="button">
+                 <i> <svg width="20px" height="20px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                       d="M9.163 4.516c.418.408 4.502 4.695 4.502 4.695a1.095 1.095 0 0 1 0 1.576s-4.084 4.289-4.502 4.695c-.418.408-1.17.436-1.615 0-.446-.434-.481-1.041 0-1.574L11.295 10 7.548 6.092c-.481-.533-.446-1.141 0-1.576.445-.436 1.197-.409 1.615 0z" />
+                   </svg></i>
+               </button>
+             </div> <!-- SPLIDE GALLERY-->
+             <div class="content-slider__track splide__track">
+               <!-- SLIDES-->
+               <div class="splide__list">
+
+                 <div class="splide__slide">
+                   <div class="c-card-content-slide projects">
+                     <a href="" class="card-slide__wrapper">
+                       <figure class="card-slide__image">
+                         <img class="lazyload" width="526" height="700" data-src="img/programs/1.png">
+                       </figure>
+                       <div class="card-slide__content">
+                         <div class="card-slide__title">Fashion Design and Communication<p
+                             style="font-size:16px;font-weight: 500;line-height: 1;"></p>
+                         </div>
+
+                       </div>
+                     </a>
+                   </div>
+                 </div>
+                 <div class="splide__slide">
+                   <div class="c-card-content-slide projects">
+                     <a href="" class="card-slide__wrapper">
+                       <figure class="card-slide__image">
+                         <img class="lazyload" width="526" height="700" data-src="img/programs/2.png">
+                       </figure>
+                       <div class="card-slide__content">
+                         <div class="card-slide__title">Communication Design<p
+                             style="font-size:18px;font-weight: 500;line-height: 1.25;"></p>
+                         </div>
+
+                       </div>
+                     </a>
+                   </div>
+                 </div>
+                 <div class="splide__slide">
+                   <div class="c-card-content-slide projects">
+                     <a href="" class="card-slide__wrapper">
+                       <figure class="card-slide__image">
+                         <img class="lazyload" width="526" height="700" data-src="img/programs/3.png">
+                       </figure>
+                       <div class="card-slide__content">
+                         <div class="card-slide__title">UI UX Design<p
+                             style="font-size:18px;font-weight: 500;line-height: 1.25;"></p>
+                         </div>
+
+                       </div>
+                     </a>
+                   </div>
+                 </div>
+                 <div class="splide__slide">
+                   <div class="c-card-content-slide projects">
+                     <a href="" class="card-slide__wrapper">
+                       <figure class="card-slide__image">
+                         <img class="lazyload" width="526" height="700" data-src="img/programs/4.png">
+                       </figure>
+                       <div class="card-slide__content">
+                         <div class="card-slide__title">Product Design<p
+                             style="font-size:18px;font-weight: 500;line-height: 1.25;"></p>
+                         </div>
+
+                       </div>
+                     </a>
+                   </div>
+                 </div>
+                 <div class="splide__slide">
+                   <div class="c-card-content-slide projects">
+                     <a href="" class="card-slide__wrapper">
+                       <figure class="card-slide__image">
+                         <img class="lazyload" width="526" height="700" data-src="img/programs/5.png">
+                       </figure>
+                       <div class="card-slide__content">
+                         <div class="card-slide__title">Interior Spatial and Furniture Design<p
+                             style="font-size:18px;font-weight: 500;line-height: 1.25;"></p>
+                         </div>
+
+                       </div>
+                     </a>
+                   </div>
+                 </div>
+               </div>
+               <!-- END SLIDES -->
+               <div class="splide__pagination"></div>
+             </div>
+             <!-- END SPLIDE GALLERY -->
+           </div>
+         </div>
+       </div>
+     </section>
+
+
+     <section class="py-3 py-md-5 h-5 wow fadeInUp animated" data-wow-duration="1.2s" id="industrial">
+       <div class="container">
+         <div class="row">
+           <div class="col-md-12 text-center wow fadeInUp animated" data-wow-duration="1.2s">
+             <h3 class="title1">Associations for Student's excellence</h3>
+
+           </div>
+         </div>
+
+         <div class="row justify-content-center ">
+           <div class="col-lg-3 col-md-4 col-6 mt-4 px-2">
+             <div class="border">
+               <img class="lazyload" data-src="img/excellence/1.png" style="height:80px; object-fit: contain;"
+                 width="auto" height="55">
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-6 mt-4 px-2">
+             <div class="border">
+               <img class="lazyload" data-src="img/excellence/2.png" style="height:80px; object-fit: contain;"
+                 width="auto" height="55">
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-6 mt-4 px-2">
+             <div class="border">
+               <img class="lazyload" data-src="img/excellence/3.png" style="height:80px; object-fit: contain;"
+                 width="auto" height="55">
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-6 mt-4 px-2">
+             <div class="border">
+               <img class="lazyload" data-src="img/excellence/4.png" style="height:80px; object-fit: contain;"
+                 width="auto" height="55">
+             </div>
+           </div>
+         </div>
+
+         <!-- <div class="row mt-4">
+           <div class="col-md-12 mx-auto wow fadeInUp animated" data-wow-duration="1.2s">
+
+
+             <div class="c-companies" id="c-companies-3" data-component="CompaniesComponent" data-slides-to-show="4"
+               data-color-bg="#FFFFFF">
+               <div class="companies__wrapper" data-wrapper-bg>
+
+                 <div class="companies__gallery splide splide--loop splide--ltr splide--draggable is-active"
+                   id="splide4" style="visibility: visible;">
+                   <div class="splide__track">
+                     <div class="splide__list list-3">
+                       <figure class="splide__slide">
+
+                         <img class="lazyload"
+                           data-src="img/excellence/1.png"
+                           width="auto" height="55">
+
+                       </figure>
+                       <figure class="splide__slide">
+
+                         <img class="lazyload"
+                           data-src="img/excellence/2.png"
+                           width="auto" height="55">
+
+                       </figure>
+                       <figure class="splide__slide">
+
+                         <img class="lazyload"
+                           data-src="img/excellence/3.png"
+                           width="auto" height="55">
+                       </figure>
+
+                       <figure class="splide__slide">
+
+                         <img class="lazyload"
+                           data-src="img/excellence/4.png"
+                           width="auto" height="55">
+
+                       </figure>
+
+
+
+                     </div>
+                   </div>
+
+                 </div>
+               </div>
+
+             </div>
+
+
+           </div>
+         </div> -->
+       </div>
+
+     </section>
+
+
+
+
+
+     <section class="py-3 py-md-5 placements" id="placement">
+       <div class="container">
+         <div class="row">
+         </div>
+
+         <div class="row mt-lg-5">
+           <div class="col-md-10 mx-auto text-center wow fadeInUp animated" data-wow-duration="1.3s">
+             <div class="recruiters">
+               <h5 class="font-weight-bold text_blue">Some of Our Recruiters </h5>
+
+               <div class="row justify-content-center ">
+                 <div class="col-lg-3 col-md-4 col-6 mt-4">
+                   <img class="lazyload" data-src="images/recruiters/1.png" style="height:80px; object-fit: contain;"
+                     width="auto" height="55">
+                 </div>
+                 <div class="col-lg-3 col-md-4 col-6 mt-4">
+                   <img class="lazyload" data-src="images/recruiters/2.png" style="height:80px; object-fit: contain;"
+                     width="auto" height="55">
+                 </div>
+                 <div class="col-lg-3 col-md-4 col-6 mt-4">
+                   <img class="lazyload" data-src="images/recruiters/3.png" style="height:80px; object-fit: contain;"
+                     width="auto" height="55">
+                 </div>
+                 <div class="col-lg-3 col-md-4 col-6 mt-4">
+                   <img class="lazyload" data-src="images/recruiters/4.png" style="height:80px; object-fit: contain;"
+                     width="auto" height="55">
+                 </div>
+                 <div class="col-lg-3 col-md-4 col-6 mt-4">
+                   <img class="lazyload" data-src="images/recruiters/5.png" style="height:80px; object-fit: contain;"
+                     width="auto" height="55">
+                 </div>
+                 <div class="col-lg-3 col-md-4 col-6 mt-4">
+                   <img class="lazyload" data-src="images/recruiters/6.png" style="height:80px; object-fit: contain;"
+                     width="auto" height="55">
+                 </div>
+                 <div class="col-lg-3 col-md-4 col-6 mt-4">
+                   <img class="lazyload" data-src="images/recruiters/7.png" style="height:80px; object-fit: contain;"
+                     width="auto" height="55">
+                 </div>
+               </div>
+
+               <!-- <div class="c-companies" id="c-companies-3" data-component="CompaniesComponent" data-slides-to-show="4"
+                 data-color-bg="#FFFFFF">
+                 <div class="companies__wrapper" data-wrapper-bg>
+
+                   <div class="companies__gallery splide splide--loop splide--ltr splide--draggable is-active"
+                     data-gallery="" id="splide3" style="visibility: visible;">
+                     <div class="splide__track">
+                       <div class="splide__list list-3">
+                         <figure class="splide__slide">
+
+                           <img class="lazyload" width="auto" height="55" data-src="images/recruiters/1.png">
+
+                         </figure>
+                         <figure class="splide__slide">
+
+                           <img class="lazyload" width="auto" height="55" data-src="images/recruiters/2.png">
+
+                         </figure>
+                         <figure class="splide__slide">
+
+                           <img class="lazyload" width="auto" height="55" data-src="images/recruiters/3.png">
+
+                         </figure>
+
+                         <figure class="splide__slide">
+
+                           <img class="lazyload" width="auto" height="55" data-src="images/recruiters/4.png">
+
+                         </figure>
+                         <figure class="splide__slide">
+
+                           <img class="lazyload" width="auto" height="55" data-src="images/recruiters/5.png">
+
+                         </figure>
+                         <figure class="splide__slide">
+
+                           <img class="lazyload" width="auto" height="55" data-src="images/recruiters/6.png">
+
+                         </figure>
+                         <figure class="splide__slide">
+
+                           <img class="lazyload" width="auto" height="55" data-src="images/recruiters/7.png">
+
+                         </figure>
+                       </div>
+                     </div>
+                     <ul class="splide__pagination">
+                       <li><button class="splide__pagination__bullet is-active" type="button" aria-current="true"
+                           aria-controls="splide03-slide01 splide03-slide02 splide03-slide03 splide03-slide04 splide03-slide05"
+                           aria-label="Go to page 1"></button></li>
+                       <li><button class="splide__pagination__bullet" type="button"
+                           aria-controls="splide03-slide06 splide03-slide07 splide03-slide08 splide03-slide09 splide03-slide10"
+                           aria-label="Go to page 2"></button></li>
+                       <li><button class="splide__pagination__bullet" type="button"
+                           aria-controls="splide03-slide09 splide03-slide10 splide03-slide11 splide03-slide12 splide03-slide13"
+                           aria-label="Go to page 3"></button></li>
+                     </ul>
+                   </div>
+                 </div>
+
+               </div> -->
+
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <section class="placement-section py-5">
+       <div class="container">
+
+         <div class="text-center mb-5">
+           <h3 class="title1 text-center">Training & Placement Support</h3>
+
+         </div>
+
+         <div class="row" id="tpPlacementRow">
+
+           <!-- Card 1 -->
+           <div class="col-lg-4 col-md-6 mb-4 tp-placement-card">
+             <div class="placement-card h-100">
+               <h5>Dedicated Training & Placement Support</h5>
+               <p>
+                 Dedicated Training & Placement Cell guiding students for internships and final placements.
+                 Focus on career development, industry exposure, and portfolio preparation.
+               </p>
+             </div>
+           </div>
+
+           <!-- Card 2 -->
+           <div class="col-lg-4 col-md-6 mb-4 tp-placement-card">
+             <div class="placement-card h-100">
+               <h5>Industry-Oriented Skill Development</h5>
+               <ul>
+                 <li>Design techniques and creative thinking</li>
+                 <li>Communication and presentation skills</li>
+                 <li>Behavioural and personality development</li>
+               </ul>
+               <p>
+                 Students are prepared for studio tests, portfolio presentations, and interviews.
+               </p>
+             </div>
+           </div>
+
+           <!-- Card 3 -->
+           <div class="col-lg-4 col-md-6 mb-4 tp-placement-card">
+             <div class="placement-card h-100">
+               <h5>Mandatory Summer Internship Program</h5>
+               <p>
+                 Summer Internship Programme (SIP) is integrated into the B.Des curriculum.
+                 Conducted typically in the 2nd and 3rd year to provide real industry exposure and project experience.
+               </p>
+             </div>
+           </div>
+
+           <!-- Card 4 -->
+           <div class="col-lg-4 col-md-6 mb-4 tp-placement-card">
+             <div class="placement-card h-100">
+               <h5>Industry Collaboration & Corporate Engagement</h5>
+               <p>
+                 Active corporate relations and industry interaction to improve placement opportunities and engagement
+                 with recruiters.
+               </p>
+             </div>
+           </div>
+
+           <!-- Card 5 -->
+           <div class="col-lg-4 col-md-6 mb-4 tp-placement-card">
+             <div class="placement-card h-100">
+               <h5>Structured Campus Hiring Process</h5>
+               <ul>
+                 <li>Company submits hiring requirement form</li>
+                 <li>Job description shared with students</li>
+                 <li>Interested student list shared</li>
+                 <li>On-campus / off-campus hiring</li>
+               </ul>
+             </div>
+           </div>
+
+           <!-- Card 6 -->
+           <div class="col-lg-4 col-md-6 mb-4 tp-placement-card">
+             <div class="placement-card h-100">
+               <h5>Strong Placement Infrastructure</h5>
+               <ul>
+                 <li>Seminar halls with AV facilities</li>
+                 <li>Studios and auditorium</li>
+                 <li>Dedicated interview pods</li>
+               </ul>
+             </div>
+           </div>
+
+           <!-- Card 7 -->
+           <div class="col-lg-4 col-md-6 mb-4 tp-placement-card">
+             <div class="placement-card h-100">
+               <h5>Exposure to Leading Design & Creative Companies</h5>
+               <p>
+                 Students interact with companies across design, media, animation, fashion and technology sectors.
+               </p>
+             </div>
+           </div>
+
+         </div>
+
+         <div class="text-center mt-3">
+           <button id="tpToggleBtn" class="btn btn-outline-primary bg-teal text-white">
+             Read More
+           </button>
+         </div>
+
+       </div>
+     </section>
+
+     <script>
+       document.addEventListener("DOMContentLoaded", function () {
+
+         const tpCards = document.querySelectorAll(".tp-placement-card");
+         const tpBtn = document.getElementById("tpToggleBtn");
+
+         let tpExpanded = false;
+
+         tpBtn.addEventListener("click", function () {
+
+           tpExpanded = !tpExpanded;
+
+           tpCards.forEach(function (card, index) {
+
+             if (tpExpanded) {
+               card.style.display = "block";
+             } else {
+
+               let showCount = 6;
+
+               if (window.innerWidth < 992 && window.innerWidth >= 768) {
+                 showCount = 4;
+               }
+
+               if (window.innerWidth < 768) {
+                 showCount = 3;
+               }
+
+               card.style.display = (index < showCount) ? "block" : "none";
+
+             }
+
+           });
+
+           tpBtn.textContent = tpExpanded ? "Read Less" : "Read More";
+
+         });
+
+       });
+     </script>
+
+    <?php include 'testi.php';?>
+    <section class="guest-testi-section py-5">
+    <?php include 'guest_testi.php';?>
+    </section>
+
+     <?php include 'events.php';?>
+
+     <section id="cta">
+       <div class="container">
+         <div class="cta-section">
+           <h3 class="">Think Design. Think DPU.<br>A leading institute for
+             Design and Innovation</h3>
+
+           <a class="book_trial nav-item" href="#applynow">
+             <button class="btn btn-primary download_btn">
+
+               <span>Apply Now</span>
+             </button>
+           </a>
+         </div>
+       </div>
+     </section>
+
+
+
+     <section class="pt-md-3 pt-1" style="background-color:#000000;min-height: 180px;">
+       <div class="container" style="background-color:#000000;">
+         <div class="row">
+
+           <div class="col-md-6 align-center">
+             <img class="botlogo lazyload" alt="" data-src="img/logo/1.webp"></div>
+           <div class="col-md-6 ">
+             <p class="mb-3 foot" style="color:#ffffff;  display: block;margin-top: 5%;">Dr. D. Y. Patil Vidyapeeth,
+               Pimpri, Pune</p>
+           </div>
+         </div>
+
+       </div>
+       </div>
+     </section>
+
+
+     <footer id="Contact" class="position-relative " style="background:#f2f2f2;">
+       <div class="container">
+         <div class="row Copyright">
+           <div class="col-sm-12 text-center">
+             <p class="mb-0" style="color:#1a1a1a;"> &copy; Dr. D. Y. Patil Vidyapeeth, Pune | Designed and Developed by
+               <img class="lazyload" class="footlogo lazyload" alt="" style="height:20px;width:auto;"
+                 data-src="images/gladowl_black.png"></p>
+           </div>
+         </div>
+       </div>
+     </footer>
+     <button class="btn scroll" id="scroll1" style="display: none;"><span style="font-size: 25px;"> &#x21c8;</span>
+     </button>
+     <div class="navbarmob ">
+       <a href="#applynow" style="text-decoration:none;width:100%;background: #9e1b35;"><span style="margin-right:8px;">
+           &#x27A5;</span><b>APPLY NOW</b></a></div>
+
+
+     <div class="modal fade" id="specialization-modal">
+       <div class="modal-dialog modal-lg">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h4 class="modal-title" id="modaltitle"></h4>
+             <button type="button" class="close" data-dismiss="modal">&times;</button>
+           </div>
+           <div class="modal-body">
+             <p id="modalcontent"></p>
+
+
+
+
+           </div>
+         </div>
+       </div>
+     </div>
+
+
+
+     <div class="clearfix"></div>
+
+     <script>
+       $('.navbar-nav>li>a').on('click', function () {
+         $('.navbar-collapse').collapse('hide');
+       });
+     </script>
+
+     <script>
+       setTimeout(function () {
+
+         (function () {
+           try {
+             var f = document.createElement("iframe");
+             f.src =
+               'https://forms.zohopublic.in/gladowlwebsolutionspvtltd/form/DYschoolofdesignPune2026/formperma/gFz_Ni1OvIernuttHgH-Rg6Rsd5mSNcU34LTqIJssz0';
+
+             f.style.border = "none";
+             f.style.height = "560px";
+             f.style.width = "100%";
+             f.style.transition = "all 0.5s ease";
+             var d = document.getElementById("zf_div_7raFFcYFoELnNsQNHmI-zElun-fGaMef4PXas_tgJ1c");
+             d.appendChild(f);
+             window.addEventListener('message', function () {
+               var evntData = event.data;
+               if (evntData && evntData.constructor == String) {
+                 var zf_ifrm_data = evntData.split("|");
+                 if (zf_ifrm_data.length == 2) {
+                   var zf_perma = zf_ifrm_data[0];
+                   var zf_ifrm_ht_nw = (parseInt(zf_ifrm_data[1], 10) + 15) + "px";
+                   var iframe = document.getElementById("zf_div_7raFFcYFoELnNsQNHmI-zElun-fGaMef4PXas_tgJ1c")
+                     .getElementsByTagName("iframe")[0];
+                   if ((iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0) {
+                     var prevIframeHeight = iframe.style.height;
+                     if (prevIframeHeight != zf_ifrm_ht_nw) {
+                       iframe.style.height = zf_ifrm_ht_nw;
+                     }
+                   }
+                 }
+               }
+             }, false);
+           } catch (e) {}
+         })();
+       }, 4000)
+     </script>
+
+
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="scripts/bootstrap.min.js" defer></script>
+     <script src="scripts/wow.min.js" defer></script>
+     <script src="scripts/aos.js" defer></script>
+     <script src="scripts/code.js" defer></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+     <script type="text/javascript" src="scripts/scripts.js" defer></script>
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js"
+       defer></script>
+
+     <script src="scripts/lazysizes.min.js" async=""></script>
+
+     <script type="text/javascript">
+       function ZFAdvLead() {}
+       ZFAdvLead.utmPValObj = ZFAdvLead.utmPValObj || {};
+
+       ZFAdvLead.utmPNameArr = new Array('utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content');
+       ZFAdvLead.utmcustPNameArr = new Array();
+       ZFAdvLead.isSameDomian = false;
+
+       ZFAdvLead.prototype.zfautm_sC = function (paramName, path, domain, secure) {
+         var value = ZFAdvLead.utmPValObj[paramName];
+         if (typeof value !== "undefined" && value !== null) {
+           var cookieStr = paramName + "=" + encodeURIComponent(value);
+           var exdate = new Date();
+           exdate.setDate(exdate.getDate() + 7);
+           cookieStr += "; expires=" + exdate.toGMTString();
+           cookieStr += "; path=/";
+           if (domain) {
+             cookieStr += "; domain=" + encodeURIComponent(domain);
+           }
+           if (secure) {
+             cookieStr += "; secure";
+           }
+           document.cookie = cookieStr;
+         }
+       };
+       ZFAdvLead.prototype.zfautm_ini = function () {
+         this.zfautm_bscPCap();
+         var url_search = document.location.search;
+         for (var i = 0; i < ZFAdvLead.utmcustPNameArr.length; i++) {
+           var zf_pN = ZFAdvLead.utmcustPNameArr[i];
+           var zf_pV;
+           if (zf_pN == 'referrername') {
+             zf_pV = (document.location.href || '').slice(0, 1500);
+           } else {
+             zf_pV = this.zfautm_gP(url_search, zf_pN);
+             if (zf_pV == undefined || zf_pV == '') {
+               zf_pV = this.zfautm_gC(zf_pN);
+             }
+           }
+           if (typeof zf_pV !== "undefined" && zf_pV !== null & zf_pV != "") {
+             ZFAdvLead.utmPValObj[zf_pN] = zf_pV;
+           }
+         }
+         for (var pkey in ZFAdvLead.utmPValObj) {
+           this.zfautm_sC(pkey);
+         }
+       };
+       ZFAdvLead.prototype.zfautm_bscPCap = function () {
+         var trafSrc = this.zfautm_calcTrafSrc();
+         if (trafSrc.source != "") {
+           ZFAdvLead.utmPValObj.utm_source = trafSrc.source;
+         }
+         if (trafSrc.medium != "") {
+           ZFAdvLead.utmPValObj.utm_medium = trafSrc.medium;
+         }
+         if (trafSrc.campaign != "") {
+           ZFAdvLead.utmPValObj.utm_campaign = trafSrc.campaign;
+         }
+         if (trafSrc.term != "") {
+           ZFAdvLead.utmPValObj.utm_term = trafSrc.term;
+         }
+         if (trafSrc.content != "") {
+           ZFAdvLead.utmPValObj.utm_content = trafSrc.content;
+         }
+       }
+       ZFAdvLead.prototype.zfautm_calcTrafSrc = function () {
+         var u1 = '',
+           u2 = '',
+           u3 = '',
+           u4 = '',
+           u5 = '';
+         var search_engines = [
+           ['bing', 'q'],
+           ['google', 'q'],
+           ['yahoo', 'q'],
+           ['baidu', 'q'],
+           ['yandex', 'q'],
+           ['ask', 'q']
+         ]; //List of search engines 
+         var ref = document.referrer;
+         ref = ref.substr(ref.indexOf('//') + 2);
+         ref_domain = ref;
+         ref_path = '/';
+         ref_search = '';
+
+         // Checks for campaign parameters
+         var url_search = document.location.search;
+         if (url_search.indexOf('utm_source') > -1 || url_search.indexOf('utm_medium') > -1 || url_search.indexOf(
+             'utm_campaign') > -1 || url_search.indexOf('utm_term') > -1 || url_search.indexOf('utm_content') > -1) {
+           u1 = this.zfautm_gP(url_search, 'utm_source');
+           u2 = this.zfautm_gP(url_search, 'utm_medium');
+           u3 = this.zfautm_gP(url_search, 'utm_campaign');
+           u4 = this.zfautm_gP(url_search, 'utm_term');
+           u5 = this.zfautm_gP(url_search, 'utm_content');
+         } else if (this.zfautm_gP(url_search, 'gclid')) {
+           u1 = 'Google Ads';
+           u2 = 'cpc';
+           u3 = '(not set)';
+           if (!ZFAdvLead.utmcustPNameArr.includes('gclid')) {
+             ZFAdvLead.utmcustPNameArr.push('gclid');
+           }
+         } else if (ref) {
+           var r_u1 = this.zfautm_gC('utm_source');
+           var r_u2 = this.zfautm_gC('utm_medium');
+           var r_u3 = this.zfautm_gC('utm_campaign');
+           var r_u4 = this.zfautm_gC('utm_term');
+           var r_u5 = this.zfautm_gC('utm_content');
+           if (typeof r_u1 === "undefined" && typeof r_u2 === "undefined" && typeof r_u3 === "undefined" &&
+             typeof r_u4 === "undefined" && typeof r_u5 === "undefined") {
+             // separate domain, path and query parameters
+             if (ref.indexOf('/') > -1) {
+               ref_domain = ref.substr(0, ref.indexOf('/'));
+               ref_path = ref.substr(ref.indexOf('/'));
+               if (ref_path.indexOf('?') > -1) {
+                 ref_search = ref_path.substr(ref_path.indexOf('?'));
+                 ref_path = ref_path.substr(0, ref_path.indexOf('?'));
+               }
+             }
+             u2 = 'referral';
+             u1 = ref_domain;
+             // Extract term for organic source
+             for (var i = 0; i < search_engines.length; i++) {
+               if (ref_domain.indexOf(search_engines[i][0]) > -1) {
+                 u2 = 'organic';
+                 u1 = search_engines[i][0];
+                 u4 = this.zfautm_gP(ref_search, search_engines[i][1]) || '(not provided)';
+                 break;
+               }
+             }
+           } else {
+             if (typeof r_u1 !== "undefined") {
+               u1 = r_u1;
+             }
+             if (typeof r_u2 !== "undefined") {
+               u2 = r_u2;
+             }
+             if (typeof r_u3 !== "undefined") {
+               u3 = r_u3;
+             }
+             if (typeof r_u4 !== "undefined") {
+               u4 = r_u4;
+             }
+             if (typeof r_u5 !== "undefined") {
+               u5 = r_u5;
+             }
+           }
+         } else {
+           var r_u1 = this.zfautm_gC('utm_source');
+           var r_u2 = this.zfautm_gC('utm_medium');
+           var r_u3 = this.zfautm_gC('utm_campaign');
+           var r_u4 = this.zfautm_gC('utm_term');
+           var r_u5 = this.zfautm_gC('utm_content');
+           if (typeof r_u1 === "undefined" && typeof r_u2 === "undefined" && typeof r_u3 === "undefined" &&
+             typeof r_u4 === "undefined" && typeof r_u5 === "undefined") {
+             var locRef = document.location.href;
+             locRef = locRef.substr(locRef.indexOf('//') + 2);
+             if (locRef.indexOf('/') > -1) {
+               locRef = locRef.substr(0, locRef.indexOf('/'));
+             }
+             u1 = locRef;
+             u2 = 'referral';
+           } else {
+             if (typeof r_u1 !== "undefined") {
+               u1 = r_u1;
+             }
+             if (typeof r_u2 !== "undefined") {
+               u2 = r_u2;
+             }
+             if (typeof r_u3 !== "undefined") {
+               u3 = r_u3;
+             }
+             if (typeof r_u4 !== "undefined") {
+               u4 = r_u4;
+             }
+             if (typeof r_u5 !== "undefined") {
+               u5 = r_u5;
+             }
+           }
+         }
+         return {
+           'source': u1,
+           'medium': u2,
+           'campaign': u3,
+           'term': u4,
+           'content': u5
+         };
+       }
+       ZFAdvLead.prototype.zfautm_gP = function (s, q) {
+         try {
+           var match = s.match('[?&]' + q + '=([^&]+)');
+           return match ? decodeURIComponent(matc ''; h[1]) :
+         } catch (e) {
+           return '';
+         }
+       }
+       ZFAdvLead.prototype.zfautm_gC = function (cookieName) {
+         var cookieArr = document.cookie.split('; ');
+         for (var i = 0; i < cookieArr.length; i++) {
+           var cookieVals = cookieArr[i].split('=');
+           if (cookieVals[0] === cookieName && cookieVals[1]) {
+             return decodeURIComponent(cookieVals[1]);
+           }
+         }
+       };
+       ZFAdvLead.prototype.zfautm_gC_enc = function (cookieName) {
+         var cookieArr = document.cookie.split('; ');
+         for (var i = 0; i < cookieArr.length; i++) {
+           var cookieVals = cookieArr[i].split('=');
+           if (cookieVals[0] === cookieName && cookieVals[1]) {
+             return cookieVals[1];
+           }
+         }
+       };
+       ZFAdvLead.prototype.zfautm_iframeSprt = function () {
+         var zf_frame = document.getElementsByTagName("iframe");
+         for (var i = 0; i < zf_frame.length; ++i) {
+           if ((zf_frame[i].src).indexOf('formperma') > 0) {
+             var zf_src = zf_frame[i].src;
+             for (var prmIdx = 0; prmIdx < ZFAdvLead.utmPNameArr.length; prmIdx++) {
+               var utmPm = ZFAdvLead.utmPNameArr[prmIdx];
+               utmPm = (ZFAdvLead.isSameDomian && (ZFAdvLead.utmcustPNameArr.indexOf(utmPm) == -1)) ? "zf_" + utmPm :
+                 utmPm;
+               var utmVal = this.zfautm_gC_enc(ZFAdvLead.utmPNameArr[prmIdx]);
+               if (typeof utmVal !== "undefined") {
+                 if (utmVal != "") {
+                   if (zf_src.indexOf('?') > 0) {
+                     zf_src = zf_src + '&' + utmPm + '=' + utmVal;
+                   } else {
+                     zf_src = zf_src + '?' + utmPm + '=' + utmVal;
+                   }
+                 }
+               }
+             }
+             if (zf_frame[i].src.length < zf_src.length) {
+               zf_frame[i].src = zf_src;
+             }
+           }
+         }
+       };
+       ZFAdvLead.prototype.zfautm_DHtmlSprt = function () {
+         var zf_formsArr = document.forms;
+         for (var frmInd = 0; frmInd < zf_formsArr.length; frmInd++) {
+           var zf_form_act = zf_formsArr[frmInd].action;
+           if (zf_form_act && zf_form_act.indexOf('formperma') > 0) {
+             for (var prmIdx = 0; prmIdx < ZFAdvLead.utmPNameArr.length; prmIdx++) {
+               var utmPm = ZFAdvLead.utmPNameArr[prmIdx];
+               var utmVal = this.zfautm_gC(ZFAdvLead.utmPNameArr[prmIdx]);
+               if (typeof utmVal !== "undefined") {
+                 if (utmVal != "") {
+                   var fieldObj = zf_formsArr[frmInd][utmPm];
+                   if (fieldObj) {
+                     fieldObj.value = utmVal;
+                   }
+                 }
+               }
+             }
+           }
+         }
+       };
+       ZFAdvLead.prototype.zfautm_jsEmbedSprt = function (id) {
+         document.getElementById('zforms_iframe_id').removeAttribute("onload");
+         var jsEmbdFrm = document.getElementById("zforms_iframe_id");
+         var embdSrc = jsEmbdFrm.src;
+         for (var prmIdx = 0; prmIdx < ZFAdvLead.utmPNameArr.length; prmIdx++) {
+           var utmPm = ZFAdvLead.utmPNameArr[prmIdx];
+           utmPm = (ZFAdvLead.isSameDomian && (ZFAdvLead.utmcustPNameArr.indexOf(utmPm) == -1)) ? "zf_" + utmPm :
+             utmPm;
+           var utmVal = this.zfautm_gC_enc(ZFAdvLead.utmPNameArr[prmIdx]);
+           if (typeof utmVal !== "undefined") {
+             if (utmVal != "") {
+               if (embdSrc.indexOf('?') > 0) {
+                 embdSrc = embdSrc + '&' + utmPm + '=' + utmVal;
+               } else {
+                 embdSrc = embdSrc + '?' + utmPm + '=' + utmVal;
+               }
+             }
+           }
+         }
+         jsEmbdFrm.src = embdSrc;
+       };
+       var zfutm_zfAdvLead = new ZFAdvLead();
+       zfutm_zfAdvLead.zfautm_ini();
+       if (document.readyState == "complete") {
+         zfutm_zfAdvLead.zfautm_iframeSprt();
+         zfutm_zfAdvLead.zfautm_DHtmlSprt();
+       } else {
+         window.addEventListener('load', function () {
+           zfutm_zfAdvLead.zfautm_iframeSprt();
+           zfutm_zfAdvLead.zfautm_DHtmlSprt();
+         }, false);
+       }
+       setTimeout(function () {
+         zfutm_zfAdvLead.zfautm_iframeSprt();
+         zfutm_zfAdvLead.zfautm_DHtmlSprt();
+       }, 5000);
+     </script>
+
+   </body>
+
+   </html>
