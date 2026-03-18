@@ -6,75 +6,36 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Alard University Legacy In Education since 1999</title>
+    <title>Dy Patil Pune MBA Placement: Best MBA University in Pune</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta
-        content="Alard , Pune university, higher education Pune, undergraduate programs Pune, postgraduate courses Pune, engineering college Pune, management studies Pune, best universities in Pune, Alard group Pune, B.Tech Pune, MBA Pune, pharmacy courses Pune, law college Pune, Pune universities, Alard University admissions"
+        content=""
         name="keywords">
     <meta
-        content="Alard University Pune offers diverse undergraduate and postgraduate programs with a focus on holistic education, innovation, and research. Located in Pune, the university provides state-of-the-art facilities and a vibrant learning environment to shape future leaders."
+        content=""
         name="description">
 
     <!-- Favicon -->
-    <link href="<?= LINK; ?>images/alard/logo/favicon.webp" loading="lazy" rel="icon">
+    <link href="images/logo/favicon.ico" loading="lazy" rel="icon">
 
-    <link rel="preload" as="image" href="images/alard/hero/1.webp" type="image/webp">
+    <link rel="preload" as="image" href="images/hero/1.jpg" type="image/webp">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"> -->
 
 
 
     <!-- Customized Bootstrap Stylesheet -->
-    <!-- <link href="<?= LINK; ?>css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Template Stylesheet -->
-    <link href="<?= LINK; ?>css/style.css" rel="stylesheet">
-    <link rel="preload" as="image" href="images/alard/hero/1.webp" />
-
-    <!-- Google Tag Manager -->
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-P7FKP8ZW');
-    </script>
-    <!-- End Google Tag Manager -->
-
-    
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preload" as="image" href="images/hero/1.jpg" />
 
 
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        const urlParams = new URLSearchParams(window.location.search);
-        const email = urlParams.get('email');
-        const phone_number = urlParams.get('phone_number');
-
-        dataLayer.push({
-            event: 'ec_form_submit',
-            enhanced_conversion_data: {
-                email: email,
-                phone_number: phone_number
-            }
-        });
-    </script>
 
 </head>
 
@@ -85,8 +46,8 @@
         <div class="container px-0">
             <nav class="navbar navbar-expand-lg  navbar-light p-lg-0">
                 <a href="" class="navbar-brand">
-                    <img src="images/alard/logo/3.webp" class="hero_logo_01" loading="lazy"
-                        alt="Alard University Legacy In Education since 1999">
+                    <img src="images/logo/1.png" class="hero_logo_01" loading="lazy"
+                        alt="">
                 </a>
                 <a href="" class="btn c_btn  fw-normal d-lg-none" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">Enquire Now</a>
@@ -101,7 +62,7 @@
                         <a href="#Program" class="nav-item nav-link">Program</a>
                         <a href="#testimonals" class="nav-item nav-link">Testimonials</a>
                         <a href="#placement" class="nav-item nav-link">Placement</a>
-                        <a href="#gallery" class="nav-item nav-link">Life@ALARD</a>
+                        <a href="#gallery" class="nav-item nav-link">Life@DPU</a>
                         <div class="d-lg-block mt-3 mt-lg-0">
                             <a href="" class="btn c_btn py-2 px-3" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">Enquire Now</a>
@@ -116,7 +77,7 @@
         <!-- Topbar End -->
         <section class="position-relative d-lg-block d-none hero_section text-center" data-bs-toggle="modal"
             data-bs-target="#exampleModal">
-            <img src="images/alard/hero/3.webp" class="img-fluid" alt="Alard University Legacy In Education since 1999">
+            <img src="images/hero/1.jpg" class="img-fluid" alt="Alard University Legacy In Education since 1999">
             <div class="container banner_text">
                 <div class="row align-items-center">
                 </div>
@@ -127,7 +88,7 @@
             <div class="container">
                 <div class="row ">
                     <!-- Display the image -->
-                    <img src="images/alard/hero/1.webp" alt="Hero Image" class="hero_mobile" />
+                    <img src="images/hero/1.jpg" alt="Hero Image" class="hero_mobile" />
                 </div>
             </div>
         </section>
@@ -137,16 +98,16 @@
             <div class="container px-lg-0">
                 <div class="row justify-content-center pt-3 mb-4">
                     <?php
-                    $b = array("Highest Package", "Career Shaped", "Companies Visited", "Industry MOU’s");
-                    $c = array( "50 LPA ", "10000+", "650+", "100+");
+                    $b = array("Highest CTC (LPA)", "Average CTC (LPA)", "Highest stipend per month (Internship)", "Placements");
+                    $c = array( "21LPA ", "7", "30,000", "86.61%");
 
                     for ($i=0; $i < count($b); $i++) {
                 ?>
                     <div class="col-lg-3 col-6 mb-4 mb-lg-1 d-grid ">
-                        <div class="d-flex align-items-stretch   usp_01 bg-purple">
+                        <div class="d-flex align-items-stretch   usp_01 bg-red">
                             <div class=" ps-3">
                                 <h6 class=" rank text-light fw-bold pb-4 "><?= $c[$i]; ?></h6>
-                                <p class="text-light h4 "><?= $b[$i]; ?></p>
+                                <p class="text-light h6"><?= $b[$i]; ?></p>
                             </div>
                         </div>
                     </div>
@@ -166,37 +127,27 @@
                         <div class="row justify-content-lg-between">
                             <div class="col-12 align-items-center border-bottom_01">
                                 <div class="col-lg-12 ">
-                                    <h2 class="text-purple fw-normal mb-lg-3 mb-0 display-5 title">From Industrial
-                                        Excellence to Academic Leadership</h2>
+                                    <h2 class="text-red fw-normal mb-lg-3 mb-0 display-5 title">About Global Business School and Research Centre</h2>
                                 </div>
                                 <div class="col-lg-5 mb-0 ">
                                     <h5 class="text-mute text-lg-end subtitle"></h5>
                                 </div>
                             </div>
-                            <p align="justify" class="pt-3">Alard University, Pune was born in the heart of the
-                                industry—long before it became a center of learning. Built on 25+ years of industrial
-                                experience, the university bridges the gap between the boardroom and the classroom,
-                                transforming real-world knowledge into future-ready education. <br>
-                                Founded by visionary industrialist Dr. L.R. Yadav, Alard University was created to
-                                address one critical challenge: the employability gap. Having spent over two decades
-                                building and leading industries, Dr. Yadav envisioned a university where industrial
-                                wisdom meets academic brilliance.
-                                Today, Alard University delivers experience-driven curriculum, hands-on learning, and
-                                strong industry exposure, ensuring students graduate confident, skilled, and ready to
-                                lead from Day One.</p>
+                            <p align="justify" class="pt-3">Global Business School & Research Centre (GBSRC) situated at Tathawade, Pune is the flagship institute of Dr. D. Y. Patil Vidyapeeth, Pune. It was established in 2006. In a span of 19 years, the Institute has carved a name for itself amongst the top business schools of the country. <br> The idea of setting up this Institute is to offer ‘Management Education’ to aspiring leaders of tomorrow. From this institute, students can pursue their graduate, under graduate and Ph. D. programs in management. GBSRC offers 2 years full time MBA program which is approved by AICTE, Government of India, New Delhi. It also offers 3 years full time BBA program and Ph. D. progamme in management. <br> The main mission of DPU is to groom students who can turn into intelligent leaders. After they pass out of the Institute, they in turn will be able to source information from diverse resources and administer it for the benefit of business and society at large.
+                         </p>
                         </div>
                         <div class="row pe-lg-5 mt-md-5 mt-3  justify-content-lg-end justify-content-center">
                             <div class="col-lg-12 ">
-                                <h2 class="text-purple fw-normal mb-4 display-6 title">Awards & Achievements </h2>
+                                <h2 class="text-red fw-normal mb-4 display-6 title">Awards & Achievements </h2>
                             </div>
 
                             <div
                                 class="row awards_01 pt-lg-4 pb-lg-0 py-4 owl-carousel justify-content-center text-center">
                                 <?php
-                                for ($i=1; $i < 6; $i++) {
+                                for ($i=1; $i < 5; $i++) {
                                 ?>
                                     <div class="rounded-3 py-3 border box_shadow mx-3">
-                                        <img src="images/alard/awards/<?= $i++;?>.webp" loading="lazy"
+                                        <img src="images/awards/<?= $i++;?>.png" loading="lazy"
                                             class="w-100" alt="">
                                     </div>
                                 <?php
@@ -209,9 +160,9 @@
                     <div class="col-lg-4 pb-3 pb-lg-0">
                         <div class="border rounded-3 text-center pt-3">
                             <div class="about_logo">
-                                <img src="images/alard/logo/2.webp" loading="lazy" alt="">
+                                <img src="images/logo/1.png" loading="lazy" alt="">
                             </div>
-                            <h4 class="border-purple_01">Admissions Open 2026-27</h4>
+                            <h4 class="border-red_01">Admissions Open 2026-27</h4>
                             <?php
                          include 'form_01.php'
                          ;?>
@@ -229,7 +180,7 @@
             <div class="container bg-white rounded-3 px-lg-5 py-5 pt-lg-5 ">
                 <div class="row align-item-center">
                     <div class="col-lg-8 order-2 order-lg-1 ">
-                        <h2 class="text-purple fw-normal mb-4 display-5 title">Your Path to Success: Program Highlights
+                        <h2 class="text-red fw-normal mb-4 display-5 title">Your Path to Success: Program Highlights
                             that Matters a lot</h2>
 
                         <!-- Row for the boxes -->
@@ -245,13 +196,13 @@
         [
             "img" => "2",
             "title" => "Student-Focused Learning Environment",
-            "text_class" => "text-purple",
+            "text_class" => "text-red",
             "box_class" => "box_003"
         ],
         [
             "img" => "3",
             "title" => "Modern Infrastructure & Research-Oriented  Ecosystem",
-            "text_class" => "text-purple",
+            "text_class" => "text-red",
             "box_class" => "box_003"
         ],
         [
@@ -269,13 +220,13 @@
         [
             "img" => "6",
             "title" => "Strategic Location in Pune’s IT & Education Hub",
-            "text_class" => "text-purple",
+            "text_class" => "text-red",
             "box_class" => "box_003"
         ],
         [
             "img" => "7",
             "title" => "Active Student Clubs, Events, and Leadership Opportunities",
-            "text_class" => "text-purple",
+            "text_class" => "text-red",
             "box_class" => "box_003"
         ],
         [
@@ -290,7 +241,7 @@
                             <div class="col-lg-6 col-sm-6 mb-4 ">
                                 <div class="border rounded py-4 p-3 <?= $item['box_class']; ?>">
                                     <div class="d-lg-flex align-items-center">
-                                        <img src="images/alard/highlights/<?= $item['img']; ?>.webp" loading="lazy"
+                                        <img src="images/highlights/<?= $item['img']; ?>.webp" loading="lazy"
                                             class="your_path_img">
                                         <h6 class="h5 <?= $item['text_class']; ?> ps-lg-3 pt-3 pt-lg-0">
                                             <?= $item['title']; ?>
@@ -304,7 +255,7 @@
 
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0 order-1 order-lg-2 bg_applynew d-none d-md-block"
-                        data-bgimg="images/alard/highlights/g1.webp">
+                        data-bgimg="images/highlights/g1.webp">
                     </div>
                 </div>
             </div>
@@ -324,20 +275,20 @@
         <!-- ----------------------------------------------------------------------------------------------------------- -->
         <section class=" pb-5  rounded-0 ">
             <div class="container mt-3 mt-lg-0 px-lg-2">
-                <div class="row rounded-3 bg-purple">
+                <div class="row rounded-3 bg-yellow">
                     <!-- ============== background image for pc ============= -->
-                    <div class="col-lg-6  d-lg-block d-none  bg_apply " data-bgimg="images/alard/banners/1.webp"
-                        alt="Unlock your potential at ALARD University now!">
+                    <div class="col-lg-6  d-lg-block d-none  bg_apply " data-bgimg="images/banners/1.webp"
+                        alt="">
                     </div>
                     <!-- ============== image for mobile ============= -->
                     <div class="col-lg-6 d-lg-none px-0">
-                        <img src="images/alard/banners/1.webp" class="unlock_01"
-                            alt="Unlock your potential at ALARD University now!" loading="lazy" alt="">
+                        <img src="images/banners/1.webp" class="unlock_01"
+                            alt="" loading="lazy" alt="">
                     </div>
 
                     <div class="col-lg-6  py-5 px-lg-5">
                         <div class="py-lg-5 text-lg-end">
-                            <h2 class=" text-light fw-normal mb-4 display-5 title_01">हम अलग हैं, <br> हम ALARD हैं</h2>
+                            <h2 class=" text-light fw-normal mb-4 display-5 title_01">Lorem ipsum dolor, sit amet  <br>consectetur adipisicing elit. Quod lab</h2>
                             <a class="btn c_btn ms-md-4 py-2 px-4 fs-6 fw-bold" type="button" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal" style="border: 1px solid #fff">Apply Now&nbsp;
                                 <i aria-hidden="true" class="fas fa-arrow-right"></i>
@@ -356,7 +307,7 @@
                 <!-- Section Title -->
                 <div class="row border-bottom justify-content-between align-items-center mb-4">
                     <div class="col-lg-7">
-                        <h2 class="text-purple fw-normal mb-4 display-5 title">Scholarships at ALARD University Pune
+                        <h2 class="text-red fw-normal mb-4 display-5 title">Scholarships at ALARD University Pune
                         </h2>
                     </div>
                     <div class="col-lg-5 mb-3 mb-lg-0">
@@ -421,7 +372,7 @@
                     <!-- Scholarship Card -->
                     <div class="col-lg-6 mb-4">
                         <div class="bg-light rounded-3 shadow-sm p-4 h-100">
-                            <h4 class="text-purple mb-3"><?= $scholarship['title']; ?></h4>
+                            <h4 class="text-red mb-3"><?= $scholarship['title']; ?></h4>
                             <ul class="">
                                 <?php 
                                 foreach ($scholarship['details'] as $detail) {
@@ -493,7 +444,7 @@
                     <!-- Scholarship Card -->
                     <div class="col-lg-6 mb-4">
                         <div class="bg-light rounded-3 shadow-sm p-4 h-100">
-                            <h4 class="text-purple mb-3"><?= $scholarship['title']; ?></h4>
+                            <h4 class="text-red mb-3"><?= $scholarship['title']; ?></h4>
                             <ul class="scholarship-details">
                                 <?php 
                                     foreach ($scholarship['details'] as $index => $detail) {
@@ -538,7 +489,7 @@
 
         <!--End-->
 
-        <section class="bg-purple" id="placement">
+        <section class="bg-red" id="placement">
             <div class="container  pt-5  ">
                 <div class="row border-bottom_02 justify-content-end align-items-center">
                     <div class="col-lg-7">
@@ -547,9 +498,7 @@
                         </h2>
                     </div>
                     <div class="col-lg-5 mb-3 mb-lg-0">
-                        <h5 class="text-light text-lg-end subtitle">Connecting skilled professionals with leading
-                            employers through expert recruitment and placement services.
-                        </h5>
+                        <h5 class="text-light text-lg-end subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam nihil odio adipisci, non sit maxime obcaecati</h5>
                     </div>
                 </div>
                 <div class="row  justify-content-center text-center">
@@ -561,7 +510,7 @@
                     for ($i=0; $i < count($a); $i++) {
                     ?>
                     <div class="col-lg-3 col-6 border_01 pt-4 ">
-                        <img src="images/alard/placement/icons/<?= $e[$i];?>.webp" loading="lazy" class="" width="50px"
+                        <img src="images/placement/icons/<?= $e[$i];?>.webp" loading="lazy" class="" width="50px"
                             loading="lazy" alt="">
                         <div class=" pb-3">
                             <p class="text-light display-4">
@@ -583,18 +532,17 @@
             <div class="container border-bottom ">
                 <div class="row justify-content-center company">
                     <div class="col-lg-7">
-                        <h2 class="text-purple fw-normal mb-4 display-5 title text-center">ALARD University partners
-                            with top recruiters</h2>
+                        <h2 class="text-red fw-normal mb-4 display-5 title text-center">Partners with top recruiters</h2>
                     </div>
                     <div class="col-md-12 placement_01 py-3 owl-carousel justify-content-center text-center m-auto">
                             <?php
                             
-                            $p1 = ["1", "2", "3","4", "5", "6", "7", "8", "9", "10", "11",  "12", "13", "14", "15","16", "17", "18", "19", "20", "21"];
+                            $p1 = ["1", "2", "3","4", "5", "6", "7", "8", "9", "10", "11",  "12", "13", "14", "15"];
                             for ($i=1; $i < count($p1); $i++) {
                             ?>
                             <div class=" company_01  ">
-                                <img src="images/alard/placement/<?= $p1[$i];?>.png" loading="lazy" class=""
-                                    alt="Placement Companies">
+                                <img src="images/placement/<?= $p1[$i];?>.png" loading="lazy" class=""
+                                    alt="">
                             </div>
                             <?php
                             } 
@@ -603,12 +551,12 @@
 
                     <div class="col-md-12 placement_02 py-3 owl-carousel justify-content-center text-center m-auto">
                             <?php
-                            $p2 = ["22", "23", "24", "25","26", "27", "28", "29", "30", "31",  "32", "33", "34", "35","26", "37", "38", "39", "40","41", "42"];
+                            $p2 = ["16", "17", "18", "19", "20", "21","22", "23", "24", "25","26", "27", "28", "29", "30"];
                             for ($i=1; $i < count($p2); $i++) {
                             ?>
                             <div class=" company_01  ">
-                                <img src="images/alard/placement/<?= $p2[$i];?>.png" loading="lazy" class=""
-                                    alt="Placement Companies">
+                                <img src="images/placement/<?= $p2[$i];?>.png" loading="lazy" class=""
+                                    alt="">
                             </div>
                             <?php
                             } 
@@ -616,7 +564,7 @@
                     </div>
                 </div>
                 <div class="row text-center pt-4">
-                    <h1 class="mb-0 alard-text">ALARD University</h1>
+                    <h1 class="mb-0 university-text">Dr. D.Y. Patil Vidyapeeth, Pune</h1>
                 </div>
             </div>
         </section>
@@ -627,7 +575,7 @@
             <div class="container ">
                 <div class="row justify-content-end align-items-center">
                     <div class="col-lg-4">
-                        <h2 class="text-purple fw-normal mb-4 display-5 title text-center text-lg-start">Life@ALARD</h2>
+                        <h2 class="text-red fw-normal mb-4 display-5 title text-center text-lg-start">Life@DPU</h2>
                     </div>
                     <div class="col-lg-8 mb-3 mb-lg-0">
                         <h5 class="text-mute text-lg-end subtitle">Life at ALARD University Pune, one of the Top
@@ -637,18 +585,18 @@
                 </div>
                 <div class="row d-none d-lg-block">
                     <div class="owl-carousel gallery_carousel_01">
-                        <?php for ($i=1; $i < 23; $i++) {?>
-                        <div class="item"><img src="images/alard/gallary/<?= $i++;?>.webp"></div>
+                        <?php for ($i=1; $i < 3; $i++) {?>
+                        <div class="item"><img src="images/gallary/<?= $i++;?>.jpg"></div>
                         <?php } ?>
                     </div>
                 </div>
 
                 <div
                     class="row gallary_01 pt-lg-4 pb-lg-0 py-4 owl-carousel justify-content-center text-center d-lg-none">
-                    <?php for ($i=1; $i < 23; $i++) {?>
+                    <?php for ($i=1; $i < 3; $i++) {?>
                     <div class="mb-4">
                         <div class="rounded-3 py-3">
-                            <img src="images/alard/gallary/<?= $i++;?>.webp" loading="lazy" class="w-100 " alt="">
+                            <img src="images/gallary/<?= $i++;?>.jpg" loading="lazy" class="w-100 " alt="">
                         </div>
                     </div>
                     <?php } ?>
@@ -668,7 +616,7 @@
                 <div class="modal-content ">
                     <div class="modal-header">
                         <div class="modalLogo d-flex flex-column justify-content-center align-items-center">
-                            <img src="images/alard/logo/3.webp" loading="lazy" alt="">
+                            <img src="images/logo/1.png" loading="lazy" alt="">
                         </div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -685,6 +633,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/zoho.js"></script>
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script> -->
 
         <!-- <script src="js/bootstrap.min.js"></script> -->
@@ -697,301 +646,6 @@
             })
         </script>
 
-        <!--ZOHO UTM SCRIPT TRACKING CODE START -->
-        <script type="text/javascript">
-            function ZFAdvLead() {}
-            ZFAdvLead.utmPValObj = ZFAdvLead.utmPValObj || {};
-
-            ZFAdvLead.utmPNameArr = new Array('utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content');
-            ZFAdvLead.utmcustPNameArr = new Array();
-            ZFAdvLead.isSameDomian = false;
-
-            ZFAdvLead.prototype.zfautm_sC = function (paramName, path, domain, secure) {
-                var value = ZFAdvLead.utmPValObj[paramName];
-                if (typeof value !== "undefined" && value !== null) {
-                    var cookieStr = paramName + "=" + encodeURIComponent(value);
-                    var exdate = new Date();
-                    exdate.setDate(exdate.getDate() + 7);
-                    cookieStr += "; expires=" + exdate.toGMTString();
-                    cookieStr += "; path=/";
-                    if (domain) {
-                        cookieStr += "; domain=" + encodeURIComponent(domain);
-                    }
-                    if (secure) {
-                        cookieStr += "; secure";
-                    }
-                    document.cookie = cookieStr;
-                }
-            };
-            ZFAdvLead.prototype.zfautm_ini = function () {
-                this.zfautm_bscPCap();
-                var url_search = document.location.search;
-                for (var i = 0; i < ZFAdvLead.utmcustPNameArr.length; i++) {
-                    var zf_pN = ZFAdvLead.utmcustPNameArr[i];
-                    var zf_pV;
-                    if (zf_pN == 'referrername') {
-                        zf_pV = (document.URL || '').slice(0, 1500);
-                    } else {
-                        zf_pV = this.zfautm_gP(url_search, zf_pN);
-                        if (zf_pV == undefined || zf_pV == '') {
-                            zf_pV = this.zfautm_gC(zf_pN);
-                        }
-                    }
-                    if (typeof zf_pV !== "undefined" && zf_pV !== null & zf_pV != "") {
-                        ZFAdvLead.utmPValObj[zf_pN] = zf_pV;
-                    }
-                }
-                for (var pkey in ZFAdvLead.utmPValObj) {
-                    this.zfautm_sC(pkey);
-                }
-            };
-            ZFAdvLead.prototype.zfautm_bscPCap = function () {
-                var trafSrc = this.zfautm_calcTrafSrc();
-                if (trafSrc.source != "") {
-                    ZFAdvLead.utmPValObj.utm_source = trafSrc.source;
-                }
-                if (trafSrc.medium != "") {
-                    ZFAdvLead.utmPValObj.utm_medium = trafSrc.medium;
-                }
-                if (trafSrc.campaign != "") {
-                    ZFAdvLead.utmPValObj.utm_campaign = trafSrc.campaign;
-                }
-                if (trafSrc.term != "") {
-                    ZFAdvLead.utmPValObj.utm_term = trafSrc.term;
-                }
-                if (trafSrc.content != "") {
-                    ZFAdvLead.utmPValObj.utm_content = trafSrc.content;
-                }
-            }
-            ZFAdvLead.prototype.zfautm_calcTrafSrc = function () {
-                var u1 = '',
-                    u2 = '',
-                    u3 = '',
-                    u4 = '',
-                    u5 = '';
-                var search_engines = [
-                    ['bing', 'q'],
-                    ['google', 'q'],
-                    ['yahoo', 'q'],
-                    ['baidu', 'q'],
-                    ['yandex', 'q'],
-                    ['ask', 'q']
-                ]; //List of search engines 
-                var ref = document.referrer;
-                ref = ref.substr(ref.indexOf('//') + 2);
-                ref_domain = ref;
-                ref_path = '/';
-                ref_search = '';
-
-                // Checks for campaign parameters
-                var url_search = document.location.search;
-                if (url_search.indexOf('utm_source') > -1 || url_search.indexOf('utm_medium') > -1 || url_search
-                    .indexOf('utm_campaign') > -1 || url_search.indexOf('utm_term') > -1 || url_search.indexOf(
-                        'utm_content') > -1) {
-                    u1 = this.zfautm_gP(url_search, 'utm_source');
-                    u2 = this.zfautm_gP(url_search, 'utm_medium');
-                    u3 = this.zfautm_gP(url_search, 'utm_campaign');
-                    u4 = this.zfautm_gP(url_search, 'utm_term');
-                    u5 = this.zfautm_gP(url_search, 'utm_content');
-                } else if (this.zfautm_gP(url_search, 'gclid')) {
-                    u1 = 'Google Ads';
-                    u2 = 'cpc';
-                    u3 = '(not set)';
-                    if (!ZFAdvLead.utmcustPNameArr.includes('gclid')) {
-                        ZFAdvLead.utmcustPNameArr.push('gclid');
-                    }
-                } else if (ref) {
-                    var r_u1 = this.zfautm_gC('utm_source');
-                    var r_u2 = this.zfautm_gC('utm_medium');
-                    var r_u3 = this.zfautm_gC('utm_campaign');
-                    var r_u4 = this.zfautm_gC('utm_term');
-                    var r_u5 = this.zfautm_gC('utm_content');
-                    if (typeof r_u1 === "undefined" && typeof r_u2 === "undefined" && typeof r_u3 === "undefined" &&
-                        typeof r_u4 === "undefined" && typeof r_u5 === "undefined") {
-                        // separate domain, path and query parameters
-                        if (ref.indexOf('/') > -1) {
-                            ref_domain = ref.substr(0, ref.indexOf('/'));
-                            ref_path = ref.substr(ref.indexOf('/'));
-                            if (ref_path.indexOf('?') > -1) {
-                                ref_search = ref_path.substr(ref_path.indexOf('?'));
-                                ref_path = ref_path.substr(0, ref_path.indexOf('?'));
-                            }
-                        }
-                        u2 = 'referral';
-                        u1 = ref_domain;
-                        // Extract term for organic source
-                        for (var i = 0; i < search_engines.length; i++) {
-                            if (ref_domain.indexOf(search_engines[i][0]) > -1) {
-                                u2 = 'organic';
-                                u1 = search_engines[i][0];
-                                u4 = this.zfautm_gP(ref_search, search_engines[i][1]) || '(not provided)';
-                                break;
-                            }
-                        }
-                    } else {
-                        if (typeof r_u1 !== "undefined") {
-                            u1 = r_u1;
-                        }
-                        if (typeof r_u2 !== "undefined") {
-                            u2 = r_u2;
-                        }
-                        if (typeof r_u3 !== "undefined") {
-                            u3 = r_u3;
-                        }
-                        if (typeof r_u4 !== "undefined") {
-                            u4 = r_u4;
-                        }
-                        if (typeof r_u5 !== "undefined") {
-                            u5 = r_u5;
-                        }
-                    }
-                } else {
-                    var r_u1 = this.zfautm_gC('utm_source');
-                    var r_u2 = this.zfautm_gC('utm_medium');
-                    var r_u3 = this.zfautm_gC('utm_campaign');
-                    var r_u4 = this.zfautm_gC('utm_term');
-                    var r_u5 = this.zfautm_gC('utm_content');
-                    if (typeof r_u1 === "undefined" && typeof r_u2 === "undefined" && typeof r_u3 === "undefined" &&
-                        typeof r_u4 === "undefined" && typeof r_u5 === "undefined") {
-                        var locRef = document.URL;
-                        locRef = locRef.substr(locRef.indexOf('//') + 2);
-                        if (locRef.indexOf('/') > -1) {
-                            locRef = locRef.substr(0, locRef.indexOf('/'));
-                        }
-                        u1 = locRef;
-                        u2 = 'referral';
-                    } else {
-                        if (typeof r_u1 !== "undefined") {
-                            u1 = r_u1;
-                        }
-                        if (typeof r_u2 !== "undefined") {
-                            u2 = r_u2;
-                        }
-                        if (typeof r_u3 !== "undefined") {
-                            u3 = r_u3;
-                        }
-                        if (typeof r_u4 !== "undefined") {
-                            u4 = r_u4;
-                        }
-                        if (typeof r_u5 !== "undefined") {
-                            u5 = r_u5;
-                        }
-                    }
-                }
-                return {
-                    'source': u1,
-                    'medium': u2,
-                    'campaign': u3,
-                    'term': u4,
-                    'content': u5
-                };
-            }
-            ZFAdvLead.prototype.zfautm_gP = function (s, q) {
-                try {
-                    var match = s.match('[?&]' + q + '=([^&]+)');
-                    return match ? decodeURIComponent(match[1]) : '';
-                } catch (e) {
-                    return '';
-                }
-            }
-            ZFAdvLead.prototype.zfautm_gC = function (cookieName) {
-                var cookieArr = document.cookie.split('; ');
-                for (var i = 0; i < cookieArr.length; i++) {
-                    var cookieVals = cookieArr[i].split('=');
-                    if (cookieVals[0] === cookieName && cookieVals[1]) {
-                        return decodeURIComponent(cookieVals[1]);
-                    }
-                }
-            };
-            ZFAdvLead.prototype.zfautm_gC_enc = function (cookieName) {
-                var cookieArr = document.cookie.split('; ');
-                for (var i = 0; i < cookieArr.length; i++) {
-                    var cookieVals = cookieArr[i].split('=');
-                    if (cookieVals[0] === cookieName && cookieVals[1]) {
-                        return cookieVals[1];
-                    }
-                }
-            };
-            ZFAdvLead.prototype.zfautm_iframeSprt = function () {
-                var zf_frame = document.getElementsByTagName("iframe");
-                for (var i = 0; i < zf_frame.length; ++i) {
-                    if ((zf_frame[i].src).indexOf('formperma') > 0) {
-                        var zf_src = zf_frame[i].src;
-                        for (var prmIdx = 0; prmIdx < ZFAdvLead.utmPNameArr.length; prmIdx++) {
-                            var utmPm = ZFAdvLead.utmPNameArr[prmIdx];
-                            utmPm = (ZFAdvLead.isSameDomian && (ZFAdvLead.utmcustPNameArr.indexOf(utmPm) == -1)) ?
-                                "zf_" + utmPm : utmPm;
-                            var utmVal = this.zfautm_gC_enc(ZFAdvLead.utmPNameArr[prmIdx]);
-                            if (typeof utmVal !== "undefined") {
-                                if (utmVal != "") {
-                                    if (zf_src.indexOf('?') > 0) {
-                                        zf_src = zf_src + '&' + utmPm + '=' + utmVal;
-                                    } else {
-                                        zf_src = zf_src + '?' + utmPm + '=' + utmVal;
-                                    }
-                                }
-                            }
-                        }
-                        if (zf_frame[i].src.length < zf_src.length) {
-                            zf_frame[i].src = zf_src;
-                        }
-                    }
-                }
-            };
-            ZFAdvLead.prototype.zfautm_DHtmlSprt = function () {
-                var zf_formsArr = document.forms;
-                for (var frmInd = 0; frmInd < zf_formsArr.length; frmInd++) {
-                    var zf_form_act = zf_formsArr[frmInd].action;
-                    if (zf_form_act && zf_form_act.indexOf('formperma') > 0) {
-                        for (var prmIdx = 0; prmIdx < ZFAdvLead.utmPNameArr.length; prmIdx++) {
-                            var utmPm = ZFAdvLead.utmPNameArr[prmIdx];
-                            var utmVal = this.zfautm_gC(ZFAdvLead.utmPNameArr[prmIdx]);
-                            if (typeof utmVal !== "undefined") {
-                                if (utmVal != "") {
-                                    var fieldObj = zf_formsArr[frmInd][utmPm];
-                                    if (fieldObj) {
-                                        fieldObj.value = utmVal;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            };
-            ZFAdvLead.prototype.zfautm_jsEmbedSprt = function (id) {
-                document.getElementById('zforms_iframe_id').removeAttribute("onload");
-                var jsEmbdFrm = document.getElementById("zforms_iframe_id");
-                var embdSrc = jsEmbdFrm.src;
-                for (var prmIdx = 0; prmIdx < ZFAdvLead.utmPNameArr.length; prmIdx++) {
-                    var utmPm = ZFAdvLead.utmPNameArr[prmIdx];
-                    utmPm = (ZFAdvLead.isSameDomian && (ZFAdvLead.utmcustPNameArr.indexOf(utmPm) == -1)) ? "zf_" +
-                        utmPm : utmPm;
-                    var utmVal = this.zfautm_gC_enc(ZFAdvLead.utmPNameArr[prmIdx]);
-                    if (typeof utmVal !== "undefined") {
-                        if (utmVal != "") {
-                            if (embdSrc.indexOf('?') > 0) {
-                                embdSrc = embdSrc + '&' + utmPm + '=' + utmVal;
-                            } else {
-                                embdSrc = embdSrc + '?' + utmPm + '=' + utmVal;
-                            }
-                        }
-                    }
-                }
-                jsEmbdFrm.src = embdSrc;
-            };
-            var zfutm_zfAdvLead = new ZFAdvLead();
-            zfutm_zfAdvLead.zfautm_ini();
-            if (document.readyState == "complete") {
-                zfutm_zfAdvLead.zfautm_iframeSprt();
-                zfutm_zfAdvLead.zfautm_DHtmlSprt();
-            } else {
-                window.addEventListener('load', function () {
-                    zfutm_zfAdvLead.zfautm_iframeSprt();
-                    zfutm_zfAdvLead.zfautm_DHtmlSprt();
-                }, false);
-            }
-        </script>
-        <!--ZOHO UTM SCRIPT TRACKING CODE END -->
 
 </body>
 

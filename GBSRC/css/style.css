@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Metrophobic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --purple: #4b1d3a;
+  --red: #9a2827;
   --light: #f1f3fa;
   --dark: #1c1c1c;
-  --yellow: #e3b34a;
+  --yellow: #b79652;
   --grey: #f3f2f4;
   --font01: "Poppins", sans-serif;
   --cfont: "Poppins", sans-serif;
@@ -46,14 +46,14 @@ h6 {
   color: var(--yellow) !important;
 }
 .hero-text,
-.text-purple,
+.text-red,
 .view-more-btn:hover {
-  color: var(--purple);
+  color: var(--red);
 }
-.bg-purple,
+.bg-red,
 .bg_grad_01,
 .your_path .border {
-  background-color: var(--purple);
+  background-color: var(--red);
 }
 .border-bottom_01 {
   border-bottom: unset;
@@ -116,7 +116,7 @@ h6 {
   font-size: 12px;
 }
 .data img {
-  border: solid 1px var(--purple);
+  border: solid 1px var(--red);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -126,7 +126,7 @@ h6 {
 }
 .data_01 {
   border-radius: 0 0 25px 25px;
-  border: solid 1px var(--purple);
+  border: solid 1px var(--red);
 }
 .zoho_form {
   height: 570px;
@@ -134,7 +134,7 @@ h6 {
 }
 .h_partner {
   border-radius: unset;
-  background-color: var(--purple);
+  background-color: var(--red);
 }
 .h_partner.h_part_apply {
   background-image: url(../images/bg1.webp);
@@ -163,7 +163,7 @@ h6 {
   transition: 0.5s;
   font-weight: 500;
 }
-.bg-purple-gradient {
+.bg-red-gradient {
   background-image: linear-gradient(180deg, #47143d 0, #632156 100%);
 }
 .sticky-top {
@@ -197,8 +197,8 @@ h6 {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link:focus,
 .navbar .navbar-nav .nav-link:hover {
-  color: var(--purple);
-  border-bottom: solid 4px var(--purple);
+  color: var(--red);
+  border-bottom: solid 4px var(--red);
   font-weight: 700;
 }
 .navbar .dropdown-toggle::after {
@@ -217,7 +217,7 @@ h6 {
 .c_btn:hover,
 .copyright,
 .program_02 .accordion-button {
-  background-color: var(--purple);
+  background-color: var(--red);
 }
 .hero_mobile img {
   object-fit: cover;
@@ -228,6 +228,7 @@ h6 {
   height: 40px;
   width: auto;
   object-fit: contain;
+  filter: invert(1);
 }
 .border_01 {
   border-right: 1px solid var(--bs-white);
@@ -305,10 +306,10 @@ h6 {
   width: 100%;
   object-fit: contain;
 }
-.border-purple {
-  border: 1px solid var(--purple);
+.border-red {
+  border: 1px solid var(--red);
 }
-.border-purple_01 {
+.border-red_01 {
   border-top: 1px solid var(--light);
   border-bottom: 1px solid var(--light);
 }
@@ -394,7 +395,7 @@ h6 {
   align-items: center;
 }
 .c_btn {
-  border: solid 1px var(--purple);
+  border: solid 1px var(--red);
   font-size: 14px;
 }
 .c_btn:hover {
@@ -440,7 +441,7 @@ h6 {
 .filter,
 .program_01:hover img,
 .program_02 .accordion-button::after {
-  filter: invert(1);
+  filter: invert(0);
 }
 .program_02 .accordion-button:focus {
   box-shadow: unset !important;
@@ -484,11 +485,11 @@ h6 {
 }
 .mobilePrograms .accordion-item .accordion-button:not(.collapsed) {
   color: #fff;
-  background-color: var(--purple);
+  background-color: var(--red);
   box-shadow: unset;
 }
 .ChildTabContent .tab-content .accordion-body {
-  padding: 10px 50px;
+  padding: 10px 20px;
 }
 .ChildTabContent .tab-content .accordion-item .accordion-button {
   border-radius: 0;
@@ -506,7 +507,7 @@ h6 {
 .ChildTabContent .tab-content .accordion-button:not(.collapsed)::after,
 .mobilePrograms .accordion-button:not(.collapsed)::after {
   transform: rotate(0);
-  background-image: url(../images/alard/program/close.png);
+  background-image: url(../images/program/close.png);
   background-size: 10px 10px !important;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -516,7 +517,7 @@ h6 {
 }
 .ChildTabContent .tab-content .accordion-button::after,
 .mobilePrograms .accordion-button::after {
-  background-image: url(../images/alard/program/arrow1.png);
+  background-image: url(../images/program/arrow1.png);
   background-size: 15px 20px !important;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -585,7 +586,7 @@ span.brownTriangle {
 }
 .form_bg_01 {
   border-radius: 0 0 25px 25px;
-  border: solid 2px var(--purple);
+  border: solid 2px var(--red);
 }
 .back-to-top {
   position: fixed;
@@ -599,7 +600,7 @@ span.brownTriangle {
   width: 48px;
   height: 48px;
   border: solid 1px var(--grey);
-  background-color: var(--purple) !important;
+  background-color: var(--red) !important;
   color: var(--bs-white) !important;
 }
 .hero_section {
@@ -648,14 +649,14 @@ span.brownTriangle {
 .specilization_tab .nav-link:hover {
   color: var(--bs-white);
   border-radius: 10px;
-  background-color: var(--purple);
+  background-color: var(--yellow);
   border: solid var(--yellow) 1px;
   font-weight: 700;
 }
 .admission .nav-link.active,
 .admission .nav-link:hover {
-  background-color: var(--purple);
-  background-color: var(--purple);
+  background-color: var(--red);
+  background-color: var(--red);
   cursor: pointer;
   color: var(--bs-white);
 }
@@ -682,14 +683,14 @@ span.brownTriangle {
 .modal-header .btn-close {
   margin: 0;
 }
-.alard-text {
+.university-text {
   color: #0000000a;
   font-size: 50px;
   text-transform: uppercase;
   font-weight: bold;
 }
 @media (min-width: 992px) {
-  .alard-text {
+  .university-text {
     font-size: 100px;
   }
   .navbar .nav-item .dropdown-menu {
@@ -708,7 +709,7 @@ span.brownTriangle {
     opacity: 1;
   }
   .hero_logo_01 {
-    height: 60px;
+    height: 80px;
   }
   .gallary .one,
   .gallary .three {
@@ -724,7 +725,7 @@ span.brownTriangle {
     bottom: 30px;
   }
   .border-end_01:not(:last-child) {
-    border-right: 1px solid var(--purple);
+    border-right: 1px solid var(--red);
   }
   .testimonals_02 {
     border-radius: 25px 0 0 25px;
@@ -732,7 +733,7 @@ span.brownTriangle {
   }
   .form_bg_01 {
     border-radius: 0 25px 25px 0;
-    border: solid 2px var(--purple);
+    border: solid 2px var(--red);
   }
   .border_01:not(:last-child) {
     border-right: 1px solid var(--bs-white);
@@ -761,7 +762,7 @@ span.brownTriangle {
     bottom: -30px;
   }
   .border-bottom_01 {
-    border-bottom: solid 1px var(--purple);
+    border-bottom: solid 1px var(--red);
   }
   .border-bottom_02 {
     border-bottom: solid 1px var(--bs-white);
@@ -787,7 +788,7 @@ span.brownTriangle {
     height: 90vh;
   }
   .h_nav {
-    padding: 15px 30px;
+    padding: 0px 0px;
     background: linear-gradient(to right, #fff 66.25%, #481a39 34%);
   }
   .title,
@@ -813,8 +814,8 @@ span.brownTriangle {
     transform-origin: right;
     border-radius: 0 0 10px 10px !important;
     color: #fff;
-    background-color: var(--purple);
-    border: solid 1px var(--purple);
+    background-color: var(--red);
+    border: solid 1px var(--red);
   }
 }
 .scholarship-category {

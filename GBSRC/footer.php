@@ -4,8 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <span class=" text-light">© Copyright 2026 ALARD University. Designed and developed by
-                        <img src="images/alard/logo/gladowl_logo.webp" height="20"  loading="lazy" alt=""></span>
+                    <span class=" text-light">© Copyright 2026 Dr. D.Y. Patil Vidyapeeth, Pune. Designed and developed by
+                        <img src="images/logo/gladowl_logo.webp" height="20"  loading="lazy" alt=""></span>
                 </div>
             </div>
         </div>
