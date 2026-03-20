@@ -578,25 +578,23 @@
                         <h2 class="text-red fw-normal mb-4 display-5 title text-center text-lg-start">Life@DPU</h2>
                     </div>
                     <div class="col-lg-8 mb-3 mb-lg-0">
-                        <h5 class="text-mute text-lg-end subtitle">Life at ALARD University Pune, one of the Top
-                            universities in Pune, is vibrant, dynamic, and enriching. Our campus is a melting pot of
-                            diverse cultures, fostering a welcoming and inclusive environment.</h5>
+                        <h5 class="text-mute text-lg-end subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsum quaerat mollitia, corporis illum totam id vitae beatae consequuntur, sed veritatis aliquam inventore dolorum iusto blanditiis quibusdam. Blanditiis, asperiores facere.</h5>
                     </div>
                 </div>
                 <div class="row d-none d-lg-block">
                     <div class="owl-carousel gallery_carousel_01">
-                        <?php for ($i=1; $i < 3; $i++) {?>
-                        <div class="item"><img src="images/gallary/<?= $i++;?>.jpg"></div>
+                        <?php for ($i=0; $i < 3; $i++) {?>
+                        <div class="item"><img src="images/gallary/<?= $i+1;?>.jpg"></div>
                         <?php } ?>
                     </div>
                 </div>
 
                 <div
                     class="row gallary_01 pt-lg-4 pb-lg-0 py-4 owl-carousel justify-content-center text-center d-lg-none">
-                    <?php for ($i=1; $i < 3; $i++) {?>
+                    <?php for ($i=0; $i < 3; $i++) {?>
                     <div class="mb-4">
                         <div class="rounded-3 py-3">
-                            <img src="images/gallary/<?= $i++;?>.jpg" loading="lazy" class="w-100 " alt="">
+                            <img src="images/gallary/<?= $i+1;?>.jpg" loading="lazy" class="w-100 " alt="">
                         </div>
                     </div>
                     <?php } ?>

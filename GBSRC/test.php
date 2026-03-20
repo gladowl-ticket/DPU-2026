@@ -64,7 +64,7 @@
     padding: 30px;
     border-radius: 15px;
     margin-bottom: 25px;
-    height: 360px;
+    /* height: 360px; */
   }
 
   .stars {
