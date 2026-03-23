@@ -48,6 +48,24 @@
         992: { items: 3 },
       },
     }),
+    a(".testimonials_01").owlCarousel({
+      autoplay: true,
+      autoplayTimeout: 2e3,
+      smartSpeed: 500,
+      margin: 25,
+      loop: !0,
+      center: !1,
+      dots: !1,
+      nav: 1,
+      navText: [
+        '<i class="bi bi-chevron-left"></i>',
+        '<i class="bi bi-chevron-right"></i>',
+      ],
+      responsive: {
+        0: { items: 1 },
+        992: { items: 1 },
+      },
+    }),
     a(".placement_01").owlCarousel({
       autoplay: true,
       autoplayTimeout: 2e3,
@@ -67,6 +85,27 @@
         576: { items: 2 },
         768: { items: 3 },
         992: { items: 5 },
+      },
+    }),
+    a(".testimonial-carousel").owlCarousel({
+      autoplay: true,
+      autoplayTimeout: 2e3,
+      smartSpeed: 500,
+      margin: 25,
+      loop: !0,
+      center: !1,
+      dots: !1,
+      nav: !1,
+      rtl: true,
+      navText: [
+        '<i class="bi bi-chevron-left"></i>',
+        '<i class="bi bi-chevron-right"></i>',
+      ],
+      responsive: {
+        0: { items: 1 },
+        576: { items: 1 },
+        768: { items: 2 },
+        992: { items: 2 },
       },
     }),
     a(".placement_02").owlCarousel({
@@ -132,12 +171,12 @@
     }),
     $(".gallery_carousel_01")
       .owlCarousel({
-        autoplay: true, // Enable auto sliding
-        loop: true, // Infinite loop
-        margin: -50, // Space between slides
-        nav: true, // Show navigation arrows
-        dots: false, // Show dots
-        autoplayTimeout: 3000, // 3 seconds per slide
+        autoplay: true,
+        loop: true,
+        margin: -50,
+        nav: true,
+        dots: false,
+        autoplayTimeout: 3000,
         navText: [
           '<i class="bi bi-chevron-left"></i>',
           '<i class="bi bi-chevron-right"></i>',

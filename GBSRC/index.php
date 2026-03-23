@@ -18,7 +18,7 @@
     <!-- Favicon -->
     <link href="images/logo/favicon.ico" loading="lazy" rel="icon">
 
-    <link rel="preload" as="image" href="images/hero/1.jpg" type="image/webp">
+    <link rel="preload" as="image" href="images/hero/1.png" type="image/webp">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -33,7 +33,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel="preload" as="image" href="images/hero/1.jpg" />
+    <link rel="preload" as="image" href="images/hero/1.png" />
 
 
 
@@ -49,8 +49,6 @@
                     <img src="images/logo/1.png" class="hero_logo_01" loading="lazy"
                         alt="">
                 </a>
-                <a href="" class="btn c_btn  fw-normal d-lg-none" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Enquire Now</a>
                 <button type="button" class="navbar-toggler fs_13 me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -58,11 +56,11 @@
                 <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarCollapse">
                     <div class="navbar-nav">
                         <a href="#about-us" class="nav-item nav-link">About Us</a>
-                        <a href="#key-highlights" class="nav-item nav-link">Key Highlights</a>
-                        <a href="#Program" class="nav-item nav-link">Program</a>
-                        <a href="#testimonals" class="nav-item nav-link">Testimonials</a>
-                        <a href="#placement" class="nav-item nav-link">Placement</a>
+                        <a href="#Program" class="nav-item nav-link">Program Offered</a>
+                        <a href="#recruiters" class="nav-item nav-link">Recruiters</a>
+                        <a href="#success-stories" class="nav-item nav-link">Success Stories</a>
                         <a href="#gallery" class="nav-item nav-link">Life@DPU</a>
+                        <a href="#why-choose" class="nav-item nav-link">Why Choose Us?</a>
                         <div class="d-lg-block mt-3 mt-lg-0">
                             <a href="" class="btn c_btn py-2 px-3" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">Enquire Now</a>
@@ -77,7 +75,7 @@
         <!-- Topbar End -->
         <section class="position-relative d-lg-block d-none hero_section text-center" data-bs-toggle="modal"
             data-bs-target="#exampleModal">
-            <img src="images/hero/1.jpg" class="img-fluid" alt="Alard University Legacy In Education since 1999">
+            <img src="images/hero/1.png" class="vw-100" alt="">
             <div class="container banner_text">
                 <div class="row align-items-center">
                 </div>
@@ -88,33 +86,34 @@
             <div class="container">
                 <div class="row ">
                     <!-- Display the image -->
-                    <img src="images/hero/1.jpg" alt="Hero Image" class="hero_mobile" />
+                    <img src="images/hero/01.png" alt="Hero Image" class="hero_mobile" />
                 </div>
             </div>
         </section>
 
-        <!---USP start--->
-        <section class="px-lg-5 pt-2  ">
+        <!---Stats start--->
+        <section class="pt-2  ">
             <div class="container px-lg-0">
                 <div class="row justify-content-center pt-3 mb-4">
                     <?php
-                    $b = array("Highest CTC (LPA)", "Average CTC (LPA)", "Highest stipend per month (Internship)", "Placements");
-                    $c = array( "21LPA ", "7", "30,000", "86.61%");
+                    $a = array( "1", "2", "3", "4");
+                    $b = array("Highest CTC", "Average CTC", "Highest stipend per month (Internship)", "Placements");
+                    $c = array( "21LPA ", "7LPA", "30,000", "86.61%");
 
                     for ($i=0; $i < count($b); $i++) {
                 ?>
-                    <div class="col-lg-3 col-6 mb-4 mb-lg-1 d-grid ">
-                        <div class="d-flex align-items-stretch   usp_01 bg-red">
-                            <div class=" ps-3">
-                                <h6 class=" rank text-light fw-bold pb-4 "><?= $c[$i]; ?></h6>
-                                <p class="text-light h6"><?= $b[$i]; ?></p>
+                    <div class="col-lg-3 col-6 d-grid mb-4">
+                        <div class="d-flex align-items-stretch  justify-content-center  usp_01 bg-red">
+                            <div class="text-center">
+                                <img src="images/stat/<?= $a[$i]; ?>.png" alt="">
+                                <h6 class="text-light fw-bold py-2 mb-0 h4"><?= $c[$i]; ?></h6>
+                                <p class="text-light pb-0"><?= $b[$i]; ?></p>
                             </div>
                         </div>
                     </div>
                     <?php 
                 }
                  ?>
-                 <div class="text-end"><p>*Data from AGI</p></div>
                 </div>
             </div>
         </section>
@@ -138,16 +137,16 @@
                         </div>
                         <div class="row pe-lg-5 mt-md-5 mt-3  justify-content-lg-end justify-content-center">
                             <div class="col-lg-12 ">
-                                <h2 class="text-red fw-normal mb-4 display-6 title">Awards & Achievements </h2>
+                                <h2 class="text-red fw-normal display-6 title">Awards & Achievements </h2>
                             </div>
 
                             <div
                                 class="row awards_01 pt-lg-4 pb-lg-0 py-4 owl-carousel justify-content-center text-center">
                                 <?php
-                                for ($i=1; $i < 5; $i++) {
+                                for ($i=0; $i < 4; $i++) {
                                 ?>
                                     <div class="rounded-3 py-3 border box_shadow mx-3">
-                                        <img src="images/awards/<?= $i++;?>.png" loading="lazy"
+                                        <img src="images/awards/<?= $i+1;?>.jpg" loading="lazy"
                                             class="w-100" alt="">
                                     </div>
                                 <?php
@@ -171,368 +170,20 @@
                 </div>
             </div>
         </section>
-        <!-- ---------------------------------------------------------------------------------------------------- -->
-
-
-
-        <!---Program Highlights and Advantages start--->
-        <section class="py-5 pb-lg-0 " id="key-highlights">
-            <div class="container bg-white rounded-3 px-lg-5 py-5 pt-lg-5 ">
-                <div class="row align-item-center">
-                    <div class="col-lg-8 order-2 order-lg-1 ">
-                        <h2 class="text-red fw-normal mb-4 display-5 title">Your Path to Success: Program Highlights
-                            that Matters a lot</h2>
-
-                        <!-- Row for the boxes -->
-                        <div class="row your_path">
-                            <?php
-    $yourPath = [
-        [
-            "img" => "1",
-            "title" => "25+ Legacy of Education since 1999",
-            "text_class" => "text-light",
-            "box_class" => ""
-        ],
-        [
-            "img" => "2",
-            "title" => "Student-Focused Learning Environment",
-            "text_class" => "text-red",
-            "box_class" => "box_003"
-        ],
-        [
-            "img" => "3",
-            "title" => "Modern Infrastructure & Research-Oriented  Ecosystem",
-            "text_class" => "text-red",
-            "box_class" => "box_003"
-        ],
-        [
-            "img" => "4",
-            "title" => "Top-Notch Faculty from Premier Institutions",
-            "text_class" => "text-light",
-            "box_class" => "keyhigh"
-        ],
-        [
-            "img" => "5",
-            "title" => "Holistic Learning: Academics + Skills + Personality Growth",
-            "text_class" => "text-light",
-            "box_class" => ""
-        ],
-        [
-            "img" => "6",
-            "title" => "Strategic Location in Pune’s IT & Education Hub",
-            "text_class" => "text-red",
-            "box_class" => "box_003"
-        ],
-        [
-            "img" => "7",
-            "title" => "Active Student Clubs, Events, and Leadership Opportunities",
-            "text_class" => "text-red",
-            "box_class" => "box_003"
-        ],
-        [
-            "img" => "8",
-            "title" => "Strong Alumni Network Across India & Abroad",
-            "text_class" => "text-light",
-            "box_class" => "keyhigh"
-        ]
-    ];
-
-    foreach ($yourPath as $index => $item): ?>
-                            <div class="col-lg-6 col-sm-6 mb-4 ">
-                                <div class="border rounded py-4 p-3 <?= $item['box_class']; ?>">
-                                    <div class="d-lg-flex align-items-center">
-                                        <img src="images/highlights/<?= $item['img']; ?>.webp" loading="lazy"
-                                            class="your_path_img">
-                                        <h6 class="h5 <?= $item['text_class']; ?> ps-lg-3 pt-3 pt-lg-0">
-                                            <?= $item['title']; ?>
-                                        </h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <?php endforeach; ?>
-                        </div>
-
-
-                    </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0 order-1 order-lg-2 bg_applynew d-none d-md-block"
-                        data-bgimg="images/highlights/g1.webp">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-        <!-- ----------------------------------------------------------------------------------------------------------- -->
-            <?php include 'test.php';?>
-        <!-- ----------------------------------------------------------------------------------------------------------- -->
-
+        
         <!-- ----------------------------------------------------------------------------------------------------------- -->
         <section class="py-lg-5 pb-5 " id="Program">
             <?php include 'program.php';?>
         </section>
-        <!-- ----------------------------------------------------------------------------------------------------------- -->
-        <section class=" pb-5  rounded-0 ">
-            <div class="container mt-3 mt-lg-0 px-lg-2">
-                <div class="row rounded-3 bg-yellow">
-                    <!-- ============== background image for pc ============= -->
-                    <div class="col-lg-6  d-lg-block d-none  bg_apply " data-bgimg="images/banners/1.webp"
-                        alt="">
-                    </div>
-                    <!-- ============== image for mobile ============= -->
-                    <div class="col-lg-6 d-lg-none px-0">
-                        <img src="images/banners/1.webp" class="unlock_01"
-                            alt="" loading="lazy" alt="">
-                    </div>
-
-                    <div class="col-lg-6  py-5 px-lg-5">
-                        <div class="py-lg-5 text-lg-end">
-                            <h2 class=" text-light fw-normal mb-4 display-5 title_01">Lorem ipsum dolor, sit amet  <br>consectetur adipisicing elit. Quod lab</h2>
-                            <a class="btn c_btn ms-md-4 py-2 px-4 fs-6 fw-bold" type="button" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal" style="border: 1px solid #fff">Apply Now&nbsp;
-                                <i aria-hidden="true" class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ----------------------------------------------------------------------------------------------------------- -->
-
-        <!--Scholarship-->
-        <section id="scholarship" class="py-lg-5 py-sm-5 d-none" style="background-color: #F3F2F4;">
-            <div class="container bg-white rounded-3 py-5">
-                <!-- Section Title -->
-                <div class="row border-bottom justify-content-between align-items-center mb-4">
-                    <div class="col-lg-7">
-                        <h2 class="text-red fw-normal mb-4 display-5 title">Scholarships at ALARD University Pune
-                        </h2>
-                    </div>
-                    <div class="col-lg-5 mb-3 mb-lg-0">
-                        <h5 class="text-muted text-lg-end subtitle">
-                            Explore scholarships designed to empower excellence and support deserving students.
-                        </h5>
-                    </div>
-                </div>
-
-                <!-- Scholarship Section - Mobile -->
-                <div class="row d-flex d-lg-none">
-                    <?php 
-                // Scholarship Data
-                $scholarships = [
-                    [
-                        'title' => "DR. L. R. YADAV CHANCELLOR'S SCHOLARSHIP - A LEGACY OF EXCELLENCE",
-                        'details' => [
-                            "Top Scholar Award (100% Tuition Fee Waiver)",
-                            "High Achievers Scholarship (75% Tuition Fee Waiver)",
-                            "Academic Excellence Award (50% Tuition Fee Waiver)"
-                        ]
-                    ],
-                    [
-                        'title' => "School-Specific Scholarship (25% Tuition Fee Waiver)",
-                        'details' => [
-                            "School of Engineering & Technology (Innovators Scholarship) / (Women in Tech Scholarship)",
-                            "School of Business Management (Entrepreneurial Spirit Award) / (Young Leaders Scholarship)",
-                            "School of Pharmacy (Pharma Research Scholarship) / (Healthcare Service Scholarship)",
-                            "School of Design (Creative Excellence Scholarship) / (Design for Change Scholarship)",
-                            "School of Health & Biosciences (Future Healthcare Leader Award) / (Bioscience Innovation Scholarship)",
-                            "School of Law (Justice for All Scholarship) (Human Rights Advocate Award)",
-                            "School of Interdicilinary Research (Research Pioneers Scholarship) / (Knowledge Integration Award)"
-                        ]
-                        ],
-                    [
-                        'title' => "PROTSAHAN SCHOLARSHIP (20% Tuition Fee Waiver)",
-                        'details' => [
-                            "Financial Assistance Scholarship",
-                            "Underprivileged Community Scholarship",
-                            "Orphan Students"
-                            ]
-                    ],
-                    [
-                        'title' => "Special Scholarship (25% Tuition Fee Waiver)",
-                        'details' => [
-                            "Rakshak Scholarship",
-                            "Khel Scholarship",
-                            "Dhanyawaad Scholarship",
-                            "Vicharo Ki Azadi Scholarship",
-                            "Azadi Ki Sangharsh Scholarship"
-                        ]
-                        ],
-                        [
-                            'title' => "ALARD University Pune Scholarships for AEST (25% Tuition Fee Waiver)",
-                            'details' => []
-                        ],
-                ];
-
-                // Loop through Scholarships
-                foreach ($scholarships as $scholarship) {
-            ?>
-                    <!-- Scholarship Card -->
-                    <div class="col-lg-6 mb-4">
-                        <div class="bg-light rounded-3 shadow-sm p-4 h-100">
-                            <h4 class="text-red mb-3"><?= $scholarship['title']; ?></h4>
-                            <ul class="">
-                                <?php 
-                                foreach ($scholarship['details'] as $detail) {
-                                    echo "<li>$detail</li>";
-                                }
-                            ?>
-                            </ul>
-                        </div>
-                    </div>
-                    <?php } ?>
-                </div>
-
-                <!-- Scholarship Section - Desktop -->
-                <div class="row d-none d-lg-flex">
-                    <?php 
-                // Scholarship Data
-                $scholarships = [
-                    [
-                        'title' => "DR. L. R. YADAV CHANCELLOR'S SCHOLARSHIP - A LEGACY OF EXCELLENCE",
-                        'details' => [
-                            "Top Scholar Award (100% Tuition Fee Waiver)",
-                            "High Achievers Scholarship (75% Tuition Fee Waiver)",
-                            "Academic Excellence Award (50% Tuition Fee Waiver)"
-                        ]
-                    ],
-                    [
-                        'title' => "School-Specific Scholarship (25% Tuition Fee Waiver)",
-                        'details' => [
-                            "School of Engineering & Technology (Innovators Scholarship) / (Women in Tech Scholarship)",
-                            "School of Business Management (Entrepreneurial Spirit Award) / (Young Leaders Scholarship)",
-                            "School of Pharmacy (Pharma Research Scholarship) / (Healthcare Service Scholarship)",
-                            "School of Design (Creative Excellence Scholarship) / (Design for Change Scholarship)",
-                            "School of Health & Biosciences (Future Healthcare Leader Award) / (Bioscience Innovation Scholarship)",
-                            "School of Law (Justice for All Scholarship) (Human Rights Advocate Award)",
-                            "School of Interdicilinary Research (Research Pioneers Scholarship) / (Knowledge Integration Award)"
-                        ]
-                        ],
-                    [
-                        'title' => "PROTSAHAN SCHOLARSHIP (20% Tuition Fee Waiver)",
-                        'details' => [
-                            "Financial Assistance Scholarship",
-                            "Underprivileged Community Scholarship",
-                            "Orphan Students"
-                            ]
-                    ],
-                    [
-                        'title' => "Special Scholarship (25% Tuition Fee Waiver)",
-                        'details' => [
-                            "Rakshak Scholarship",
-                            "Khel Scholarship",
-                            "Dhanyawaad Scholarship",
-                            "Vicharo Ki Azadi Scholarship",
-                            "Azadi Ki Sangharsh Scholarship"
-                        ]
-                        ],
-                        [
-                            'title' => "ALARD University Pune Scholarships for AEST (25% Tuition Fee Waiver)",
-                            'details' => []
-                        ],
-                        [
-                            'title' => "Early Bird Scholarship (25% Tuition Fee Waiver)",
-                            'details' => []
-                        ],
-                ];
-
-                // Loop through Scholarships
-                foreach ($scholarships as $scholarship) {
-                ?>
-                    <!-- Scholarship Card -->
-                    <div class="col-lg-6 mb-4">
-                        <div class="bg-light rounded-3 shadow-sm p-4 h-100">
-                            <h4 class="text-red mb-3"><?= $scholarship['title']; ?></h4>
-                            <ul class="scholarship-details">
-                                <?php 
-                                    foreach ($scholarship['details'] as $index => $detail) {
-                                        // Display the first three lines by default
-                                        $hiddenClass = $index > 2 ? 'd-none' : '';
-                                        echo "<li class='$hiddenClass'>$detail</li>";
-                                    }
-                                ?>
-                            </ul>
-                            <?php if (count($scholarship['details']) > 3): ?>
-                            <!-- View More/Less Button -->
-                            <button class="btn btn-link p-0 view-more-btn" onclick="toggleDetails(this)">View
-                                More</button>
-                            <?php endif; ?>
-                        </div>
-                    </div>
-                    <?php 
-                } 
-                ?>
-                    <script>
-                        function toggleDetails(button) {
-                            const details = button.previousElementSibling.querySelectorAll('.d-none');
-                            if (details.length > 0) {
-                                details.forEach(detail => detail.classList.remove('d-none'));
-                                button.textContent = "View Less";
-                            } else {
-                                const allDetails = button.previousElementSibling.querySelectorAll('li');
-                                allDetails.forEach((detail, index) => {
-                                    if (index > 2) detail.classList.add('d-none');
-                                });
-                                button.textContent = "View More";
-                            }
-                        }
-                    </script>
-
-                </div>
-            </div>
-        </section>
+        
 
 
-
-
-        <!--End-->
-
-        <section class="bg-red" id="placement">
-            <div class="container  pt-5  ">
-                <div class="row border-bottom_02 justify-content-end align-items-center">
-                    <div class="col-lg-7">
-                        <h2 class="text-light fw-normal mb-4 display-5 title">Placement Solutions, <br> Recruiter
-                            Excellence
-                        </h2>
-                    </div>
-                    <div class="col-lg-5 mb-3 mb-lg-0">
-                        <h5 class="text-light text-lg-end subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam nihil odio adipisci, non sit maxime obcaecati</h5>
-                    </div>
-                </div>
-                <div class="row  justify-content-center text-center">
-                    <?php
-                    $a = array( "50 ", "7 ", "650 ","1000 ");
-                    $b = array("Highest Package","Average Package","Companies Visited","Internship Offers");
-                    $d = array( "LPA", "LPA", "+","+");
-                    $e = array( "1", "2", "3","4");
-                    for ($i=0; $i < count($a); $i++) {
-                    ?>
-                    <div class="col-lg-3 col-6 border_01 pt-4 ">
-                        <img src="images/placement/icons/<?= $e[$i];?>.webp" loading="lazy" class="" width="50px"
-                            loading="lazy" alt="">
-                        <div class=" pb-3">
-                            <p class="text-light display-4">
-                                <span class=" mb-0 fw-bold text-light counter-value"><?= $a[$i];?></span><?= $d[$i];?>
-                            </p>
-                            <p class="text-light"><?= $b[$i];?></p>
-                        </div>
-                    </div>
-                    <?php
-                    } 
-                    ?>
-                    <div class="text-white text-end"><p>*Data from AGI</p></div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="pt-5">
+        <!-- recruiters----------------------------------------------------------------------------------------------------------- -->
+        <section class="" id="recruiters">
             <div class="container border-bottom ">
                 <div class="row justify-content-center company">
                     <div class="col-lg-7">
-                        <h2 class="text-red fw-normal mb-4 display-5 title text-center">Partners with top recruiters</h2>
+                        <h2 class="text-red fw-normal mb-4 display-5 title text-center">Partners With Top Recruiters</h2>
                     </div>
                     <div class="col-md-12 placement_01 py-3 owl-carousel justify-content-center text-center m-auto">
                             <?php
@@ -570,44 +221,95 @@
         </section>
 
 
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section class="life-alard-section py-5" id="gallery">
+        <!-- ----------------------------------------------------------------------------------------------------------- -->
+            <?php include 'test.php';?>
+        <!-- ----------------------------------------------------------------------------------------------------------- -->
+
+
+        <!--Life@DPU ------------------------------------------------------------------------------------------------------------------ -->
+        <section class="life-section pt-5" id="gallery">
             <div class="container ">
-                <div class="row justify-content-end align-items-center">
+                <div class="row justify-content-center align-items-center">
                     <div class="col-lg-4">
-                        <h2 class="text-red fw-normal mb-4 display-5 title text-center text-lg-start">Life@DPU</h2>
-                    </div>
-                    <div class="col-lg-8 mb-3 mb-lg-0">
-                        <h5 class="text-mute text-lg-end subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsum quaerat mollitia, corporis illum totam id vitae beatae consequuntur, sed veritatis aliquam inventore dolorum iusto blanditiis quibusdam. Blanditiis, asperiores facere.</h5>
+                        <h2 class="text-red fw-normal mb-2 display-5 title text-center">Life@DPU</h2>
                     </div>
                 </div>
-                <div class="row d-none d-lg-block">
-                    <div class="owl-carousel gallery_carousel_01">
-                        <?php for ($i=0; $i < 3; $i++) {?>
-                        <div class="item"><img src="images/gallary/<?= $i+1;?>.jpg"></div>
+                <div class="row">
+                    <div class="owl-carousel gallery_carousel_01 py-4">
+                        <?php for ($i=0; $i < 8; $i++) {?>
+                        <div class="item"><img src="images/gallary/<?= $i+1;?>.webp" class="gallery-img01" ></div>
                         <?php } ?>
                     </div>
                 </div>
 
-                <div
-                    class="row gallary_01 pt-lg-4 pb-lg-0 py-4 owl-carousel justify-content-center text-center d-lg-none">
-                    <?php for ($i=0; $i < 3; $i++) {?>
-                    <div class="mb-4">
-                        <div class="rounded-3 py-3">
-                            <img src="images/gallary/<?= $i+1;?>.jpg" loading="lazy" class="w-100 " alt="">
-                        </div>
-                    </div>
-                    <?php } ?>
-                </div>
-
             </div>
         </section>
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
 
+        <!-- WHY---------------------------------------------------------------------------------------------------- -->
+        <section class="pb-5 bg-grey01  why_01"id="why-choose">
+            <div class="container" id="why-choose-us">
+                <div class="row  justify-content-center">
+                    <div class="col-lg-12 text-center mb-4">
+                        <h2 class="text-red fw-normal display-5 title text-center">Why Choose Us?</h2>
+                        <h5 class="text-mute text-center subtitle">At GBSRC, we don't just prepare students for jobs. We prepare them for life - as leaders, innovators, and changemakers.</h5>
+                    </div>
+                </div>
+                <div class="row align-item-center justify-content-between">
+                    <div class="col-lg-6 ">
+                        <img src="images/why/01.png" loading="lazy" class="w-100 mb-3 mb-lg-0 rounded" alt="">
+                    </div>
+                    <div class="col-lg-6 d-flex gap-2 flex-column justify-content-between">
+
+                            <?php 
+                            $whyData = [
+                            ["img" => "1", "text" => "Experienced Faculty"],
+                            ["img" => "2", "text" => "Strong Corporate Partnerships"],
+                            ["img" => "3", "text" => "Vibrant Campus Life"],
+                            ["img" => "4", "text" => "Practical Learning"],
+                            ["img" => "5", "text" => "Student-Centric Culture"],
+                            ];
+                            foreach($whyData as $index => $item): ?>
+
+                        <div class="border why_02 position-relative">
+                        <div class="d-flex align-items-center bg-white">
+
+                            <div class="p-2 choose_us_sect position-relative">
+                            <img src="images/why/<?= $item['img']; ?>.png" alt="">
+                            </div>
+
+                            <p class="ps-3 mb-0 fs-6">
+                            <?= $item['text']; ?>
+                            </p>
+
+                        </div>
+                        </div>
+
+                    <?php endforeach; ?>
+
+                    </div>
+                </div>
+        </section>
+
+        <!--CTA ------------------------------------------------------------------------------------------------------------------ -->
+        <section class="bg-white pt-3">
+            <div class="container">
+                <div class="row  bg-img-01  py-5" data-bgimg="images/cta/1.png">
+                    <div class="col-lg-8">
+                        <div class="mb-4">
+                            <h3 class=" text-red display-6">Begin Your Journey To Success With Dr. D.Y. Patil Vidyapeeth, Pune.</h3>
+                        </div>
+                        <button class="btn c_btn py-2 px-4 rounded-pill" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
         <?php include 'footer.php';?>
 
         <a href="#Program" class="btn c_btn rounded-pill d-md-none px-4 left_button">Programs</a>
-        <button type="button" class="btn c_btn  px-4 right_button " data-bs-toggle="modal"
+        <button type="button" class="btn c_btn  px-4 right_button d-lg-none " data-bs-toggle="modal"
             data-bs-target="#exampleModal">Apply Now</button>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog p-0">
@@ -632,7 +334,7 @@
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/zoho.js"></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
 
         <!-- <script src="js/bootstrap.min.js"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

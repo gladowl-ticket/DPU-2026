@@ -6,7 +6,7 @@ include 'data.php';
 <div class="container center_tagline  bg-white rounded-3 pt-lg-5  mt-3 py-4 mt-md-0">
     <div class="row align-items-center d-md-flex d-none">
         <div class="col-md-3">
-            <h2 class=" mb-4 display-5 text-purple title">35+ Industry <br>Centred Programs</h2>
+            <h2 class=" mb-4 display-5 text-red title">Programs Offered</h2>
         </div>
         <div class="col-md-9 specilization_tab">
             <ul class="row nav nav-pills" id="pills-tab" role="tablist">
@@ -38,10 +38,10 @@ include 'data.php';
                         foreach ($ug as $tab => $data):
                             $first = true; // Set the flag to false after the first iteration
                             ?>
-                    <div class="col-md-6 col-lg-3 mb-4 d-grid">
+                    <div class="col-lg-5 mb-4 d-grid">
                         <li class="nav-item d-grid px-3" role="presentation">
                             <button
-                                class="nav-link border rounded-3 px-3 py-5 redirect-button <?= ($data['id'] === "ugTab1") ? 'active' : ''; ?>"
+                                class="nav-link border rounded-3 px-2 py-4 redirect-button <?= ($data['id'] === "ugTab1") ? 'active' : ''; ?>"
                                 id="<?= $data['id']; ?>" data-bs-toggle="pill"
                                 data-bs-target="#<?= $data['targetId']; ?>" type="button" role="tab"
                                 aria-controls="<?= $data['targetId']; ?>"
@@ -50,7 +50,7 @@ include 'data.php';
                                     <div class="d-flex align-items-center">
                                         <img src="images/program/ug/<?= $data['imgSrc']; ?>.png" class="icon"
                                             loading="lazy" alt="<?= $data['course']; ?>">
-                                        <span class="mb-0 ps-3"><?= $data['course']; ?></span>
+                                        <span class="mb-0 ps-3 text-start"><?= $data['course']; ?></span>
                                         <i class="bi bi-arrow-right px-3 arrow d-none"></i>
                                     </div>
                                 </div>
@@ -184,10 +184,10 @@ include 'data.php';
                     <?php 
                     foreach ($pg as $tab => $data):
                         ?>
-                    <div class="col-md-6 col-lg-3 mb-4 d-grid">
+                    <div class="col-lg-5 mb-4 d-grid">
                         <li class="nav-item d-grid px-3" role="presentation">
                             <button
-                                class="nav-link border rounded-3 px-3 py-5 redirect-buttonpg  <?= ($data['id'] === "pgTab1") ? 'active' : ''; ?>"
+                                class="nav-link border rounded-3 px-2 py-4 redirect-buttonpg  <?= ($data['id'] === "pgTab1") ? 'active' : ''; ?>"
                                 id="<?= $data['id']; ?>" data-bs-toggle="pill"
                                 data-bs-target="#<?= $data['targetId']; ?>" type="button" role="tab"
                                 aria-controls="<?= $data['targetId']; ?>"
@@ -331,17 +331,17 @@ include 'data.php';
                     <?php 
                         foreach ($doctorate as $tab => $data):
                             ?>
-                    <div class="col-md-6 col-lg-3 mb-4 d-grid">
+                    <div class="col-lg-5 mb-4 d-grid">
                         <li class="nav-item  d-grid px-3" role="presentation">
                             <button
-                                class="nav-link border rounded-3 px-3 py-5 redirect-buttondoctorate <?= ($data['id'] === "doctorateTab1") ? 'active' : ''; ?>"
+                                class="nav-link border rounded-3 px-2 py-4 redirect-buttondoctorate <?= ($data['id'] === "doctorateTab1") ? 'active' : ''; ?>"
                                 id="<?= $data['id']; ?>" data-bs-toggle="pill"
                                 data-bs-target="#<?= $data['targetId']; ?>" type="button" role="tab"
                                 aria-controls="<?= $data['targetId']; ?>"
                                 aria-selected="<?= ($data['id'] === "doctorateTab1") ? 'true' : 'false'; ?>">
                                 <div class="program_01">
                                     <div class="d-flex align-items-center">
-                                        <img src="images/alard/program/phd/<?= $data['imgSrc']; ?>.png" class="icon"
+                                        <img src="images/program/phd/<?= $data['imgSrc']; ?>.png" class="icon"
                                             loading="lazy" alt="<?= $data['course']; ?>">
                                         <span class="mb-0 ps-3"><?= $data['course']; ?></span>
                                         <i class="bi bi-arrow-right px-3 arrow d-none"></i>
@@ -484,7 +484,7 @@ include 'data.php';
     <!-- ------------------------------------------------------------------------------------------------------------------------------------------- -->
     <div class="row align-items-center d-md-none ">
         <div class="col-12">
-            <h2 class=" mb-lg-4 mb-0 display-5 text-purple title">35+ Industry <br>Centred Programs</h2>
+            <h2 class=" mb-lg-4 mb-0 display-5 text-red title">Programs Offered</h2>
         </div>
         <div class="col-md-12 pt-3  mobilePrograms">
 
@@ -604,26 +604,23 @@ include 'data.php';
                 <?php endforeach; ?>
             </div>
 
-            <h3 class="pb-3 pt-3 doctorate-prog-mob">PhD Programs</h3>
+            <h3 class="pb-3 pt-3">PhD Programs</h3>
             <div class="accordion" id="accordion-containerDoctorateMobile">
-                <?php foreach ($doctorate as $tabKey => $tab): ?>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-<?= $tab['id']; ?>">
-                            <button 
-                                class="accordion-button border rounded-3 collapsed" 
-                                type="button" 
-                                data-bs-toggle="collapse" 
-                                data-bs-target="#collapse-<?= $tab['id']; ?>" 
-                                aria-expanded="false" 
-                                aria-controls="collapse-<?= $tab['id']; ?>"> 
-                                <img src="images/program/phd/<?= $tab['imgSrc']; ?>.png" 
-                                                    class="icon" 
-                                                    loading="lazy" 
-                                                    height="40" width="40"
-                                                    alt="<?= $tab['course']; ?>">
-                                <p class="mb-0 ps-3"><?= $tab['course']; ?> </p>
-                            </button>
-                        </h2>
+                <?php foreach ($doctorate as $tabKey => $tab):
+                ?>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-<?= $tab['id']; ?>">
+                        <button class="accordion-button border rounded-3 collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse-<?= $tab['id']; ?>"
+                            aria-expanded="false" aria-controls="collapse-<?= $tab['id']; ?>">
+                            <img src="images/program/phd/<?= $tab['imgSrc']; ?>.png" class="icon" loading="lazy"
+                                height="40" width="40" alt="<?= $tab['course']; ?>">
+                            <p class="mb-0 ps-3"><?= $tab['course']; ?> </p>
+
+                        </button>
+                    </h2>
+                    <div id="collapse-<?= $tab['id']; ?>" class="accordion-collapse collapse"
+                        data-bs-parent="#accordion-containerDoctorateMobile" aria-labelledby="heading-<?= $tab['id']; ?>">
                         <div class="accordion-body">
                             <!-- Overview -->
                             <h3>Overview</h3>
@@ -661,6 +658,7 @@ include 'data.php';
                                 data-bs-target="#exampleModal">Enquire Now</a>
                         </div>
                     </div>
+                </div>
                 <?php endforeach; ?>
             </div>
         </div>
