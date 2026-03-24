@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Dy Patil Pune MBA Placement: Best MBA University in Pune</title>
+    <title>Top MBA Colleges in Pune | Dr. D.Y. Patil Vidyapeeth, Pune. MBA Placement</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta
         content=""
@@ -87,6 +87,14 @@
                 <div class="row ">
                     <!-- Display the image -->
                     <img src="images/hero/01.png" alt="Hero Image" class="hero_mobile" />
+                    <div class="col mt-5">
+                        <div class="border rounded-3 text-center pt-3">
+                            <h4 class="border-red_01">Admissions Open 2026-27</h4>
+                            <?php
+                         include 'form_01.php'
+                         ;?>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -128,11 +136,8 @@
                                 <div class="col-lg-12 ">
                                     <h2 class="text-red fw-normal mb-lg-3 mb-0 display-5 title">About Global Business School and Research Centre</h2>
                                 </div>
-                                <div class="col-lg-5 mb-0 ">
-                                    <h5 class="text-mute text-lg-end subtitle"></h5>
-                                </div>
                             </div>
-                            <p align="justify" class="pt-3">Global Business School & Research Centre (GBSRC) situated at Tathawade, Pune is the flagship institute of Dr. D. Y. Patil Vidyapeeth, Pune. It was established in 2006. In a span of 19 years, the Institute has carved a name for itself amongst the top business schools of the country. <br> The idea of setting up this Institute is to offer ‘Management Education’ to aspiring leaders of tomorrow. From this institute, students can pursue their graduate, under graduate and Ph. D. programs in management. GBSRC offers 2 years full time MBA program which is approved by AICTE, Government of India, New Delhi. It also offers 3 years full time BBA program and Ph. D. progamme in management. <br> The main mission of DPU is to groom students who can turn into intelligent leaders. After they pass out of the Institute, they in turn will be able to source information from diverse resources and administer it for the benefit of business and society at large.
+                            <p align="justify" class="pt-3">Global Business School & Research Centre (GBSRC) situated at Tathawade, Pune is the flagship institute of Dr. D. Y. Patil Vidyapeeth, Pune. It was established in 2006. In a span of 19 years, the Institute has carved a name for itself amongst the top business schools of the country. <br> The idea of setting up this Institute is to offer ‘Management Education’ to aspiring leaders of tomorrow. From this institute, students can pursue their graduate, under graduate and Ph. D. programs in management. GBSRC offers 2 years full time MBA program which is approved by AICTE, Government of India, New Delhi. It also offers 3 years full time BBA program and Ph. D. programme in management. <br> The main mission of DPU is to groom students who can turn into intelligent leaders. After they pass out of the Institute, they in turn will be able to source information from diverse resources and administer it for the benefit of business and society at large.
                          </p>
                         </div>
                         <div class="row pe-lg-5 mt-3  justify-content-lg-end justify-content-center">
@@ -141,11 +146,11 @@
                             </div>
 
                             <div
-                                class="row awards_01 pt-lg-4 pb-lg-0 py-4 owl-carousel justify-content-center text-center">
+                                class="col-lg-12 awards_01 pt-lg-4 pb-lg-0 py-4 owl-carousel justify-content-center text-center">
                                 <?php
                                 for ($i=0; $i < 4; $i++) {
                                 ?>
-                                    <div class="rounded-3 py-3 border box_shadow mx-3">
+                                    <div class="rounded-3 py-3 border box_shadow mx-lg-3 mx-2">
                                         <img src="images/awards/<?= $i+1;?>.jpg" loading="lazy"
                                             class="w-100" alt="">
                                     </div>
@@ -156,7 +161,7 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-4 pb-3 pb-lg-0">
+                    <div class="col-lg-4 pb-3 pb-lg-0 d-none d-lg-flex">
                         <div class="border rounded-3 text-center pt-3">
                             <div class="about_logo">
                                 <img src="images/logo/1.png" loading="lazy" alt="">
