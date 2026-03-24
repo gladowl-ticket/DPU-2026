@@ -3,7 +3,7 @@ include 'data.php';
 ?>
 
 
-<div class="container center_tagline  bg-white rounded-3 pt-lg-5  mt-3 py-4 mt-md-0">
+<div class="container center_tagline  bg-white rounded-3 pt-lg-5  mt-3 py-4 mt-lg-0 px-lg-4">
     <div class="row align-items-center d-md-flex d-none">
         <div class="col-md-3">
             <h2 class=" mb-4 display-5 text-red title">Programs Offered</h2>
@@ -86,7 +86,7 @@ include 'data.php';
                                         aria-labelledby="heading-<?= $data['id']; ?>-1"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                            <p><?= $data['overview']; ?></p>
+                                            <?= $data['overview']; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@ include 'data.php';
                                         aria-labelledby="heading-<?= $data['id']; ?>-4"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                            <p><?= $data['ranking']; ?></p>
+                                            <?= $data['ranking']; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -161,7 +161,7 @@ include 'data.php';
                                         aria-labelledby="heading-<?= $data['id']; ?>-4"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                            <p><?= $data['duration']; ?></p>
+                                           <?= $data['duration']; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -231,7 +231,7 @@ include 'data.php';
                                         aria-labelledby="heading-<?= $data['id']; ?>-1"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                            <p><?= $data['overview']; ?></p>
+                                            <?= $data['overview']; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -288,7 +288,7 @@ include 'data.php';
                                         aria-labelledby="heading-<?= $data['id']; ?>-4"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                            <p><?= $data['ranking']; ?></p>
+                                            <?= $data['ranking']; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -309,7 +309,7 @@ include 'data.php';
                                         aria-labelledby="heading-<?= $data['id']; ?>-4"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                            <p><?= $data['duration']; ?></p>
+                                            <?= $data['duration']; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -379,7 +379,7 @@ include 'data.php';
                                         aria-labelledby="heading-<?= $data['id']; ?>-1"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                            <p><?= $data['overview']; ?></p>
+                                            <?= $data['overview']; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -457,7 +457,7 @@ include 'data.php';
                                         aria-labelledby="heading-<?= $data['id']; ?>-4"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                            <p><?= $data['duration']; ?></p>
+                                            <?= $data['duration']; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -484,11 +484,11 @@ include 'data.php';
     <!-- ------------------------------------------------------------------------------------------------------------------------------------------- -->
     <div class="row align-items-center d-md-none ">
         <div class="col-12">
-            <h2 class=" mb-lg-4 mb-0 display-5 text-red title">Programs Offered</h2>
+            <h2 class=" mb-lg-4 mb-0 display-5 text-red fw-bold title">Programs Offered</h2>
         </div>
         <div class="col-md-12 pt-3  mobilePrograms">
 
-            <h3 class="pb-3">Undergraduate Programs</h3>
+            <h5 class="pb-3">Undergraduate Programs</h5>
             <div class="accordion" id="accordion-containerUGMobile">
                 <?php foreach ($ug as $tabKey => $tab):
                 ?>
@@ -546,7 +546,7 @@ include 'data.php';
                 <?php endforeach; ?>
             </div>
 
-            <h3 class="pb-3 pt-3">Postgraduate Programs</h3>
+            <h5 class="pb-3 pt-3">Postgraduate Programs</h5>
             <div class="accordion" id="accordion-containerPGMobile">
                 <?php foreach ($pg as $tabKey => $tab):
                 ?>
@@ -604,7 +604,7 @@ include 'data.php';
                 <?php endforeach; ?>
             </div>
 
-            <h3 class="pb-3 pt-3">PhD Programs</h3>
+            <h5 class="pb-3 pt-3">PhD Programs</h5>
             <div class="accordion" id="accordion-containerDoctorateMobile">
                 <?php foreach ($doctorate as $tabKey => $tab):
                 ?>

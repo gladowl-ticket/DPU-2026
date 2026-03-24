@@ -92,9 +92,9 @@
         </section>
 
         <!---Stats start--->
-        <section class="pt-2  ">
-            <div class="container px-lg-0">
-                <div class="row justify-content-center pt-3 mb-4">
+        <section class="pt-5 pb-4">
+            <div class="container">
+                <div class="row justify-content-center">
                     <?php
                     $a = array( "1", "2", "3", "4");
                     $b = array("Highest CTC", "Average CTC", "Highest stipend per month (Internship)", "Placements");
@@ -135,7 +135,7 @@
                             <p align="justify" class="pt-3">Global Business School & Research Centre (GBSRC) situated at Tathawade, Pune is the flagship institute of Dr. D. Y. Patil Vidyapeeth, Pune. It was established in 2006. In a span of 19 years, the Institute has carved a name for itself amongst the top business schools of the country. <br> The idea of setting up this Institute is to offer ‘Management Education’ to aspiring leaders of tomorrow. From this institute, students can pursue their graduate, under graduate and Ph. D. programs in management. GBSRC offers 2 years full time MBA program which is approved by AICTE, Government of India, New Delhi. It also offers 3 years full time BBA program and Ph. D. progamme in management. <br> The main mission of DPU is to groom students who can turn into intelligent leaders. After they pass out of the Institute, they in turn will be able to source information from diverse resources and administer it for the benefit of business and society at large.
                          </p>
                         </div>
-                        <div class="row pe-lg-5 mt-md-5 mt-3  justify-content-lg-end justify-content-center">
+                        <div class="row pe-lg-5 mt-3  justify-content-lg-end justify-content-center">
                             <div class="col-lg-12 ">
                                 <h2 class="text-red fw-normal display-6 title">Awards & Achievements </h2>
                             </div>
@@ -291,7 +291,7 @@
         </section>
 
         <!--CTA ------------------------------------------------------------------------------------------------------------------ -->
-        <section class="bg-white pt-3">
+        <section class="bg-white pt-lg-3 ">
             <div class="container">
                 <div class="row  bg-img-01  py-5" data-bgimg="images/cta/1.png">
                     <div class="col-lg-8">

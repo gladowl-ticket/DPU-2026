@@ -4,7 +4,7 @@
       <div class="col-md-10">
         <h2 class=" mb-4 display-5 text-white title text-center">Our Student’s Success Stories</h2>
       </div>
-      <div class="col-lg-8 mb-2 testimonials_01 py-3 owl-carousel">
+      <div class="col-lg-8 mb-2 testimonials_01 py-lg-3 pt-3 owl-carousel">
 
   <?php
 $testimonials = [
