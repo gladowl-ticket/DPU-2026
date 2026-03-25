@@ -40,38 +40,6 @@ $pg = [
         'specialization' => '<ul>  <li>Marketing Management</li>  <li>Financial Management</li>  <li>Human Resources Management</li>  <li>Hospital and Healthcare Management</li>  <li>Agribusiness Management</li>  <li>Operation & Supply Chain Management Business Analytics</li></ul>',
         'ranking' => '<div> <b>Dr. D. Y. Patil Vidyapeeth, Pimpri, Pune</b>  <ul >    <li><strong>UGC</strong> - Declared as Category - I University under Graded Autonomy Regulations,      2018<br>    </li>    <li><strong>NIRF – 41<sup>st</sup></strong> rank in <strong>University Category</strong>  for the      year 2025<br>    </li>    <li><strong>An <strong>ISO</strong> 9001:2015 and 14001:2015 <strong>Certified          University</strong><br>      </strong></li>  </ul>  <div>    <div>      <div><strong>Global Business School &amp; Research Centre, Tathawade, Pune</strong></div>    </div>  </div>  <div>    <ul >      <li>12<sup>th</sup> rank in Top 50 Private B Schools Under University Program</li>      <li>7<sup>th</sup> rank in Top Private B Schools Under University Program (Zone)</li>      <li>22<sup>nd</sup> rank in Top 50 Private B Schools for Research</li>      <li>9<sup>th</sup> rank in Top Private B Schools for Research (Maharashtra) 12th rank in Top Private B Schools for        Research (West Zone)</li>      <li><strong>National Education Excellence Award – For most promising Academics </strong>amongst the        management institutes in<strong> Maharashtra </strong>for the year 2021 </li>      <li><strong>CSR – Awarded </strong>amongst the<strong> top prominent B-school of India </strong>for        the year 2021, 2022,2023,2024</li>      <li><strong>Best B-School </strong>by<strong> Asian Education Summit </strong>held at Vigyan        Bhavan<strong>, Feb 2020</strong></li>      <li>8<sup>th</sup> Rank : Top Private B Schools in Pune </li>    </ul>  </div></div>',
         'duration' => 'NA',
-    ],
-    'Tab 2' => [
-        'course' => 'Executive MBA',
-        'imgSrc' => '2',
-        'id' => 'pgTab2',
-        'targetId' => 'pgContentTab2',
-        'overview' => '<p>Welcome to the Executive MBA designed for the strategic leader. This is not a traditional degree; it is a 24-month leadership accelerator delivered on weekends to integrate seamlessly with your professional life. <br> We transcend conventional lectures through a sophisticated Andragogy model built on Harvard-style case studies, high-stakes business simulations, and personalized executive coaching. <br>This program is a decisive career intervention, engineered to refine your decision-making for Volatile, Uncertain, Complex, and Ambiguous (VUCA) global environments.</p>',
-        'eligibility' => '<ul>  <li>Recognized Graduation degree (10+2+3 pattern)</li>  <li>Minimum of 3 years full-time post-qualification experience</li>  <li>Two-step selection: Document Verification + Personal Interview</li></ul>',
-        'specialization' => '<ul>
-                            <li>Marketing Management</li>
-                            <li>Business Analytics</li>
-                            <li>Finance</li>
-                            <li>Human Resource</li>
-                            </ul>',
-        'ranking' => 'NA',
-        'duration' => '24 Months'
-    ]
-];
-
-
-// Doctorate ###########################################################################################################################
-$doctorate = [
-        'Tab 1' => [
-        'course' => 'Ph. D.',
-        'imgSrc' => '1',
-        'id' => 'doctorateTab1',
-        'targetId' => 'doctorateContentTab1',
-        'overview' => 'This is a full-time career oriented “Doctorate of Philosophy” Programme in Management. A candidate has to finish the work and submit the thesis within Five years of the registration. On successful completion of the course, the students will be awarded the Ph. D. degree.',
-        'eligibility' => '<ul>  <li>A candidate having passed Post Graduate Degree Examination in Management or Business Administration or Management related subjects with minimum 55% marks from a recognized university.</li>  <li>Application for research in inter-disciplinary areas and from applicants belonging to a faculty or a subject other than the faculty or subject in which the research is proposed to be done and from International students, shall be considered on the basis of the proven ability and aptitude for researcher as evidenced by his/her publications and research work/academics.</li></ul>',
-        'specialization' => '<ul>  <li>Marketing Management</li>  <li>Human Resource Management</li>  <li>Finance Management</li>  <li>Applied Management Sciences</li></ul>',
-        'ranking' => 'NA',
-        'duration' => 'The candidate should submit to the university six-monthly progress report of the thesis duly approved by his guide and the Ph. D. coordinator at the university. A student has to submit the Thesis within 5 years of the registration, after that the registration shall stand cancelled.'
     ]
 ];
 
