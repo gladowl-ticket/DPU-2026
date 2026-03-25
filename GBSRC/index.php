@@ -8,12 +8,8 @@
     <meta charset="utf-8">
     <title>Top MBA Colleges in Pune | Dr. D.Y. Patil Vidyapeeth, Pune. MBA Placement</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta
-        content=""
-        name="keywords">
-    <meta
-        content=""
-        name="description">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
     <!-- Favicon -->
     <link href="images/logo/favicon.ico" loading="lazy" rel="icon">
@@ -46,8 +42,7 @@
         <div class="container px-0">
             <nav class="navbar navbar-expand-lg  navbar-light p-lg-0">
                 <a href="" class="navbar-brand">
-                    <img src="images/logo/1.png" class="hero_logo_01" loading="lazy"
-                        alt="">
+                    <img src="images/logo/1.png" class="hero_logo_01" loading="lazy" alt="">
                 </a>
                 <button type="button" class="navbar-toggler fs_13 me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -72,23 +67,56 @@
     </div>
     <div class="overflow-hidden">
         <!-- ======================================================================================================= -->
-        <!-- Topbar End -->
-        <section class="position-relative d-lg-block d-none hero_section text-center" data-bs-toggle="modal"
+
+        <section class="hero_section px-0 bg-gradient01 d-none d-lg-block" data-bs-toggle="modal"
             data-bs-target="#exampleModal">
-            <img src="images/hero/1.png" class="vw-100" alt="">
-            <div class="container banner_text">
-                <div class="row align-items-center">
+
+            <div class="container py-4">
+                <div class="row justify-content-end">
+                    <div class="col-lg-8 ">
+                        <img src="images/hero/1.png" class="w-100">
+                        <div class="row justify-content-center">
+                            <?php
+                                $a = array( "1", "2", "3", "4");
+                                $b = array("Highest CTC", "Average CTC", "Highest stipend per month (Internship)", "Placements");
+                                $c = array( "21LPA ", "7LPA", "30,000", "86.61%");
+
+                                for ($i=0; $i < count($b); $i++) {
+                                ?>
+                            <div class="col-lg-3 col-6 d-grid mt-4">
+                                <div class="d-flex align-items-stretch  justify-content-center  usp_01 bg-red">
+                                    <div class="text-center">
+                                        <h6 class="text-light fw-bold py-2 mb-0 h1 "><?= $c[$i]; ?></h6>
+                                        <p class="text-light pb-0"><?= $b[$i]; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php 
+                                }
+                                ?>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-none d-lg-block">
+                        <div class="border rounded-3 text-center bg-white pt-3">
+                            <h4 class="">Admissions Open 2026-27</h4>
+                            <?php
+                         include 'form_01.php'
+                         ;?>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class=" d-lg-none d-block position-relative hero_section" data-bs-toggle="modal"
+
+
+        <!--Mobile Hero ---------------------------------------------------------------------------------------------------- -->
+        <section class=" d-lg-none d-block position-relative hero_section bg-gradient01 mb-5" data-bs-toggle="modal"
             data-bs-target="#exampleModal">
             <div class="container">
                 <div class="row ">
-                    <!-- Display the image -->
-                    <img src="images/hero/01.png" alt="Hero Image" class="hero_mobile" />
-                    <div class="col mt-5">
-                        <div class="border rounded-3 text-center pt-3">
+                    <img src="images/hero/01.png" class="hero_img_mobile">
+                    <div class="col-lg-4 pt-4">
+                        <div class="border rounded-3 text-center bg-white pt-3">
                             <h4 class="border-red_01">Admissions Open 2026-27</h4>
                             <?php
                          include 'form_01.php'
@@ -96,138 +124,122 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!---Stats start--->
-        <section class="pt-5 pb-4">
-            <div class="container">
                 <div class="row justify-content-center">
-                    <?php
-                    $a = array( "1", "2", "3", "4");
-                    $b = array("Highest CTC", "Average CTC", "Highest stipend per month (Internship)", "Placements");
-                    $c = array( "21LPA ", "7LPA", "30,000", "86.61%");
+                            <?php
+                                $a = array( "1", "2", "3", "4");
+                                $b = array("Highest CTC", "Average CTC", "Highest stipend per month (Internship)", "Placements");
+                                $c = array( "21LPA ", "7LPA", "30,000", "86.61%");
 
-                    for ($i=0; $i < count($b); $i++) {
-                ?>
-                    <div class="col-lg-3 col-6 d-grid mb-4">
-                        <div class="d-flex align-items-stretch  justify-content-center  usp_01 bg-red">
-                            <div class="text-center">
-                                <img src="images/stat/<?= $a[$i]; ?>.png" alt="">
-                                <h6 class="text-light fw-bold py-2 mb-0 h4"><?= $c[$i]; ?></h6>
-                                <p class="text-light pb-0"><?= $b[$i]; ?></p>
+                                for ($i=0; $i < count($b); $i++) {
+                                ?>
+                            <div class="col-lg-3 col-6 d-grid mt-4">
+                                <div class="d-flex align-items-stretch  justify-content-center  usp_01 bg-red">
+                                    <div class="text-center">
+                                        <h6 class="text-light fw-bold py-2 mb-0 h1 "><?= $c[$i]; ?></h6>
+                                        <p class="text-light pb-0"><?= $b[$i]; ?></p>
+                                    </div>
+                                </div>
                             </div>
+                            <?php 
+                                }
+                                ?>
                         </div>
-                    </div>
-                    <?php 
-                }
-                 ?>
-                </div>
             </div>
         </section>
+
         <!-- ---------------------------------------------------------------------------------------------------- -->
 
         <section class="" id="about-us">
-            <div class="container bg-white  rounded-3 pt-3">
+            <div class="container bg-white  rounded-3 py-5">
                 <div class="row  py-4 px-3">
-                    <div class="col-lg-8">
-                        <div class="row justify-content-lg-between">
-                            <div class="col-12 align-items-center border-bottom_01">
-                                <div class="col-lg-12 ">
-                                    <h2 class="text-red fw-normal mb-lg-3 mb-0 display-5 title">About Global Business School and Research Centre</h2>
-                                </div>
-                            </div>
-                            <p align="justify" class="pt-3">Global Business School & Research Centre (GBSRC) situated at Tathawade, Pune is the flagship institute of Dr. D. Y. Patil Vidyapeeth, Pune. It was established in 2006. In a span of 19 years, the Institute has carved a name for itself amongst the top business schools of the country. <br> The idea of setting up this Institute is to offer ‘Management Education’ to aspiring leaders of tomorrow. From this institute, students can pursue their graduate, under graduate and Ph. D. programs in management. GBSRC offers 2 years full time MBA program which is approved by AICTE, Government of India, New Delhi. It also offers 3 years full time BBA program and Ph. D. programme in management. <br> The main mission of DPU is to groom students who can turn into intelligent leaders. After they pass out of the Institute, they in turn will be able to source information from diverse resources and administer it for the benefit of business and society at large.
-                         </p>
+                    <div class="col-12 align-items-center border-bottom_01">
+                        <div class="col-lg-12 ">
+                            <h2 class="text-red fw-normal mb-lg-3 mb-0 display-5 title">About Global Business School and
+                                Research Centre</h2>
                         </div>
-                        <div class="row pe-lg-5 mt-3  justify-content-lg-end justify-content-center">
-                            <div class="col-lg-12 ">
-                                <h2 class="text-red fw-normal display-6 title">Awards & Achievements </h2>
-                            </div>
+                    </div>
+                    <p align="justify" class="pt-3">Global Business School & Research Centre (GBSRC) situated at
+                        Tathawade, Pune is the flagship institute of Dr. D. Y. Patil Vidyapeeth, Pune. It was
+                        established in 2006. In a span of 19 years, the Institute has carved a name for itself amongst
+                        the top business schools of the country. <br> The idea of setting up this Institute is to offer
+                        ‘Management Education’ to aspiring leaders of tomorrow. From this institute, students can pursue
+                        their graduate, under graduate and Ph. D. programs in management. GBSRC offers 2 years full time
+                        MBA program which is approved by AICTE, Government of India, New Delhi. It also offers 3 years
+                        full time BBA program and Ph. D. programme in management. <br> The main mission of DPU is to
+                        groom students who can turn into intelligent leaders. After they pass out of the Institute, they
+                        in turn will be able to source information from diverse resources and administer it for the
+                        benefit of business and society at large.
+                    </p>
+                </div>
+                <div class="row  py-4 px-3 mt-3  justify-content-lg-end justify-content-center">
+                    <div class="col-lg-12 ">
+                        <h2 class="text-red fw-normal display-6 title">Awards & Achievements </h2>
+                    </div>
 
-                            <div
-                                class="col-lg-12 awards_01 pt-lg-4 pb-lg-0 py-4 owl-carousel justify-content-center text-center">
-                                <?php
+                    <div
+                        class="col-lg-12 awards_01 py-4 owl-carousel justify-content-center text-center">
+                        <?php
                                 for ($i=0; $i < 4; $i++) {
                                 ?>
-                                    <div class="rounded-3 py-3 border box_shadow mx-lg-3 mx-2">
-                                        <img src="images/awards/<?= $i+1;?>.jpg" loading="lazy"
-                                            class="w-100" alt="">
-                                    </div>
-                                <?php
+                        <div class="rounded-3 py-3 border box_shadow mx-lg-3 mx-2">
+                            <img src="images/awards/<?= $i+1;?>.jpg" loading="lazy" class="w-100" alt="">
+                        </div>
+                        <?php
                                 } 
                                 ?>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4 pb-3 pb-lg-0 d-none d-lg-flex">
-                        <div class="border rounded-3 text-center pt-3">
-                            <div class="about_logo">
-                                <img src="images/logo/1.png" loading="lazy" alt="">
-                            </div>
-                            <h4 class="border-red_01">Admissions Open 2026-27</h4>
-                            <?php
-                         include 'form_01.php'
-                         ;?>
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <!-- ----------------------------------------------------------------------------------------------------------- -->
         <section class="py-lg-5 pb-5 " id="Program">
             <?php include 'program.php';?>
         </section>
-        
+
 
 
         <!-- recruiters----------------------------------------------------------------------------------------------------------- -->
-        <section class="" id="recruiters">
-            <div class="container border-bottom ">
+        <section class="mb-5 " id="recruiters">
+            <div class="container border-bottom bg-white py-5">
                 <div class="row justify-content-center company">
                     <div class="col-lg-7">
-                        <h2 class="text-red fw-normal mb-4 display-5 title text-center">Partners With Top Recruiters</h2>
+                        <h2 class="text-red fw-normal mb-4 display-5 title text-center">Partners With Top Recruiters
+                        </h2>
                     </div>
                     <div class="col-md-12 placement_01 py-3 owl-carousel justify-content-center text-center m-auto">
-                            <?php
+                        <?php
                             
                             $p1 = ["1", "2", "3","4", "5", "6", "7", "8", "9", "10", "11",  "12", "13", "14", "15"];
                             for ($i=1; $i < count($p1); $i++) {
                             ?>
-                            <div class=" company_01  ">
-                                <img src="images/placement/<?= $p1[$i];?>.png" loading="lazy" class=""
-                                    alt="">
-                            </div>
-                            <?php
+                        <div class=" company_01  ">
+                            <img src="images/placement/<?= $p1[$i];?>.png" loading="lazy" class="" alt="">
+                        </div>
+                        <?php
                             } 
                             ?>
                     </div>
 
                     <div class="col-md-12 placement_02 py-3 owl-carousel justify-content-center text-center m-auto">
-                            <?php
+                        <?php
                             $p2 = ["16", "17", "18", "19", "20", "21","22", "23", "24", "25","26", "27", "28", "29", "30"];
                             for ($i=1; $i < count($p2); $i++) {
                             ?>
-                            <div class=" company_01  ">
-                                <img src="images/placement/<?= $p2[$i];?>.png" loading="lazy" class=""
-                                    alt="">
-                            </div>
-                            <?php
+                        <div class=" company_01  ">
+                            <img src="images/placement/<?= $p2[$i];?>.png" loading="lazy" class="" alt="">
+                        </div>
+                        <?php
                             } 
                             ?>
                     </div>
-                </div>
-                <div class="row text-center pt-4">
-                    <h1 class="mb-0 university-text">Dr. D.Y. Patil Vidyapeeth, Pune</h1>
                 </div>
             </div>
         </section>
 
 
         <!-- ----------------------------------------------------------------------------------------------------------- -->
-            <?php include 'testimonials.php';?>
+        <?php include 'test.php';?>
         <!-- ----------------------------------------------------------------------------------------------------------- -->
 
 
@@ -242,7 +254,7 @@
                 <div class="row">
                     <div class="owl-carousel gallery_carousel_01 py-4">
                         <?php for ($i=0; $i < 8; $i++) {?>
-                        <div class="item"><img src="images/gallary/<?= $i+1;?>.webp" class="gallery-img01" ></div>
+                        <div class="item"><img src="images/gallary/<?= $i+1;?>.webp" class="gallery-img01"></div>
                         <?php } ?>
                     </div>
                 </div>
@@ -251,12 +263,13 @@
         </section>
 
         <!-- WHY---------------------------------------------------------------------------------------------------- -->
-        <section class="pb-5 bg-grey01  why_01"id="why-choose">
+        <section class="pb-5 bg-grey01  why_01" id="why-choose">
             <div class="container" id="why-choose-us">
                 <div class="row  justify-content-center">
                     <div class="col-lg-12 text-center mb-4">
                         <h2 class="text-red fw-normal display-5 title text-center">Why Choose Us?</h2>
-                        <h5 class="text-mute text-center subtitle">At GBSRC, we don't just prepare students for jobs. We prepare them for life - as leaders, innovators, and changemakers.</h5>
+                        <h5 class="text-mute text-center subtitle">At GBSRC, we don't just prepare students for jobs. We
+                            prepare them for life - as leaders, innovators, and changemakers.</h5>
                     </div>
                 </div>
                 <div class="row align-item-center justify-content-between">
@@ -265,7 +278,7 @@
                     </div>
                     <div class="col-lg-6 d-flex gap-2 flex-column justify-content-between">
 
-                            <?php 
+                        <?php 
                             $whyData = [
                             ["img" => "1", "text" => "Experienced Faculty"],
                             ["img" => "2", "text" => "Strong Corporate Partnerships"],
@@ -276,20 +289,20 @@
                             foreach($whyData as $index => $item): ?>
 
                         <div class="border why_02 position-relative">
-                        <div class="d-flex align-items-center bg-white">
+                            <div class="d-flex align-items-center bg-white">
 
-                            <div class="p-2 choose_us_sect position-relative">
-                            <img src="images/why/<?= $item['img']; ?>.png" alt="">
+                                <div class="p-2 choose_us_sect position-relative">
+                                    <img src="images/why/<?= $item['img']; ?>.png" alt="">
+                                </div>
+
+                                <p class="ps-3 mb-0 fs-6">
+                                    <?= $item['text']; ?>
+                                </p>
+
                             </div>
-
-                            <p class="ps-3 mb-0 fs-6">
-                            <?= $item['text']; ?>
-                            </p>
-
-                        </div>
                         </div>
 
-                    <?php endforeach; ?>
+                        <?php endforeach; ?>
 
                     </div>
                 </div>
@@ -301,7 +314,8 @@
                 <div class="row  bg-img-01  py-5" data-bgimg="images/cta/1.png">
                     <div class="col-lg-8">
                         <div class="mb-4">
-                            <h3 class=" text-red display-6">Begin Your Journey To Success With Dr. D.Y. Patil Vidyapeeth, Pune.</h3>
+                            <h3 class=" text-red display-6">Begin Your Journey To Success With Dr. D.Y. Patil
+                                Vidyapeeth, Pune.</h3>
                         </div>
                         <button class="btn c_btn py-2 px-4 rounded-pill" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">Apply Now</button>
@@ -309,7 +323,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
         <?php include 'footer.php';?>
 

@@ -20,12 +20,6 @@ include 'data.php';
                         data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
                         aria-selected="false">Postgraduate</button>
                 </li>
-
-                <li class="col nav-item position-relative" role="presentation">
-                    <button class="nav-link red_act" id="pills-phd-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-phd" type="button" role="tab" aria-controls="pills-phd"
-                        aria-selected="false" onclick="doctorateFunction()">Doctorate</button>
-                </li>
             </ul>
         </div>
     </div>
@@ -161,7 +155,7 @@ include 'data.php';
                                         aria-labelledby="heading-<?= $data['id']; ?>-4"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                           <?= $data['duration']; ?>
+                                            <?= $data['duration']; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -274,7 +268,7 @@ include 'data.php';
                                 </div>
                                 <?php endif; ?>
 
-                                
+
                                 <!-- ranking -->
                                 <div class="accordion-item">
                                     <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-4">
@@ -422,7 +416,7 @@ include 'data.php';
                                 </div>
                                 <?php endif; ?>
 
-                                
+
                                 <!-- Specialization -->
                                 <?php if (trim($data['ranking']) !== 'NA'): ?>
                                 <div class="accordion-item">
@@ -526,7 +520,7 @@ include 'data.php';
                             </div>
                             <?php endif; ?>
 
-                            
+
                             <!-- Ranking Criteria -->
                             <h3>Ranking</h3>
                             <div>
@@ -584,65 +578,7 @@ include 'data.php';
                             </div>
                             <?php endif; ?>
 
-                            
-                            <!-- Ranking Criteria -->
-                            <h3>Ranking</h3>
-                            <div>
-                                <?= $tab['ranking']; ?>
-                            </div>
 
-                            <!-- Duration -->
-                            <h3>Duration</h3>
-                            <div>
-                                <ul><?= $tab['duration']; ?></ul>
-                            </div>
-                            <a href="" class="btn c_btn py-2 px-3" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Enquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <?php endforeach; ?>
-            </div>
-
-            <h5 class="pb-3 pt-3">PhD Programs</h5>
-            <div class="accordion" id="accordion-containerDoctorateMobile">
-                <?php foreach ($doctorate as $tabKey => $tab):
-                ?>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading-<?= $tab['id']; ?>">
-                        <button class="accordion-button border rounded-3 collapsed" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#collapse-<?= $tab['id']; ?>"
-                            aria-expanded="false" aria-controls="collapse-<?= $tab['id']; ?>">
-                            <img src="images/program/phd/<?= $tab['imgSrc']; ?>.png" class="icon" loading="lazy"
-                                height="40" width="40" alt="<?= $tab['course']; ?>">
-                            <p class="mb-0 ps-3"><?= $tab['course']; ?> </p>
-
-                        </button>
-                    </h2>
-                    <div id="collapse-<?= $tab['id']; ?>" class="accordion-collapse collapse"
-                        data-bs-parent="#accordion-containerDoctorateMobile" aria-labelledby="heading-<?= $tab['id']; ?>">
-                        <div class="accordion-body">
-                            <!-- Overview -->
-                            <h3>Overview</h3>
-                            <div>
-                                <p><?= $tab['overview']; ?></p>
-                            </div>
-
-                            <!-- Eligibility Criteria -->
-                            <h3>Eligibility Criteria</h3>
-                            <div>
-                                <?= $tab['eligibility']; ?>
-                            </div>
-
-                            <!-- Specialization -->
-                            <?php if (!empty($tab['specialization'])): ?>
-                            <h3>Specialization</h3>
-                            <div>
-                                <p><?= $tab['specialization']; ?></p>
-                            </div>
-                            <?php endif; ?>
-
-                            
                             <!-- Ranking Criteria -->
                             <h3>Ranking</h3>
                             <div>
