@@ -227,7 +227,7 @@
 
 
         <!-- ----------------------------------------------------------------------------------------------------------- -->
-            <?php include 'test.php';?>
+            <?php include 'testimonials.php';?>
         <!-- ----------------------------------------------------------------------------------------------------------- -->
 
 
@@ -349,6 +349,46 @@
             $('[data-bgimg]').each(function () {
                 $(this).css('background-image', 'url(' + $(this).data('bgimg') + ')')
             })
+        </script>
+
+        <script>
+           // Testimonials -----------------------------
+    $(document).ready(function () {
+
+    // Character limit
+    var maxLength = 180;
+
+    $(".testimonial-text").each(function () {
+        var fullText = $(this).html().trim();
+
+        if (fullText.length > maxLength) {
+            var visibleText = fullText.substring(0, maxLength);
+            var hiddenText = fullText.substring(maxLength);
+
+            var html = `
+                ${visibleText}
+                <span class="more-text" style="display:none;">${hiddenText}</span>
+                <a href="javascript:void(0);" class="read-more-btn testimonial_read_more fw-bold">... Read More</a>
+            `;
+
+            $(this).html(html);
+        }
+    });
+
+    // Read More Read Less Toggle
+    $(document).on("click", ".read-more-btn", function () {
+        var moreText = $(this).prev(".more-text");
+
+        if (moreText.is(":visible")) {
+            moreText.hide();
+            $(this).text("... Read More");
+        } else {
+            moreText.show();
+            $(this).text(" Read Less");
+        }
+    });
+
+}); 
         </script>
 
 

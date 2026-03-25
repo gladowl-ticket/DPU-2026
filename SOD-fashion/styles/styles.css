@@ -2863,3 +2863,86 @@ button.splide__arrow.splide__arrow--next {
 .hero-video.loaded {
   opacity: 1;
 }
+
+/* programs section  */
+.design-section {
+  background: #f5f5f5;
+}
+
+/* Heading */
+.section-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/* Banner */
+.banner-wrapper {
+  /* background: #fff; */
+  position: relative;
+}
+
+.banner-left {
+  background: #095c7e;
+  color: #fff;
+  padding: 70px;
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
+
+.banner-left h3 {
+  color: #fbb017;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-left p {
+  margin: 5px 0;
+}
+
+/* Image */
+.banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Program Box */
+.program-box {
+  background: #fff;
+  padding: 40px;
+  border: 2px solid #ccc;
+}
+
+.program-box h5 {
+  font-weight: 700;
+}
+
+/* Labels */
+.label {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.value {
+  font-weight: 600;
+}
+
+/* Divider */
+.border-right-custom {
+  border-right: 1px solid #999;
+}
+.program-img {
+  position: absolute;
+  right: 0;
+}
+.program-img img {
+  height: 298px;
+}
+
+@media (max-width:767px){
+  .banner-left {
+  background: #095c7e;
+  color: #fff;
+  padding: 20px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+}
