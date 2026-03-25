@@ -132,25 +132,14 @@
     </nav>
   </header>
 
+
   <!-- Hero ===================== -->
-
   <div class="hero-section position-relative" id="home">
-
-    <video id="heroVideo" autoplay muted loop playsinline poster="./video/thumbnail.jpg" class="hero-video">
-      <source src="./video/banner.mp4" type="video/mp4">
-    </video>
-
-<script>
-  const video = document.getElementById("heroVideo");
-
-  video.addEventListener("canplay", () => {
-    video.classList.add("loaded");
-  });
-</script>
-
+    <img class="lazyload" data-src="img/hero/1.jpg">
   </div>
 
 
+  <!-- About Istitute ---------------------------------------------------- -->
   <section id="applynow">
     <div class="container pt-4">
       <div class="row flex-wrap-reverse">
@@ -200,6 +189,7 @@
   </section>
 
 
+  <!-- Accolades ---------------------------------------------------- -->
   <section>
     <div class="container">
       <div class="row pb-lg-4">
@@ -238,7 +228,7 @@
     </div>
   </section>
 
-  <!--====== about start ==========-->
+  <!--====== Awards and Ranks ==========-->
   <section class="program_info pb-5">
     <div class="container">
       <div class="row">
@@ -286,10 +276,114 @@
           </div>
         </div>
       </div>
+      
     </div>
   </section>
 
 
+  <!--====== programs section ==========-->
+  <section class="design-section py-5">
+  <div class="container">
+
+    <!-- Heading -->
+    <h2 class="section-title mb-4">
+      Interior Space & Furniture Design
+    </h2>
+
+    <!-- Top Banner -->
+    <div class="row align-items-center banner-wrapper position-relative">
+      <div class="program-img">
+        <img class="lazyload w-100" data-src="img/programs/001.png" >
+      </div>
+      <!-- Left Content -->
+      <div class="col-md-7">
+        <div class="banner-left">
+          <h3>OFFERED IN: B.DES & M.DES</h3>
+
+          <p>Application Open: <strong>26th Oct 2022</strong></p>
+          <p>Exam Accepted: <strong>MIT DAT 2023</strong></p>
+          <p>
+            Collaborations: 
+            <strong>
+              Manchester Metropolitan University, UK | <br>
+              Northumbria University, UK
+            </strong>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Box -->
+    <div class="program-box mt-5">
+      <div class="row">
+
+        <!-- B.DES -->
+        <div class="col-md-6 border-right-custom">
+          <h5>B.DES PROGRAMME</h5>
+
+          <div class="row mt-4">
+            <div class="col-6">
+              <p class="label">Eligibility:</p>
+              <p class="value">10 + 2 (in any discipline)</p>
+            </div>
+
+            <div class="col-6">
+              <p class="label">Duration:</p>
+              <p class="value">2 + 2 years</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- M.DES -->
+        <div class="col-md-6">
+          <h5>M.DES PROGRAMME</h5>
+
+          <div class="row mt-4">
+            <div class="col-6">
+              <p class="label">Eligibility:</p>
+              <p class="value">
+                Bachelor’s Degree in Engineering, Architecture,
+                Industrial Design, Interior Design
+              </p>
+            </div>
+
+            <div class="col-6">
+              <p class="label">Duration:</p>
+              <p class="value">2 years</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row flex-wrap-reverse">
+        <div class="col-lg-6">
+          <div class="">
+            <img src="img/about/1.webp" class="form_logo" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 pr-lg-5 pt-lg-1 pt-5" id="about">
+          <h3 class="title1" id="dpu">About Institute, <br><span>Dr. D. Y. Patil School of Design</span></h3>
+          <p align="justify">Established in 2022, DPU | Dr. D. Y. Patil School of Design enriches the legacy of Dr. D.
+            Y. Patil
+            Vidyapeeth, Pune, with a focus on exceptional design education. Our programs empower students to
+            creatively solve real-world design challenges by blending innovation, technical skill, and design
+            empathy. We offer an AICTE-approved Bachelor of Design with specializations in Fashion Design,
+            Communication Design, Interior Spatial & Furniture, Product Design, UX Design and Animation, and VFX
+            Design. Supported by cutting-edge facilities and guided by experts from premier institutes like NID and
+            IIT, our faculty fosters a dynamic learning environment shaping the institute as best design institutes
+            across India. DPU SOD strives to be a leading hub for design innovation and education, nurturing the
+            next generation of design leaders in India.</p>
+
+        </div>
+        
+      </div>
+
+  </div>
+</section>
+  
+  
+  <!-- WHY DPU, Dr. D. Y. Patil ---------------------------------------------------- -->
   <section class="pb-5 h-5 wow fadeInUp animated" data-wow-duration="1.2s">
     <div class="c-three-columns specia" id="c-three-columns-1" data-anchor="course_career"
       data-component="ThreeColumnsComponent" data-color-title="" data-color-bg="">
@@ -382,537 +476,10 @@
 
   </section>
 
-  <section class="d-lg-none" id="programs">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h3 class="title1">Key Specializations at <span>School of Design</span> </h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 px-lg-1 mb-lg-2 mb-3">
-          <div class="box_for_spec bg-black text-white h-100">
-            <img src="./img/key/1.png" class="w-100 object-contain" alt="">
-            <div class="p-3">
-              <h4 class="">Fashion Design and Communication</h4>
-              <p class="mb-0">B.Des in Fashion Design and Communication</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3  px-lg-1 mb-lg-2 mb-3">
-          <div class="box_for_spec h-100 bg-black text-white">
-            <img src="./img/key/6.png" class="w-100 object-contain" alt="">
-            <div class="p-3">
-              <h4 class="mb-2">Animation and VFX Design</h4>
-              <p class="mb-0">B.Sc. Honours in Animation and VFX Design</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 px-lg-1 mb-lg-2 mb-3 ">
-          <div
-            class="box_for_spec bg-black text-white d-flex flex-column flex-lg-row align-items-lg-center align-items-start justify-content-center">
-            <img src="./img/key/2.png" class="w-lg-60 w-100 object-contain" alt="">
-            <div class="p-3 w-lg-40">
-              <h4 class="mb-2">Communication Design</h4>
-              <p class="mb-0">B.Des in Communication Design</p>
-              <p class="mb-0">M.Des in Communication Design</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 px-lg-1 mb-lg-2 mb-3">
-          <div
-            class="box_for_spec bg-black text-white d-flex flex-column flex-lg-row align-items-lg-center align-items-start justify-content-center">
-            <img src="./img/key/5.png" class="w-lg-42 w-100 object-contain" alt="">
-            <div class="p-3 w-lg-60">
-              <h4>Interior Spatial and Furniture Design</h4>
-              <p>B.Des in Interior Spatial and Furniture Design</p>
-              <div class="border-bottom border-white border-dashed"></div>
-              <h4 class="pt-2">Interior Design</h4>
-              <p class="mb-0">B.Sc. Honours in Interior Design</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 px-lg-1 mb-lg-2 mb-3 add_margin_specilization">
-          <div class="box_for_spec h-100 bg-black text-white">
-            <img src="./img/key/3.png" class="w-100 object-contain" alt="">
-            <div class="p-3">
-              <h4>UI/UX Design</h4>
-              <p class="mb-0">B.Des in UI/UX Design</p>
-              <p class="mb-0">M.Des in UI/UX Design</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 px-lg-1 mb-lg-2 mb-3 add_margin_specilization">
-          <div class="box_for_spec h-100 bg-black text-white">
-            <img src="./img/key/4.png" class="w-100 object-contain" alt="">
-            <div class="p-3">
-              <h4>Product Design</h4>
-              <p class="mb-0">B.Des in Product Design</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="d-lg-block d-none" id="programs">
-    <div class="container">
-      <div class="row " style="margin-bottom:-150px">
-        <div class="col">
-          <h3 class="title1">Specializations <br><span>School of Design</span> </h3>
-        </div>
-      </div>
-      <div class="row">
-        <img src="img/key/bg.png" class="img-fluid" alt="">
-      </div>
-    </div>
-  </section>
-
-  <section class="pb-5 pt-5 admission_sec">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center wow fadeInUp animated" data-wow-duration="1.2s">
-          <h3 class="title1">Program <span>Details</span></h3>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row d-none d-md-block">
-        <div class="col">
-          <ul class="nav nav-pills mb-3 d-flex w-100 justify-content-between" id="pills-tab" role="tablist">
-            <li class="nav-item col-md-4 px-0 text-center border">
-              <a class="nav-link active" id="pills-program-1-tab" data-toggle="pill" href="#pills-program-1" role="tab"
-                aria-controls="pills-program-1" aria-selected="true">Program Specializations</a>
-            </li>
-            <li class="nav-item col-md-4 px-0 text-center border">
-              <a class="nav-link" id="pills-program-2-tab" data-toggle="pill" href="#pills-program-2" role="tab"
-                aria-controls="pills-program-2" aria-selected="false">Intake</a>
-            </li>
-            <li class="nav-item col-md-4 px-0 text-center border">
-              <a class="nav-link" id="pills-program-3-tab" data-toggle="pill" href="#pills-program-3" role="tab"
-                aria-controls="pills-program-3" aria-selected="false">Eligibility</a>
-            </li>
-          </ul>
-          <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane admission_process fade border p-4 show active" id="pills-program-1" role="tabpanel"
-              aria-labelledby="pills-program-1-tab">
-              <div class="bg-gray p-3 mb-3">
-                <h4>Bachelor of Design (B.Des)</h4>
-                <ul class="mb-0">
-                  <li>B.Des in Fashion Design and Communication</li>
-                  <li>B.Des in Interior Spatial and Furniture Design</li>
-                  <li>B.Des in Communication Design</li>
-                  <li>B.Des in UI/UX Design</li>
-                  <li>B.Des in Product Design</li>
-                </ul>
-              </div>
-              <div class="bg-gray p-3 mb-3">
-                <h4>Master of Design (M.Des)</h4>
-                <ul class="mb-0">
-                  <li>M.Des in Communication Design</li>
-                  <li>M.Des in User Experience Design</li>
-                </ul>
-              </div>
-              <div class="bg-gray p-3 mb-3">
-                <h4>Bachelor of Science (B.Sc. Honours)</h4>
-                <ul class="mb-0">
-                  <li>B.Sc. Honours in Interior Design</li>
-                  <li>B.Sc. Honours in Animation and VFX Design</li>
-                </ul>
-              </div>
-
-              <div class="py-2 w-100 bg-teal text-white text-center mb-2">Selection Process</div>
-              <div class="d-flex flex-wrap w-100 align-items-stretch">
-                <div class="col col-lg-4 pl-0">
-                  <div class="bg-gray p-3">
-                    <h4 class="">Part A:</h4>
-                    <p class="mb-0 text-red fw-bolder">DPU All India Design Aptitude Test</p>
-                    <p class="mb-0">Mode - Online Proctored</p>
-                    <p class="mb-0">Time-90 Minutes</p>
-                    <p class="mb-0">Marks - 100</p>
-                  </div>
-                </div>
-                <div class="col col-lg-4 px-0">
-                  <div class="bg-gray p-3">
-                    <h4 class="">Part B:</h4>
-                    <p class="mb-0 text-red fw-bolder">Studio Test - 90 Minutes</p>
-                    <p class="mb-0">Portfolio Submission &</p>
-                    <p class="mb-0">Personal Interview</p>
-                    <p class="mb-0">Marks - 100</p>
-                  </div>
-                </div>
-                <div class="col col-lg-4 pr-0">
-                  <div class="bg-gray p-3 h-stretch">
-                    <p>Meritorious students willl be granted admission to B.Des, M.Des Programme</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane fade" id="pills-program-2" role="tabpanel" aria-labelledby="pills-program-2-tab">
-              <div class="d-flex flex-wrap w-100">
-                <div class="col-6 pl-0 pr-1 mb-1">
-                  <div class="bg-teal text-white py-2 px-4">
-                    <p class="mb-0">B.Des in Fashion Design and Communication</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">30 Seats</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-1 mb-1">
-                  <div class="bg-teal text-white py-2 px-4">
-                    <p class="mb-0">B.Des in Interior Spatial and Furniture Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">30 Seats</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-1 mb-1">
-                  <div class="bg-teal text-white py-2 px-4">
-                    <p class="mb-0">B.Des in Communication Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">30 Seats</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-1 mb-1">
-                  <div class="bg-teal text-white py-2 px-4">
-                    <p class="mb-0">B.Des in UI/UX Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">30 Seats</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-1 mb-1">
-                  <div class="bg-teal text-white py-2 px-4">
-                    <p class="mb-0">B.Des in Product Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">30 Seats</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-1 mb-1">
-                  <div class="bg-teal text-white py-2 px-4">
-                    <p class="mb-0">M.Des in Communication Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">15 Seats</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-1 mb-1">
-                  <div class="bg-teal text-white py-2 px-4">
-                    <p class="mb-0">M.Des in User Experience Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">15 Seats</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-1 mb-1">
-                  <div class="bg-teal text-white py-2 px-4">
-                    <p class="mb-0">B.Sc. Honours in Interior Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">60 Seats</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-1 mb-1">
-                  <div class="bg-teal text-white py-2 px-4">
-                    <p class="mb-0">B.Sc. Honours in Animation and VFX Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">60 Seats</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane fade" id="pills-program-3" role="tabpanel" aria-labelledby="pills-program-3-tab">
-              <div class="py-2 w-100 bg-teal text-white text-start px-3 mb-2">Bachelor of Design (B.Des)
-                <br>
-                <span>Four-years full-time programme approved by AICTE</span>
-              </div>
-              <div class="d-flex flex-wrap w-100">
-                <div class="col-6 pl-0 pr-2 mb-2">
-                  <div class="bg-red text-white py-2 px-4 d-flex flex-column justify-content-center h-100">
-                    <p class="mb-0">B.Des in Fashion Design and Communication</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0 mb-2">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">Candidates must be 10 + 2 from any discipline and from a recognized university or
-                      board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-2 mb-2">
-                  <div class="bg-red text-white py-2 px-4 d-flex flex-column justify-content-center h-100">
-                    <p class="mb-0">B.Des in Interior Spatial and Furniture Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0 mb-2">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">Candidates must be 10 + 2 from any discipline and from a recognized university or
-                      board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-2 mb-2">
-                  <div class="bg-red text-white py-2 px-4 d-flex flex-column justify-content-center h-100">
-                    <p class="mb-0">B.Des in Communication Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0 mb-2">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">Candidates must be 10 + 2 from any discipline and from a recognized university or
-                      board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-2 mb-2">
-                  <div class="bg-red text-white py-2 px-4 d-flex flex-column justify-content-center h-100">
-                    <p class="mb-0">B.Des in UI/UX Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0 mb-2">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">Candidates must be 10 + 2 from any discipline and from a recognized university or
-                      board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-2 mb-2">
-                  <div class="bg-red text-white py-2 px-4 d-flex flex-column justify-content-center h-100">
-                    <p class="mb-0">B.Des in Product Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0 mb-2">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">Candidates must be 10 + 2 from any discipline and from a recognized university or
-                      board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="py-2 w-100 bg-teal text-white text-start px-3 mb-2">Master of Design (M.Des)
-                <br>
-                <span>Two-years full-time program</span>
-              </div>
-              <div class="d-flex flex-wrap w-100">
-                <div class="col-6 pl-0 pr-2 mb-2">
-                  <div class="bg-red text-white py-2 px-4 d-flex flex-column justify-content-center h-100">
-                    <p class="mb-0">M.Des in Communication Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0 mb-2">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">Bachelor's Degree in Fine / Applied Arts, Visual Communication, Media, any other
-                      Communication Design discipline with minimum 50% may apply.</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-2 mb-2">
-                  <div class="bg-red text-white py-2 px-4 d-flex flex-column justify-content-center h-100">
-                    <p class="mb-0">M.Des in User Experience Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0 mb-2">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">Bachelor's Degree in Engineering, Architecture, Industrial Design, Communication
-                      Design, BCA (Computer Application), BSc Computer Science, BSc in Interior & Animation with minimum
-                      50% may apply.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="py-2 w-100 bg-teal text-white text-start px-3 mb-2">Bachelor of Science (B.Sc. Honours)
-                <br>
-                <span>Four-years full-time programme</span>
-              </div>
-              <div class="d-flex flex-wrap w-100">
-                <div class="col-6 pl-0 pr-2 mb-2">
-                  <div class="bg-red text-white py-2 px-4 d-flex flex-column justify-content-center h-100">
-                    <p class="mb-0">B.Sc. Honours in Interior Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0 mb-2">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">Candidates must be 10 + 2 from any discipline and from a recognized university or
-                      board with minimum of 45% for open and minimum of 40% for others. Freshers may also apply.</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-2 mb-2">
-                  <div class="bg-red text-white py-2 px-4 d-flex flex-column justify-content-center h-100">
-                    <p class="mb-0">B.Sc. Honours in Animation and VFX Design</p>
-                  </div>
-                </div>
-                <div class="col-6 pl-0 pr-0 mb-2">
-                  <div class="bg-gray py-2 px-4">
-                    <p class="mb-0">Candidates must be 10 + 2 from any discipline and from a recognized university or
-                      board with minimum of 45% for open and minimum of 40% for others. Freshers may also apply.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="d-md-none" id="programAccordion">
-
-        <!-- Selection Process -->
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h5 class="mb-0">
-              <button class="btn btn-link w-100 text-left" data-toggle="collapse" data-target="#collapseOne">
-                Selection Process
-              </button>
-            </h5>
-          </div>
-
-          <div id="collapseOne" class="collapse show" data-parent="#programAccordion">
-            <div class="card-body">
-
-              <!-- COPY content from #pills-program-1 -->
-              <div class="d-flex flex-wrap admission_process w-100">
-                <div class="col-12 mb-2 px-0">
-                  <div class="bg-gray p-3">
-                    <h4 class="">Part A:</h4>
-                    <p class="mb-0 text-red fw-bolder">DPU All India Design Aptitude Test</p>
-                    <p class="mb-0">Mode - Online Proctored</p>
-                    <p class="mb-0">Time-90 Minutes</p>
-                    <p class="mb-0">Marks - 100</p>
-                  </div>
-                </div>
-
-                <div class="col-12 mb-2 px-0">
-                  <div class="bg-gray p-3">
-                    <h4 class="">Part B:</h4>
-                    <p class="mb-0 text-red fw-bolder">Studio Test - 90 Minutes</p>
-                    <p class="mb-0">Portfolio Submission &</p>
-                    <p class="mb-0">Personal Interview</p>
-                    <p class="mb-0">Marks - 100</p>
-                  </div>
-                </div>
-
-                <div class="col-12 px-0">
-                  <div class="bg-gray p-3">
-                    <p>Meritorious students willl be granted admission to B.Des, M.Des Programme</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Intake -->
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <button class="btn btn-link w-100 text-left collapsed" data-toggle="collapse" data-target="#collapseTwo">
-              Intake
-            </button>
-          </div>
-
-          <div id="collapseTwo" class="collapse" data-parent="#programAccordion">
-            <div class="card-body">
-
-              <!-- COPY content from #pills-program-2 -->
-              <div class="bg-gray p-2 mb-2">B.Des in Fashion Design and Communication - <span
-                  class=" text-red fw-bolder"> 30 Seats</span></div>
-              <div class="bg-gray p-2 mb-2">B.Des in Interior Spatial and Furniture Design - <span
-                  class=" text-red fw-bolder"> 30 Seats</span></div>
-              <div class="bg-gray p-2 mb-2">B.Des in Communication Design - <span class=" text-red fw-bolder"> 30
-                  Seats</span></div>
-              <div class="bg-gray p-2 mb-2">B.Des in UI/UX Design - <span class=" text-red fw-bolder"> 30 Seats</span>
-              </div>
-              <div class="bg-gray p-2 mb-2">B.Des in Product Design - <span class=" text-red fw-bolder"> 30 Seats</span>
-              </div>
-              <div class="bg-gray p-2 mb-2">M.Des in Communication Design - <span class=" text-red fw-bolder"> 15
-                  Seats</span></div>
-              <div class="bg-gray p-2 mb-2">M.Des in User Experience Design - <span class=" text-red fw-bolder"> 15
-                  Seats</span>
-              </div>
-              <div class="bg-gray p-2 mb-2">B.Sc. Honours in Interior Design - <span class=" text-red fw-bolder"> 60
-                  Seats</span></div>
-              <div class="bg-gray p-2 mb-2">B.Sc. Honours in Animation and VFX Design - <span
-                  class=" text-red fw-bolder"> 60 Seats</span></div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Eligibility -->
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <button class="btn btn-link w-100 text-left collapsed" data-toggle="collapse" data-target="#collapseThree">
-              Eligibility
-            </button>
-          </div>
-
-          <div id="collapseThree" class="collapse" data-parent="#programAccordion">
-            <div class="card-body eligibility_data_mob">
-
-              <!-- COPY content from #pills-program-3 -->
-              <div class="bg-gray p-3 mb-2">
-                <h4 class="fw-bold">
-                  Bachelor of Design (B.Des):
-                </h4>
-                <p>
-                  <strong>
-                    Four-years full-time programme approved by AICTE
-                    : </strong> Candidates must be 10 + 2 from any discipline and from a recognized university or board
-                  with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.</p>
-              </div>
-              <div class="bg-gray p-3 mb-2">
-                <h4 class="fw-bold">
-                  M.Des in Communication Design
-                </h4>
-                <p><strong>2 years full-time program: </strong>
-                  Bachelor's Degree in Fine / Applied Arts, Visual Communication, Media, any other Communication Design
-                  discipline with minimum 50% may apply.
-                </p>
-              </div>
-              <div class="bg-gray p-3 mb-2">
-                <h4 class="fw-bold">
-                  M.Des in User Experience Design
-                </h4>
-                <p><strong>2 years full-time program: </strong>
-                  Bachelor's Degree in Engineering, Architecture, Industrial Design, Communication Design, BCA (Computer
-                  Application), BSc Computer Science, BSc in Interior & Animation with minimum 50% may apply.
-                </p>
-              </div>
-              <div class="bg-gray p-3 mb-2">
-                <h4 class="fw-bold">
-                  Bachelor of Science (B.Sc. Honours)
-                </h4>
-                <p><strong>
-                    Four-years full-time programme: </strong> Candidates must be 10 + 2 from any discipline and from a
-                  recognized university or board with a minimum of 45% for Open and minimum of 40% for others. Freshers
-                  may also apply.</p>
-                <p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </section>
 
 
 
-
+  <!-- Different worlds .---------------------------------------------------- -->
   <section class="wow fadeInRight animated" data-wow-duration="1.2s">
 
     <div class="c-content-slider" id="c-content-slider-4" data-component="ContentSliderComponent" data-color-bg="">
@@ -1052,6 +619,7 @@
   </section>
 
 
+  <!-- Association for Design Excellence .---------------------------------------------------- -->
   <section class="py-3 py-md-5 h-5 wow fadeInUp animated" data-wow-duration="1.2s" id="industrial">
     <div class="container">
       <div class="row">
@@ -1147,9 +715,7 @@
   </section>
 
 
-
-
-
+  <!-- Placements & Recruiters.---------------------------------------------------- -->
   <section class="py-3 py-md-5 placements" id="placement">
     <div class="container">
       <div class="row justify-content-center">
@@ -1340,43 +906,6 @@
     </div>
   </section>
 
-  <!-- <section class="placement-section py-5">
-    <div class="container">
-
-      <div class="text-center mb-5">
-        <h3 class="title1 text-center">Industry Interface</h3>
-
-      </div>
-
-      <div class="row p-2" id="">
-        <div class="owl-carousel industryinterface-carousel">
-          <div class="item py-2 mb-3">
-              <img src="img/industryinterface/1.jpg" class="w-100 border" alt="">
-          </div>
-          <div class="item py-2 mb-3">
-              <img src="img/industryinterface/2.jpg" class="w-100 border" alt="">
-          </div>
-          <div class="item py-2 mb-3">
-              <img src="img/industryinterface/3.jpg" class="w-100 border" alt="">
-          </div>
-          <div class="item py-2 mb-3">
-              <img src="img/industryinterface/4.jpg" class="w-100 border" alt="">
-          </div>
-          <div class="item py-2 mb-3">
-              <img src="img/industryinterface/5.jpg" class="w-100 border" alt="">
-          </div>
-          <div class="item py-2 mb-3">
-              <img src="img/industryinterface/6.jpg" class="w-100 border" alt="">
-          </div>
-        </div>
-        
-
-      </div>
-
-      
-
-    </div>
-  </section> -->
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -1419,6 +948,7 @@
     });
   </script>
 
+  <!-- Expressions---------------------------------------------------- -->
   <section class="vaterns-section pb-5" id="expressions">
     <div class="container">
       <h3 class="title1">Expressions</span></h3>
@@ -1535,6 +1065,7 @@
       </div>
     </div>
   </section>
+
   <section class="guest-testi-section">
     <!-- Guest Testi Start -->
 
@@ -1746,6 +1277,7 @@
     <!-- Guest Testi End -->
   </section>
 
+  <!-- Events & Industry Exposure---------------------------------------------------- -->
   <section class="events-section py-5">
     <div class="container">
 
@@ -1843,6 +1375,8 @@
     </div>
   </section>
 
+
+  <!-- CTA ---------------------------------------------------- -->
   <section id="cta">
     <div class="container">
       <div class="cta-section">
@@ -1891,6 +1425,7 @@
       </div>
     </div>
   </footer>
+
   <button class="btn scroll" id="scroll1" style="display: none;"><span style="font-size: 25px;color: white;">
       &#x21c8;</span>
   </button>
