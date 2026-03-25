@@ -682,8 +682,9 @@ span.brownTriangle {
   width: 100%;
 }
 .modal-header .btn-close {
-  margin: 0;
+  /* margin: 0; */
 }
+
 .university-text {
   color: #0000000a;
   font-size: 34px;
@@ -973,8 +974,8 @@ span.brownTriangle {
 .gallery_carousel_01 .owl-nav .owl-prev:hover,
 .testimonials_01 .owl-nav .owl-next:hover,
 .testimonials_01 .owl-nav .owl-prev:hover {
-  background-color: #b79652 !important;
-  color: white;
+  /* background-color: #b79652 !important; */
+  color: rgb(19, 18, 18);
 }
 .gallery_carousel_01 .owl-nav .owl-next:hover img,
 .gallery_carousel_01 .owl-nav .owl-prev:hover img {

@@ -14,11 +14,11 @@
       (b.preventDefault(), a("html, body").animate({ scrollTop: 0 }, "300"));
     }),
     a(".testimonals_01").owlCarousel({
-      autoplay: !0,
+      autoplay: false,
       autoplayTimeout: 2e3,
       smartSpeed: 1e3,
       margin: 25,
-      loop: !0,
+      loop: true,
       center: !1,
       dots: !0,
       nav: !0,
