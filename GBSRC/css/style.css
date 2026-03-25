@@ -1168,3 +1168,12 @@ span.brownTriangle {
   height: 80px;
   object-fit: contain;
 }
+
+
+.testimonial_read_more {
+  color:var(--red)
+}
+
+.testimonial_read_more:hover {
+  color:var(--red)
+}
