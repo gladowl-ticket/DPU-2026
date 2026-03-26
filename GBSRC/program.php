@@ -5,10 +5,10 @@ include 'data.php';
 
 <div class="container center_tagline  bg-white rounded-3 pt-lg-5  mt-3 py-4 mt-lg-0 px-lg-4">
     <div class="row align-items-center d-md-flex d-none">
-        <div class="col-md-3">
+        <div class="col-md-5">
             <h2 class=" mb-4 display-5 text-red title">Programs Offered</h2>
         </div>
-        <div class="col-md-9 specilization_tab">
+        <div class="col-md-7 specilization_tab">
             <ul class="row nav nav-pills" id="pills-tab" role="tablist">
                 <li class="col px-3 position-relative nav-item my-3 my-lg-0" role="presentation">
                     <button class="nav-link red_act active" id="pills-home-tab" data-bs-toggle="pill"

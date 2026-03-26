@@ -117,7 +117,7 @@
                     <img src="images/hero/01.png" class="hero_img_mobile">
                     <div class="col-lg-4 pt-4">
                         <div class="border rounded-3 text-center bg-white pt-3">
-                            <h4 class="border-red_01">Admissions Open 2026-27</h4>
+                            <h4 class="">Admissions Open 2026-27</h4>
                             <?php
                          include 'form_01.php'
                          ;?>
