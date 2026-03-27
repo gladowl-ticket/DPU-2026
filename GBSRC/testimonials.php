@@ -1,5 +1,5 @@
 <!-- Testimonials----------------------------------------------------------------------------------------------------------- -->
-        <section class="bg-grey pb-5" id="testimonals">
+        <section class="bg-grey pb-5" id="success-stories">
             <div class="container rounded-3 px-lg-1 px-0 py-1 ">
                 <div class="row justify-content-end align-items-center">
                     <div class="col-lg-12 text-center">
