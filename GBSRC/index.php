@@ -31,7 +31,13 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="preload" as="image" href="images/hero/1.png" />
 
-
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K69RZTZB');</script>
+<!-- End Google Tag Manager -->
 
 </head>
 
@@ -52,10 +58,10 @@
                     <div class="navbar-nav">
                         <a href="#about-us" class="nav-item nav-link">About Us</a>
                         <a href="#Program" class="nav-item nav-link">Program Offered</a>
+                        <a href="#why-choose" class="nav-item nav-link">Why Choose Us?</a>
                         <a href="#recruiters" class="nav-item nav-link">Recruiters</a>
                         <a href="#success-stories" class="nav-item nav-link">Success Stories</a>
                         <a href="#gallery" class="nav-item nav-link">Life@DPU</a>
-                        <a href="#why-choose" class="nav-item nav-link">Why Choose Us?</a>
                         <div class="d-lg-block mt-3 mt-lg-0">
                             <a href="" class="btn c_btn py-2 px-3" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">Enquire Now</a>
@@ -79,7 +85,7 @@
                             <?php
                                 $a = array( "1", "2", "3", "4");
                                 $b = array("Highest CTC", "Average CTC", "Highest stipend per month (Internship)", "Placements");
-                                $c = array( "21LPA ", "7LPA", "30,000", "86.61%");
+                                $c = array( "25LPA ", "10LPA", "30,000", "90%");
 
                                 for ($i=0; $i < count($b); $i++) {
                                 ?>
@@ -115,35 +121,38 @@
             <div class="container">
                 <div class="row ">
                     <img src="images/hero/01.png" class="hero_img_mobile">
-                    <div class="col-lg-4 pt-4">
-                        <div class="border rounded-3 text-center bg-white pt-3">
-                            <h4 class="">Admissions Open 2026-27</h4>
-                            <?php
+                    <div class="col-lg-4 pt-5">
+                        <div class="border-red rounded-3 text-center bg-white pt-3">
+                    <img src="images/logo/2.png" class="hero_logo_01 mt-50 bg-white rounded-pill" loading="lazy" alt="">
+                            <div class="">
+                                <h4 class="">Admissions Open 2026-27</h4>
+                                <?php
                          include 'form_01.php'
                          ;?>
+                         </div>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                            <?php
+                    <?php
                                 $a = array( "1", "2", "3", "4");
                                 $b = array("Highest CTC", "Average CTC", "Highest stipend per month (Internship)", "Placements");
-                                $c = array( "21LPA ", "7LPA", "30,000", "86.61%");
+                                $c = array( "25LPA ", "10LPA", "30,000", "90%");
 
                                 for ($i=0; $i < count($b); $i++) {
                                 ?>
-                            <div class="col-lg-3 col-6 d-grid mt-4">
-                                <div class="d-flex align-items-stretch  justify-content-center  usp_01 bg-red">
-                                    <div class="text-center">
-                                        <h6 class="text-light fw-bold py-2 mb-0 h1 "><?= $c[$i]; ?></h6>
-                                        <p class="text-light pb-0"><?= $b[$i]; ?></p>
-                                    </div>
-                                </div>
+                    <div class="col-lg-3 col-6 d-grid mt-4">
+                        <div class="d-flex align-items-stretch  justify-content-center  usp_01 bg-red">
+                            <div class="text-center">
+                                <h6 class="text-light fw-bold py-2 mb-0 h1 "><?= $c[$i]; ?></h6>
+                                <p class="text-light pb-0"><?= $b[$i]; ?></p>
                             </div>
-                            <?php 
+                        </div>
+                    </div>
+                    <?php 
                                 }
                                 ?>
-                        </div>
+                </div>
             </div>
         </section>
 
@@ -151,7 +160,7 @@
 
         <section class="" id="about-us">
             <div class="container bg-white  rounded-3 py-5">
-                <div class="row  py-4 px-3">
+                <div class="row px-3">
                     <div class="col-12 align-items-center border-bottom_01">
                         <div class="col-lg-12 ">
                             <h2 class="text-red fw-normal mb-lg-3 mb-0 display-5 title">About Global Business School and
@@ -171,46 +180,155 @@
                         benefit of business and society at large.
                     </p>
                 </div>
-                <div class="row  py-4 px-3 mt-3  justify-content-lg-end justify-content-center">
-                    <div class="col-lg-12 ">
-                        <h2 class="text-red fw-normal display-6 title">Awards & Achievements </h2>
-                    </div>
-
-                    <div
-                        class="col-lg-12 awards_01 py-4 owl-carousel justify-content-center text-center">
-                        <?php
-                                for ($i=0; $i < 4; $i++) {
-                                ?>
-                        <div class="rounded-3 py-3 border box_shadow mx-lg-3 mx-2">
-                            <img src="images/awards/<?= $i+1;?>.jpg" loading="lazy" class="w-100" alt="">
-                        </div>
-                        <?php
-                                } 
-                                ?>
-                    </div>
-                </div>
             </div>
         </section>
 
+        <section>
+            <div class="container bg-white mt-5">
+                
+                <div class="row  py-5 px-3 mt-3  justify-content-lg-end justify-content-center">
+                    <div class="col-lg-12 ">
+                        <h2 class="text-red fw-normal display-6 title text-center">Accreditations and Recognitions</h2>
+                        <div class="col-lg-12 awards_01 pb-4 owl-carousel justify-content-center text-center">
+                            <?php
+                                    for ($i=0; $i < 4; $i++) {
+                                    ?>
+                            <div class="rounded-3 py-3 border box_shadow mx-lg-3 mx-2">
+                                <img src="images/ranking/0<?= $i+1;?>.png" loading="lazy" class="w-100" alt="">
+                            </div>
+                            <?php
+                                    } 
+                                    ?>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 ">
+                        <h2 class="text-red fw-normal display-6 title text-center">Awards & Achievements </h2>
+                        <div class="col-lg-12 awards_01 pb-4 owl-carousel justify-content-center text-center">
+                            <?php
+                                    for ($i=0; $i < 4; $i++) {
+                                    ?>
+                            <div class="rounded-3 py-3 border box_shadow mx-lg-3 mx-2">
+                                <img src="images/awards/<?= $i+1;?>.jpg" loading="lazy" class="w-100" alt="">
+                            </div>
+                            <?php
+                                    } 
+                                    ?>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <!-- ----------------------------------------------------------------------------------------------------------- -->
         <section class="py-lg-5 pb-5 " id="Program">
             <?php include 'program.php';?>
         </section>
 
+        <!-- WHY---------------------------------------------------------------------------------------------------- -->
+        <section class="custom-section pb-5 " id="why-choose">
+            <div class="container ">
+                <div class="row g-4 align-items-center">
 
+                    <!-- LEFT COLUMN -->
+                    <div class="col-lg-4 bg-red pt-2">
+                        <div class="left-box h-100 overlay-content">
+                            <h2 class="fw-bold">WHY DPU, GBSRC</h2>
+
+                            <ul class="list-unstyled mt-4">
+                                <li class="d-flex align-items-top" ><span>1</span> Case based pedagogy for critical thinking and problem solving skills</li>
+                                <li class="d-flex align-items-top" ><span>2</span> Class-room sessions for creating foundation in management concepts</li>
+                                <li class="d-flex align-items-top" ><span>3</span> Summer Internship Projects</li>
+                                <li class="d-flex align-items-top" ><span>4</span> Workshops, seminars and conferences to create awareness about trends in the management world</li>
+                                <li class="d-flex align-items-top" ><span>5</span> Guest lectures to ensure students groom and develop according to industry expectations</li>
+                                <li class="d-flex align-items-top" ><span>6</span> Study tours and industry interface</li>
+                                <li class="d-flex align-items-top" ><span>7</span> Events to develop skills essential in management</li>
+                                <li class="d-flex align-items-top" ><span>8</span> Live projects according to individual competency and skills</li>
+                                <li class="d-flex align-items-top" ><span>9</span> Value addition courses</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- MIDDLE COLUMN -->
+                    <div class="col-lg-4 ps-0">
+                        <div class="middle-box h-100 text-white d-flex align-items-center py-2">
+                            <div class="overlay-content">
+                                <h2>WHY MANAGEMENT COURSES?</h2>
+
+                                <ul class="list-unstyled mt-3">
+                                    <li>› Opens Doors Across Industries</li>
+                                    <li>› Fast-Track Career Growth</li>
+                                    <li>› Builds Strong Business & Leadership Skills</li>
+                                    <li>› Industry-Relevant & Practical Learning</li>
+                                    <li>› Networking Opportunities</li>
+                                    <li>› Entrepreneurial Edge</li>
+                                    <li>› Global Career Opportunities</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT COLUMN -->
+                    <div class="col-lg-4 bg-red py-3">
+                        <div class="right-box h-100 text-center d-flex flex-column justify-content-center">
+                            <h2 class="mb-0">DPU, GBSRC 2026</h2>
+                            <p>(DPU All India Common Entrance Test)</p>
+
+                            <p class="mt-3">Online Proctored Test conducted by Dr. D. Y. Patil Vidyapeeth, PUNE, INDIA
+                                For Admission Selection Process to B.B.A. (Hons), B.Com (Hons), M.B.A</p>
+
+                            <h5 class="mt-3 fw-bold">19th APRIL, 2026</h5>
+                            <div class="d-flex justify-content-center">
+                                <a href="" class="btn c_btn py-2 px-3 rounded-pill border" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">APPLY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------------------------------------------------------------------------------------------------------- -->
+        <section class="mb-5" id="admission-process">
+            <div class="container bg-white rounded-3">
+                <div class="row align-items-center py-4">
+                    <div class="col-lg-12  text-center">
+                        <h2 class=" fw-normal  display-5 title_01 text-red">Admission Process</h2>
+                    </div>
+                    <img src="images/steps/1.png" class="img-fluid d-lg-block d-none" alt="">
+                    <img src="images/steps/2.png" class="img-fluid d-block d-lg-none" alt="">
+                </div>
+            </div>
+        </section>
 
         <!-- recruiters----------------------------------------------------------------------------------------------------------- -->
         <section class="mb-5 " id="recruiters">
             <div class="container border-bottom bg-white py-5">
                 <div class="row justify-content-center company">
                     <div class="col-lg-7">
-                        <h2 class="text-red fw-normal mb-4 display-5 title text-center">Partners With Top Recruiters
+                        <h2 class="text-red fw-normal display-5 title text-center">Partners With Top Recruiters
                         </h2>
                     </div>
+                    
+
+                    <div class="col-md-12 placement_02 py-3 owl-carousel justify-content-center text-center m-auto">
+                        <?php
+                            $p2 = ["1", "2", "3","4", "5", "6", "7", "8", "9"];
+                            for ($i=1; $i < count($p2); $i++) {
+                            ?>
+                        <div class=" company_01  ">
+                            <img src="images/placement/management/<?= $p2[$i];?>.png" loading="lazy" class="bg-gray" alt="">
+                        </div>
+                        <?php
+                            } 
+                            ?>
+                    </div>
+
                     <div class="col-md-12 placement_01 py-3 owl-carousel justify-content-center text-center m-auto">
                         <?php
                             
-                            $p1 = ["1", "2", "3","4", "5", "6", "7", "8", "9", "10", "11",  "12", "13", "14", "15"];
+                            $p1 = ["1", "2", "3","4", "5", "6", "7", "8", "9", "10", "11",  "12", "13", "14", "15","16", "17", "18", "19", "20", "21","22", "23", "24", "25","26", "27", "28", "29", "30"];
                             for ($i=1; $i < count($p1); $i++) {
                             ?>
                         <div class=" company_01  ">
@@ -221,18 +339,6 @@
                             ?>
                     </div>
 
-                    <div class="col-md-12 placement_02 py-3 owl-carousel justify-content-center text-center m-auto">
-                        <?php
-                            $p2 = ["16", "17", "18", "19", "20", "21","22", "23", "24", "25","26", "27", "28", "29", "30"];
-                            for ($i=1; $i < count($p2); $i++) {
-                            ?>
-                        <div class=" company_01  ">
-                            <img src="images/placement/<?= $p2[$i];?>.png" loading="lazy" class="" alt="">
-                        </div>
-                        <?php
-                            } 
-                            ?>
-                    </div>
                 </div>
             </div>
         </section>
@@ -254,7 +360,7 @@
                 <div class="row">
                     <div class="owl-carousel gallery_carousel_01 py-4">
                         <?php for ($i=0; $i < 8; $i++) {?>
-                        <div class="item"><img src="images/gallary/<?= $i+1;?>.webp" class="gallery-img01"></div>
+                        <div class="item"><img src="images/gallery/<?= $i+1;?>.webp" class="gallery-img01"></div>
                         <?php } ?>
                     </div>
                 </div>
@@ -262,51 +368,8 @@
             </div>
         </section>
 
-        <!-- WHY---------------------------------------------------------------------------------------------------- -->
-        <section class="pb-5 bg-grey01  why_01" id="why-choose">
-            <div class="container" id="why-choose-us">
-                <div class="row  justify-content-center">
-                    <div class="col-lg-12 text-center mb-4">
-                        <h2 class="text-red fw-normal display-5 title text-center">Why Choose Us?</h2>
-                        <h5 class="text-mute text-center subtitle">At GBSRC, we don't just prepare students for jobs. We
-                            prepare them for life - as leaders, innovators, and changemakers.</h5>
-                    </div>
-                </div>
-                <div class="row align-item-center justify-content-between">
-                    <div class="col-lg-6 ">
-                        <img src="images/why/01.png" loading="lazy" class="w-100 mb-3 mb-lg-0 rounded" alt="">
-                    </div>
-                    <div class="col-lg-6 d-flex gap-2 flex-column justify-content-between">
 
-                        <?php 
-                            $whyData = [
-                            ["img" => "1", "text" => "Experienced Faculty"],
-                            ["img" => "2", "text" => "Strong Corporate Partnerships"],
-                            ["img" => "3", "text" => "Vibrant Campus Life"],
-                            ["img" => "4", "text" => "Practical Learning"],
-                            ["img" => "5", "text" => "Student-Centric Culture"],
-                            ];
-                            foreach($whyData as $index => $item): ?>
 
-                        <div class="border why_02 position-relative">
-                            <div class="d-flex align-items-center bg-white">
-
-                                <div class="p-2 choose_us_sect position-relative">
-                                    <img src="images/why/<?= $item['img']; ?>.png" alt="">
-                                </div>
-
-                                <p class="ps-3 mb-0 fs-6">
-                                    <?= $item['text']; ?>
-                                </p>
-
-                            </div>
-                        </div>
-
-                        <?php endforeach; ?>
-
-                    </div>
-                </div>
-        </section>
 
         <!--CTA ------------------------------------------------------------------------------------------------------------------ -->
         <section class="bg-white pt-lg-3 ">
@@ -314,8 +377,7 @@
                 <div class="row  bg-img-01  py-5" data-bgimg="images/cta/1.png">
                     <div class="col-lg-8">
                         <div class="mb-4">
-                            <h3 class=" text-red display-6">Begin Your Journey To Success With Dr. D.Y. Patil
-                                Vidyapeeth, Pune.</h3>
+                            <h3 class=" text-red display-6"><span class="h2">Applications are invited</span> for All India Proctor Based Online Entrance Test 2026-27 MBA (DPU-CET), BBA (Hons) (DPU-CET) & B.COM (DPU-CET)</h3>
                         </div>
                         <button class="btn c_btn py-2 px-4 rounded-pill" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">Apply Now</button>
@@ -365,9 +427,10 @@
             })
         </script>
 
- 
+
 
 
 </body>
 
 </html>
+

@@ -15,7 +15,7 @@
                                 
                                 <div
                                     class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start gapStudentName w-full pt-0 pt-lg-3">
-                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonal/1.png" alt="">
+                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonial/1.png" alt="">
 
                                     <div class="d-flex ps-lg-3 ps-2 flex-column justify-content-center">
                                         <p class="text-justify testimonial-text">My journey at Global Business School and Research Centre has been nothing short of transformative. As an Agri Business Management student, I had the opportunity to connect theory with real-world insights through industrial visits,<a href="" class="read-more-btn testimonial_read_more fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal1">... Read More</a> </p>
@@ -38,7 +38,7 @@
                                 
                                 <div
                                     class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start gapStudentName w-full pt-0 pt-lg-3">
-                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonal/2.png" alt="">
+                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonial/2.png" alt="">
 
                                     <div class="d-flex ps-lg-3 ps-2 flex-column justify-content-center">
                                         <p class="text-justify testimonial-text">GBSRC has been a turning point in my academic and professional journey. As an Agri Business Management student, I was exposed to a perfect blend of practical learning and industry exposure. The curriculum is dynamic, and the constant<a href="" class="read-more-btn testimonial_read_more fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal2">... Read More</a></p>
@@ -61,7 +61,7 @@
                                 
                                 <div
                                     class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start gapStudentName w-full pt-0 pt-lg-3">
-                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonal/3.png" alt="">
+                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonial/3.png" alt="">
 
                                     <div class="d-flex ps-lg-3 ps-2 flex-column justify-content-center">
                                         <p class="text-justify testimonial-text">Choosing GBSRC for my MBA in Agri Business Management has been one of the best decisions of my life. The institute’s focus on holistic development helped me grow academically and professionally. With activities like industry interactions, <a href="" class="read-more-btn testimonial_read_more fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal3">... Read More</a></p>
@@ -84,7 +84,7 @@
                                 
                                 <div
                                     class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start gapStudentName w-full pt-0 pt-lg-3">
-                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonal/4.png" alt="">
+                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonial/4.png" alt="">
 
                                     <div class="d-flex ps-lg-3 ps-2 flex-column justify-content-center">
                                         <p class="text-justify testimonial-text">My experience at Global Business School and Research Centre has been truly enriching. Pursuing a dual specialization in Finance and Marketing allowed me to explore diverse dimensions of management with practical exposure and academic excellence. <a href="" class="read-more-btn testimonial_read_more fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal4">... Read More</a></p>
