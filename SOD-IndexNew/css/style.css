@@ -177,10 +177,6 @@ h6 {
 .bg-red-gradient {
   background-image: linear-gradient(180deg, #47143d 0, #632156 100%);
 }
-.sticky-top {
-  top: -100px;
-  transition: 0.5s;
-}
 .gallary .one,
 .gallary .three,
 .unlock_01 {
@@ -208,9 +204,9 @@ h6 {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link:focus,
 .navbar .navbar-nav .nav-link:hover {
-  color: var(--red);
-  border-bottom: solid 4px var(--red);
-  font-weight: 700;
+  color: var(--bs-white);
+  border-bottom: solid 2px var(--bs-white);
+  font-weight: bold;
 }
 .navbar .dropdown-toggle::after {
   border: none;
@@ -364,7 +360,7 @@ h6 {
   display: none;
   position: absolute;
   right: 0;
-  bottom: -40px;
+  bottom: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -406,13 +402,15 @@ h6 {
   border: 1px solid var(--grey);
 }
 .right_button {
-  width: 50%;
+  width: 100%;
   top: unset;
   bottom: 0;
   right: 0;
   position: fixed;
   border-radius: 0 !important;
   z-index: 1021;
+  background-color: var(--red);
+  border: solid;
 }
 .modal.show .modal-dialog {
   top: 8%;
@@ -724,7 +722,13 @@ span.brownTriangle {
   font-size: 15px;
 }
 
+.programsNew li {
+  display: grid;
+}
 @media (min-width: 992px) {
+  .programsNew li {
+    display: unset;
+  }
   .usp_01 p {
     font-size: unset;
   }
@@ -1222,12 +1226,9 @@ span.brownTriangle {
 }
 
 /*  */
-.programsNew li {
-  /* display: grid; */
-}
 
 .custom_tabs .nav-link {
-  background: #d9d9d9;
+  background: #eef0f5;
   color: #000;
   border-radius: 0;
   font-weight: 500;
@@ -1257,7 +1258,7 @@ span.brownTriangle {
 }
 
 .selection_box {
-  background: #eaeaea;
+  /* background: #eaeaea; */
 }
 .intake_table {
   width: 100%;

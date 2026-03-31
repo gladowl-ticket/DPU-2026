@@ -21,7 +21,7 @@
         </ul>
 
         <!-- Tab Content -->
-        <div class="tab-content custom_tab_content p-4" id="pills-tabContent">
+        <div class="tab-content custom_tab_content p-lg-4" id="pills-tabContent">
 
             <!-- TAB 1 -->
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
@@ -62,10 +62,10 @@
                     Selection Process
                 </div>
 
-                <div class="row">
+                <div class="row px-3">
                     <div class="col-md-4 selection_box p-3">
                         <h6><strong>Part A:</strong></h6>
-                        <p class="text-red mb-1">DPU All India Design Aptitude Test</p>
+                        <p class="text-red mb-1 fw-bold">DPU All India Design Aptitude Test</p>
                         <p class="mb-0">Mode - Online Proctored</p>
                         <p class="mb-0">Time - 90 Minutes</p>
                         <p class="mb-0">Marks - 100</p>
@@ -73,7 +73,7 @@
 
                     <div class="col-md-4 selection_box p-3">
                         <h6><strong>Part B:</strong></h6>
-                        <p class="text-red mb-1">Studio Test - 90 Minutes</p>
+                        <p class="text-red mb-1 fw-bold">Studio Test - 90 Minutes</p>
                         <p class="mb-0">Portfolio Submission & Personal Interview</p>
                         <p class="mb-0">Marks - 100</p>
                     </div>

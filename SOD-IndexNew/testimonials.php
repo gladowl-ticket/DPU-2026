@@ -36,16 +36,16 @@ $testimonials = [
 ?>
 
 <!-- Testimonials Section -->
-<section class="py-5" id="success-stories">
-    <div class="container rounded-3 px-lg-1 px-0 py-1">
+<section class="pb-5" id="success-stories">
+    <div class="container rounded-3">
 
         <h2 class="display-5 mb-3 fw-bold title">Expressions</h2>
 
         <div class="row testimonals_01 owl-carousel">
 
             <?php foreach ($testimonials as $item): ?>
-                <div class="row gapStudentName py-4 mx-3 align-items-stretch">
-                    <div class="col-lg-8 d-flex ps-lg-3 ps-2 flex-column justify-content-center ">
+                <div class="row gapStudentName py-4 mx-3 p-3 align-items-stretch">
+                    <div class="col-lg-8 d-flex ps-lg-3 ps-2 flex-column justify-content-center order-2 order-lg-1">
                         <h5 class="fw-bold mb-0"><?= $item['name']; ?></h5>
                         <p class="mb-3 fw-500"><?= $item['course']; ?></p>
                         
@@ -57,7 +57,7 @@ $testimonials = [
                             </a>
                         </p>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 order-1 order-lg-2 mb-3">
                         <img class="w-100" src="img/students/<?= $item['image']; ?>.jpg"  alt="">
                     </div>
                 </div>

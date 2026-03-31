@@ -81,6 +81,7 @@
     </section>
 
     <!-- About us ---------------------------------------------------------------------------------------------------- -->
+<div class="overflow-hidden">
 
     <section class="" id="about-us">
         <div class="container bg-white  rounded-3 pt-5">
@@ -209,7 +210,7 @@
                 </div>
 
                 <!-- MIDDLE COLUMN -->
-                <div class="col-lg-4 ps-0">
+                <div class="col-lg-4 ps-lg-0 px-0">
                     <div class="middle-box h-100 text-white d-flex align-items-center py-2">
                         <div class="overlay-content">
                             <h2>WHY MANAGEMENT COURSES?</h2>
@@ -272,7 +273,7 @@
 
                 <!-- LEFT TEXT -->
                 <div class="col-md-3">
-                    <div class="left-content text-end">
+                    <div class="left-content text-lg-end">
                         <h2>
                             Different worlds.<br />
                             <span>One Institute.</span>
@@ -337,14 +338,14 @@
         <div class="container border-bottom bg-white py-5">
             <div class="row justify-content-center company">
                 <div class="col-12">
-                    <h2 class="mb-lg-3 mb-0 display-5 fw-bold title">Association for <span class="text-red">Design
+                    <h2 class="mb-0 display-5 fw-bold title">Association for <span class="text-red">Design
                             Excellence</span></h2>
                 </div>
-                <div class="row py-3 justify-content-center text-center m-auto">
+                <div class="row py-3 py-lg-0 justify-content-center text-center m-auto">
                     <?php
                             $p2 = ["1", "2", "3","4"];
                             for ($i=0; $i < count($p2); $i++) { ?>
-                    <div class="col-lg-3 company_01  ">
+                    <div class="col-lg-3 col-6 mb-3 mb-lg-0 company_01  ">
                         <img src="img/excellence/<?= $p2[$i];?>.png" loading="lazy" class="border w-100"
                             alt="">
                     </div>
@@ -363,7 +364,7 @@
                 </div>
 
                 <div
-                    class="col-md-10 bg-white rounded-3 placement_01 py-5 owl-carousel justify-content-center text-center m-auto">
+                    class="col-11 bg-white rounded-3 placement_01 py-lg-5 pt-3 pb-5 owl-carousel justify-content-center text-center m-auto">
                     <?php
                             
                             $p1 = ["1", "2", "3","4", "5", "6", "7"];
@@ -390,7 +391,7 @@
 
                 <!-- LEFT TEXT -->
                 <div class="col-md-3">
-                    <div class="left-content text-end">
+                    <div class="left-content text-lg-end text-center">
                         <h2>Industry <span>Interface</span>
                         </h2>
                     </div>
@@ -443,13 +444,12 @@
     <?php include 'testimonials.php';?>
     <!-- ----------------------------------------------------------------------------------------------------------- -->
 
-
     <!--Events & Industry Exposure ------------------------------------------------------------------------------------------------------------------ -->
     <section class="life-section pt-5 bg-gray" id="gallery">
         <div class="container ">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-12 text-center mb-5">
-                    <h2 class="display-5 fw-bold title mb-001">Events & <span class="text-red">Industry Exposure</span>
+                    <h2 class="display-5 fw-bold title mb-001 text-center">Events & <span class="text-red">Industry Exposure</span>
                     </h2>
                 </div>
             </div>
@@ -540,8 +540,6 @@
     </section>
 
 
-
-
     <!--CTA ------------------------------------------------------------------------------------------------------------------ -->
     <section class="bg-white">
         <div class="container">
@@ -557,14 +555,13 @@
     </section>
 
     <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
     <section class="bg-dark py-3">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-lg-3 text-end">
+                <div class="col-lg-3 text-lg-end text-center">
                     <img src="img/logo/1.webp" class="hero_logo_01" loading="lazy" alt="">
                 </div>
-                <div class="col-lg-3 b-left ">
+                <div class="col-lg-3 b-left text-center pt-4">
                     <p class="text-white">Dr. D. Y. Patil Vidyapeeth, Pune. <br>
                         Survey No 87/88, Mumbai Bangalore Express Highway, <br>
                         Tathawade, Pune-411 033 India.</p>
@@ -576,7 +573,6 @@
     <!-- ------------------------------------------------------------------------------------------------------------------ -->
     <?php include 'footer.php';?>
 
-    <a href="#Program" class="btn c_btn rounded-pill d-md-none px-4 left_button">Programs</a>
     <button type="button" class="btn c_btn  px-4 right_button d-lg-none " data-bs-toggle="modal"
         data-bs-target="#exampleModal">Apply Now</button>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
