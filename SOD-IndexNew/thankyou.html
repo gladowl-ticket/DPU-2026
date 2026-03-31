@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Dy Patil Pune MBA Placement: Best MBA University in Pune<!DOCTYPE html>
+    </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="images/logo/favicon.ico" loading="lazy" rel="icon" />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <canvas class="grey darken-4" id="canvas" width="" height=""></canvas>
+    <style>
+      body {
+        font-family: var(--roboto);
+        overflow: hidden;
+        background: #e4e4e4;
+      }
+
+      img {
+        height: 70px;
+        width: 100%;
+        object-fit: contain;
+      }
+
+      #canvas {
+        width: 100%;
+        height: 100%;
+      }
+
+      .text span {
+        font-weight: 500;
+      }
+
+      .btn {
+        margin: 40px auto 0;
+        width: 200px;
+        position: relative;
+      }
+
+      .text span.complete {
+        font-weight: bold;
+        margin: 19px 0 7px;
+        display: inline-block;
+        font-size: 30px;
+      }
+
+      .btn::before {
+        content: "";
+        margin: 40px auto 0;
+        width: 73px;
+        background-image: url(images/degree.png);
+        position: absolute;
+        left: -55px;
+        bottom: -5px;
+        height: 50px;
+        background-size: 70px;
+        background-repeat: no-repeat;
+      }
+
+      .text {
+        font-size: 24px;
+        text-align: center;
+        font-weight: 100;
+        color: #000;
+      }
+
+      .tankyou {
+        max-width: 700px;
+        margin: auto;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+      }
+
+      .btn a {
+        background: #eb731e;
+        color: #000;
+        text-decoration: none;
+        padding: 9px 40px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-size: 19px;
+        font-weight: bold;
+      }
+
+      .btn a:hover {
+        background: #1a1a1a;
+      }
+
+      @media screen and (max-width: 480px) {
+        .text span.complete {
+          font-size: 26px;
+          line-height: 25px;
+        }
+
+        .text {
+          font-size: 15px;
+          text-align: center;
+          font-weight: 100;
+          line-height: 22px;
+        }
+      }
+
+      .text2 {
+        font-size: 20px !important;
+        font-weight: 700;
+        color: #000;
+      }
+      h5 {
+        text-align: center;
+      }
+    </style>
+
+    <div class="tankyou text-center">
+      <div class="logo mb-5">
+        <img src="images/logo/thankyou.png" alt="logo" loading="lazy" />
+      </div>
+      <div class="logo">
+        <img src="img/logo/1.webp" alt="Congratulations" />
+      </div>
+      <h5 class="font-weight-bold text-center pt-4">
+        Thank you for submitting your Enquiry.
+      </h5>
+      <p class="text-center pt-2">
+        <span
+          >We're thrilled you're considering joining our innovative learning
+          environment.</span
+        >
+      </p>
+      <div class="btn"></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      var canvas = document.getElementById("canvas");
+      var c = canvas.getContext("2d");
+
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      var mouse = {
+        x: undefined,
+        y: undefined,
+      };
+
+      window.addEventListener("mousemove", function (e) {
+        mouse.x = e.x;
+        mouse.y = e.y;
+      });
+
+      window.addEventListener("resize", function () {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      });
+
+      function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+      }
+
+      function Circle() {
+        this.radius = getRandomInt(10);
+        this.originalSize = this.radius;
+        this.x = Math.random() * (innerWidth - this.radius * 2) + this.radius;
+        this.y = Math.random() * (innerHeight - this.radius * 2) + this.radius;
+        this.gradient = Math.random();
+        this.color =
+          "rgba(" +
+          getRandomInt(255) +
+          "," +
+          getRandomInt(255) +
+          "," +
+          getRandomInt(255) +
+          "," +
+          this.gradient +
+          ")";
+        this.xVelocity = 5 * (Math.random() - Math.random());
+        this.yVelocity = 5 * (Math.random() - Math.random());
+        this.draw = function () {
+          c.beginPath();
+          c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
+          c.strokeStyle = this.color;
+          c.stroke();
+          c.fillStyle = this.color;
+          c.fill();
+          this.update();
+        };
+        this.update = function () {
+          if (this.x + this.radius > innerWidth || this.x - this.radius < 0) {
+            this.xVelocity = -this.xVelocity;
+          }
+          if (this.y + this.radius > innerHeight || this.y - this.radius < 0) {
+            this.yVelocity = -this.yVelocity;
+          }
+          this.x += this.xVelocity;
+          this.y += this.yVelocity;
+
+          if (
+            mouse.x - this.x < 50 &&
+            mouse.x - this.x > -50 &&
+            mouse.y - this.y < 10 &&
+            mouse.y - this.y > -50
+          ) {
+            if (this.radius < 100) {
+              this.radius += 2;
+            }
+          } else if (this.radius !== this.originalSize) {
+            this.radius -= 2;
+          }
+        };
+      }
+
+      var circleArray = [];
+
+      for (var i = 0; i < 30; i++) {
+        circleArray.push(new Circle());
+      }
+
+      function animate() {
+        c.clearRect(0, 0, innerWidth, innerHeight);
+        for (var i = 0; i < circleArray.length; i++) {
+          circleArray[i].draw();
+        }
+        requestAnimationFrame(animate);
+      }
+      animate();
+
+      function countdown() {
+        var seconds = 5;
+        var countdownElement = document.getElementById("countdown");
+
+        var interval = setInterval(function () {
+          if (seconds > 0) {
+            seconds--;
+            countdownElement.textContent = seconds;
+          } else {
+            clearInterval(interval);
+            window.location = "https://gbsrc.dpu.edu.in/";
+          }
+        }, 2000);
+      }
+
+      window.onload = countdown;
+    </script>
+  </body>
+</html>

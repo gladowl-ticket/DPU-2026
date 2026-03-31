@@ -5,10 +5,10 @@ include 'data.php';
 
 <div class="container center_tagline  bg-white rounded-3 pt-lg-5  mt-3 py-4 mt-lg-0 px-lg-4">
     <div class="row align-items-center d-md-flex d-none">
-        <div class="col-md-3">
+        <div class="col-md-5">
             <h2 class=" mb-4 display-5 text-red title">Programs Offered</h2>
         </div>
-        <div class="col-md-9 specilization_tab">
+        <div class="col-md-7 specilization_tab">
             <ul class="row nav nav-pills" id="pills-tab" role="tablist">
                 <li class="col px-3 position-relative nav-item my-3 my-lg-0" role="presentation">
                     <button class="nav-link red_act active" id="pills-home-tab" data-bs-toggle="pill"
@@ -85,25 +85,7 @@ include 'data.php';
                                     </div>
                                 </div>
 
-                                <!-- Eligibility Criteria -->
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-2">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapse-<?= $data['id']; ?>-2"
-                                            aria-expanded="false" aria-controls="collapse-<?= $data['id']; ?>-2">
-                                            <span class="brownTriangle"></span> Eligibility Criteria
-                                        </button>
-                                    </h3>
-                                    <div id="collapse-<?= $data['id']; ?>-2" class="accordion-collapse collapse"
-                                        aria-labelledby="heading-<?= $data['id']; ?>-2"
-                                        data-bs-parent="#accordion-<?= $data['id']; ?>">
-                                        <div class="accordion-body">
-                                            <?= $data['eligibility']; ?>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Specialization -->
+                                                                <!-- Specialization -->
                                 <?php if (trim($data['specialization']) !== 'NA'): ?>
                                 <div class="accordion-item">
                                     <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-3">
@@ -123,23 +105,26 @@ include 'data.php';
                                 </div>
                                 <?php endif; ?>
 
-                                <!-- ranking -->
+                                <!-- Eligibility Criteria -->
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-4">
+                                    <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-2">
                                         <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapse-<?= $data['id']; ?>-4"
-                                            aria-expanded="false" aria-controls="collapse-<?= $data['id']; ?>-4">
-                                            <span class="brownTriangle"></span> Ranking
+                                            data-bs-toggle="collapse" data-bs-target="#collapse-<?= $data['id']; ?>-2"
+                                            aria-expanded="false" aria-controls="collapse-<?= $data['id']; ?>-2">
+                                            <span class="brownTriangle"></span> Eligibility Criteria
                                         </button>
                                     </h3>
-                                    <div id="collapse-<?= $data['id']; ?>-4" class="accordion-collapse collapse"
-                                        aria-labelledby="heading-<?= $data['id']; ?>-4"
+                                    <div id="collapse-<?= $data['id']; ?>-2" class="accordion-collapse collapse"
+                                        aria-labelledby="heading-<?= $data['id']; ?>-2"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                            <?= $data['ranking']; ?>
+                                            <?= $data['eligibility']; ?>
                                         </div>
                                     </div>
                                 </div>
+
+
+
 
 
                                 <!-- Duration -->
@@ -230,25 +215,7 @@ include 'data.php';
                                     </div>
                                 </div>
 
-                                <!-- Eligibility Criteria -->
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-2">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapse-<?= $data['id']; ?>-2"
-                                            aria-expanded="false" aria-controls="collapse-<?= $data['id']; ?>-2">
-                                            <span class="brownTriangle"></span> Eligibility Criteria
-                                        </button>
-                                    </h3>
-                                    <div id="collapse-<?= $data['id']; ?>-2" class="accordion-collapse collapse"
-                                        aria-labelledby="heading-<?= $data['id']; ?>-2"
-                                        data-bs-parent="#accordion-<?= $data['id']; ?>">
-                                        <div class="accordion-body">
-                                            <?= $data['eligibility']; ?>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Specialization -->
+                                                                <!-- Specialization -->
                                 <?php if (trim($data['specialization']) !== 'NA'): ?>
                                 <div class="accordion-item">
                                     <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-3">
@@ -268,25 +235,23 @@ include 'data.php';
                                 </div>
                                 <?php endif; ?>
 
-
-                                <!-- ranking -->
+                                <!-- Eligibility Criteria -->
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-4">
+                                    <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-2">
                                         <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapse-<?= $data['id']; ?>-4"
-                                            aria-expanded="false" aria-controls="collapse-<?= $data['id']; ?>-4">
-                                            <span class="brownTriangle"></span> Ranking
+                                            data-bs-toggle="collapse" data-bs-target="#collapse-<?= $data['id']; ?>-2"
+                                            aria-expanded="false" aria-controls="collapse-<?= $data['id']; ?>-2">
+                                            <span class="brownTriangle"></span> Eligibility Criteria
                                         </button>
                                     </h3>
-                                    <div id="collapse-<?= $data['id']; ?>-4" class="accordion-collapse collapse"
-                                        aria-labelledby="heading-<?= $data['id']; ?>-4"
+                                    <div id="collapse-<?= $data['id']; ?>-2" class="accordion-collapse collapse"
+                                        aria-labelledby="heading-<?= $data['id']; ?>-2"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                            <?= $data['ranking']; ?>
+                                            <?= $data['eligibility']; ?>
                                         </div>
                                     </div>
                                 </div>
-
 
 
 
@@ -378,25 +343,8 @@ include 'data.php';
                                     </div>
                                 </div>
 
-                                <!-- Eligibility Criteria -->
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-2">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapse-<?= $data['id']; ?>-2"
-                                            aria-expanded="false" aria-controls="collapse-<?= $data['id']; ?>-2">
-                                            <span class="brownTriangle"></span> Eligibility Criteria
-                                        </button>
-                                    </h3>
-                                    <div id="collapse-<?= $data['id']; ?>-2" class="accordion-collapse collapse"
-                                        aria-labelledby="heading-<?= $data['id']; ?>-2"
-                                        data-bs-parent="#accordion-<?= $data['id']; ?>">
-                                        <div class="accordion-body">
-                                            <?= $data['eligibility']; ?>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <!-- Specialization -->
+                                                                <!-- Specialization -->
                                 <?php if (trim($data['specialization']) !== 'NA'): ?>
                                 <div class="accordion-item">
                                     <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-3">
@@ -417,25 +365,26 @@ include 'data.php';
                                 <?php endif; ?>
 
 
-                                <!-- Specialization -->
-                                <?php if (trim($data['ranking']) !== 'NA'): ?>
+
+                                <!-- Eligibility Criteria -->
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-3">
+                                    <h3 class="accordion-header" id="heading-<?= $data['id']; ?>-2">
                                         <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapse-<?= $data['id']; ?>-3"
-                                            aria-expanded="false" aria-controls="collapse-<?= $data['id']; ?>-3">
-                                            <span class="brownTriangle"></span> Ranking
+                                            data-bs-toggle="collapse" data-bs-target="#collapse-<?= $data['id']; ?>-2"
+                                            aria-expanded="false" aria-controls="collapse-<?= $data['id']; ?>-2">
+                                            <span class="brownTriangle"></span> Eligibility Criteria
                                         </button>
                                     </h3>
-                                    <div id="collapse-<?= $data['id']; ?>-3" class="accordion-collapse collapse"
-                                        aria-labelledby="heading-<?= $data['id']; ?>-3"
+                                    <div id="collapse-<?= $data['id']; ?>-2" class="accordion-collapse collapse"
+                                        aria-labelledby="heading-<?= $data['id']; ?>-2"
                                         data-bs-parent="#accordion-<?= $data['id']; ?>">
                                         <div class="accordion-body">
-                                            <?= $data['ranking']; ?>
+                                            <?= $data['eligibility']; ?>
                                         </div>
                                     </div>
                                 </div>
-                                <?php endif; ?>
+
+
 
 
                                 <!-- Duration -->
@@ -506,12 +455,7 @@ include 'data.php';
                                 <p><?= $tab['overview']; ?></p>
                             </div>
 
-                            <!-- Eligibility Criteria -->
-                            <h3>Eligibility Criteria</h3>
-                            <div>
-                                <?= $tab['eligibility']; ?>
-                            </div>
-
+                            
                             <!-- Specialization -->
                             <?php if (!empty($tab['specialization'])): ?>
                             <h3>Specialization</h3>
@@ -520,12 +464,13 @@ include 'data.php';
                             </div>
                             <?php endif; ?>
 
-
-                            <!-- Ranking Criteria -->
-                            <h3>Ranking</h3>
+                            <!-- Eligibility Criteria -->
+                            <h3>Eligibility Criteria</h3>
                             <div>
-                                <?= $tab['ranking']; ?>
+                                <?= $tab['eligibility']; ?>
                             </div>
+
+
 
                             <!-- Duration -->
                             <h3>Duration</h3>
@@ -564,12 +509,7 @@ include 'data.php';
                                 <p><?= $tab['overview']; ?></p>
                             </div>
 
-                            <!-- Eligibility Criteria -->
-                            <h3>Eligibility Criteria</h3>
-                            <div>
-                                <?= $tab['eligibility']; ?>
-                            </div>
-
+                            
                             <!-- Specialization -->
                             <?php if (!empty($tab['specialization'])): ?>
                             <h3>Specialization</h3>
@@ -578,12 +518,14 @@ include 'data.php';
                             </div>
                             <?php endif; ?>
 
-
-                            <!-- Ranking Criteria -->
-                            <h3>Ranking</h3>
+                            
+                            <!-- Eligibility Criteria -->
+                            <h3>Eligibility Criteria</h3>
                             <div>
-                                <?= $tab['ranking']; ?>
+                                <?= $tab['eligibility']; ?>
                             </div>
+
+
 
                             <!-- Duration -->
                             <h3>Duration</h3>

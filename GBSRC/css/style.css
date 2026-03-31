@@ -707,6 +707,9 @@ span.brownTriangle {
   object-fit: contain;
 }
 @media (min-width: 992px) {
+  .modal-content {
+    width: 80% !important;
+  }
   .gallery_carousel_01 .owl-stage {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1054,8 +1057,8 @@ span.brownTriangle {
 }
 
 .left-box ul li {
-  margin-bottom: 12px;
-  font-size: 16px;
+  margin-bottom: 10px;
+  /* font-size: 16px; */
 }
 
 .left-box ul li span {
@@ -1069,14 +1072,14 @@ span.brownTriangle {
   background: url("../images/why/1.jpg") center/cover no-repeat;
   position: relative;
   padding: 30px;
-  height: 450px !important;
+  height: 445px !important;
 }
 
 .middle-box::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgb(0 0 0 / 43%);
 }
 
 .overlay-content {
@@ -1170,11 +1173,16 @@ span.brownTriangle {
   object-fit: contain;
 }
 
-
 .testimonial_read_more {
-  color:var(--red)
+  color: var(--red);
 }
 
 .testimonial_read_more:hover {
-  color:var(--red)
+  color: var(--red);
+}
+.mt-50 {
+  margin-top: -55px;
+}
+.border-red {
+  border: solid 2px #9a2827;
 }
