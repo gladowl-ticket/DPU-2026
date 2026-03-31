@@ -56,6 +56,15 @@ h6 {
 .your_path .border {
   background-color: var(--red);
 }
+
+.bg-black{
+  background-color: var(--dark);
+}
+
+.text-yellow{
+  color:var(--yellow);
+}
+
 .border-bottom_01 {
   border-bottom: unset;
 }
@@ -1444,4 +1453,16 @@ span.brownTriangle {
 }
 .b-left {
   border-left: solid 1px var(--yellow);
+}
+
+
+.programtitle{
+  font-size: 22px;
+    font-weight: 600;
+}
+
+.hrstyle{
+  color:#fff !important;
+  height: 2px;
+
 }

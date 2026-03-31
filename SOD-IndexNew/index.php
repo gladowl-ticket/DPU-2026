@@ -251,10 +251,75 @@
 
     <section>
         <div class="container">
-            <div class="row pt-5">
+            <div class="row pt-5  d-none d-md-block">
                 <h2 class="display-5 fw-bold title mb-001">Specializations <br> <span class="text-red">School of
                         Design</span></h2>
                 <img src="img/key/bg.png" class="w-100" alt="">
+            </div>
+            <div class="row g-4 d-block d-md-none pt-2 ">
+                <div class="col-lg-12">
+                    <h2 class="display-5 fw-bold title">Specializations <br> <span class="text-red">School of
+                        Design</span></h2>
+                </div>
+                <div class= "col-lg-4 col-sm-6 col-12">
+                    <div class="card">
+                        <img src="img/key/1.png" class="card-img-top" alt="..." class="img-fluid">
+                        <div class="card-body bg-black">
+                            <h5 class="card-title text-yellow programtitle">Fashion Design and Communication</h5>
+                            <p class="card-text text-white subtitle">B.Des in Fashion Design and Communication</p>
+                        </div>
+                    </div>
+                </div>
+                <div class= "col-lg-4 col-sm-6 col-12">
+                    <div class="card">
+                        <img src="img/key/6.png" class="card-img-top" alt="..." class="img-fluid">
+                        <div class="card-body bg-black">
+                            <h5 class="card-title text-yellow programtitle">Animation and VFX Design</h5>
+                            <p class="card-text text-white subtitle">B.Sc. Honours in Animation and VFX Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class= "col-lg-4 col-sm-6 col-12">
+                    <div class="card">
+                        <img src="img/key/2.png" class="card-img-top" alt="..." class="img-fluid">
+                        <div class="card-body bg-black">
+                            <h5 class="card-title text-yellow programtitle">Communication Design</h5>
+                            <p class="card-text text-white subtitle">B.Des in Communication Design</br>M.Des in Communication Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class= "col-lg-4 col-sm-6 col-12">
+                    <div class="card">
+                        <img src="img/key/5.png" class="card-img-top" alt="..." class="img-fluid">
+                        <div class="card-body bg-black">
+                            <h5 class="card-title text-yellow programtitle">Interior Spatial and Furniture Design</h5>
+                            <p class="card-text text-white subtitle">B.Des in Interior Spatial and Furniture Design</p>
+                            <hr class="hrstyle">
+                            <h5 class="card-title text-yellow programtitle pb-2">Interior Design</h5>
+                            <p class="card-text text-white subtitle">B.Sc. Honours in Interior Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class= "col-lg-4 col-sm-6 col-12">
+                    <div class="card">
+                        <img src="img/key/3.png" class="card-img-top" alt="..." class="img-fluid">
+                        <div class="card-body bg-black">
+                            <h5 class="card-title text-yellow programtitle">UI/UX Design</h5>
+                            <p class="card-text text-white subtitle">B.Des in UI/UX Design<br>M.Des in UI/UX Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class= "col-lg-4 col-sm-6 col-12">
+                    <div class="card">
+                        <img src="img/key/4.png" class="card-img-top" alt="..." class="img-fluid">
+                        <div class="card-body bg-black">
+                            <h5 class="card-title text-yellow programtitle">Product Design</h5>
+                            <p class="card-text text-white subtitle">B.Des in Product Design</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
             </div>
         </div>
     </section>
