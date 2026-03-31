@@ -13,9 +13,9 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="images/logo/favicon.ico" loading="lazy" rel="icon">
+    <link href="img/logo/favicon.ico" loading="lazy" rel="icon">
 
-    <link rel="preload" as="image" href="images/hero/1.png" type="image/webp">
+    <link rel="preload" as="image" href="img/hero/1.webp" type="image/webp">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -30,7 +30,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel="preload" as="image" href="images/hero/1.png" />
+    <link rel="preload" as="image" href="img/hero/1.webp" />
     <!-- Google Tag Manager -->
     <script>
         (function (w, d, s, l, i) {
@@ -58,16 +58,16 @@
 
     <!-- ======================================================================================================= -->
 
-    <section class="hero_section" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <section class="hero_section">
         <?php include 'header.php';?>
-        <div class="position-relative mt-001">
-            <video id="heroVideo" autoplay muted loop playsinline poster="img/hero/1.jpg"
+        <div class="position-relative mt-001" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <video id="heroVideo" autoplay muted loop playsinline poster="img/hero/1.webp"
                 class="hero-video w-100">
                 <source src="img/hero/1.mp4" type="video/mp4">
             </video>
             <div class="col-lg-4 pt-5 mt-3  p-3 d-lg-none">
                     <div class="border-red rounded-3 text-center bg-white">
-                        <img src="img/logo/2.jpg" class="hero_logo_01 mt-50 bg-white border rounded-3" loading="lazy" alt="">
+                        <img src="img/logo/2.webp" class="hero_logo_01 mt-50 bg-white border rounded-3" loading="lazy" alt="">
                         <div class="">
                             <div class="border-bottom-01 mx-2">
                                 <h4 class="">Register Now</h4>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="col-lg-4 ps-lg-5 d-none d-lg-grid">
                     <div class="border-red rounded-3 text-center bg-white p-3">
-                        <img src="img/logo/2.jpg" class="hero_logo_01 mt-50 bg-white border rounded-3" loading="lazy" alt="">
+                        <img src="img/logo/2.webp" class="hero_logo_01 mt-50 bg-white border rounded-3" loading="lazy" alt="">
                         <div class="">
                             <div class="border-bottom-01 mx-2">
                                 <h4 class="fw-bold">Register Now</h4>
@@ -172,7 +172,7 @@
                                     for ($i=0; $i < 4; $i++) {
                                     ?>
                         <div class="rounded-3 py-3 box_shadow mx-lg-3 mx-2">
-                            <img src="images/awards/<?= $i+1;?>.jpg" loading="lazy" class="w-100" alt="">
+                            <img src="img/awards/<?= $i+1;?>.webp" loading="lazy" class="w-100" alt="">
                         </div>
                         <?php
                                     } 
@@ -213,7 +213,7 @@
                 <div class="col-lg-4 ps-lg-0 px-0">
                     <div class="middle-box h-100 text-white d-flex align-items-center py-2">
                         <div class="overlay-content">
-                            <h2>WHY MANAGEMENT COURSES?</h2>
+                            <h2 class="text-uppercase">WHY Design at DPU?</h2>
 
                             <ul class="list-unstyled mt-3">
                                 <li>› Seasoned Advisory Board Members</li>
@@ -255,7 +255,7 @@
             <div class="row pt-5  d-none d-md-block">
                 <h2 class="display-5 fw-bold title mb-001">Specializations <br> <span class="text-red">School of
                         Design</span></h2>
-                <img src="img/key/bg.png" class="w-100" alt="">
+                <img src="img/key/bg.webp" class="w-100" alt="">
             </div>
             <div class="row g-4 d-block d-md-none pt-2 ">
                 <div class="col-lg-12">
@@ -264,7 +264,7 @@
                 </div>
                 <div class= "col-lg-4 col-sm-6 col-12">
                     <div class="card">
-                        <img src="img/key/1.png" class="card-img-top" alt="..." class="img-fluid">
+                        <img src="img/key/1.webp" class="card-img-top" alt="..." class="img-fluid">
                         <div class="card-body bg-black">
                             <h5 class="card-title text-yellow programtitle">Fashion Design and Communication</h5>
                             <p class="card-text text-white subtitle">B.Des in Fashion Design and Communication</p>
@@ -273,7 +273,7 @@
                 </div>
                 <div class= "col-lg-4 col-sm-6 col-12">
                     <div class="card">
-                        <img src="img/key/6.png" class="card-img-top" alt="..." class="img-fluid">
+                        <img src="img/key/6.webp" class="card-img-top" alt="..." class="img-fluid">
                         <div class="card-body bg-black">
                             <h5 class="card-title text-yellow programtitle">Animation and VFX Design</h5>
                             <p class="card-text text-white subtitle">B.Sc. Honours in Animation and VFX Design</p>
@@ -282,7 +282,7 @@
                 </div>
                 <div class= "col-lg-4 col-sm-6 col-12">
                     <div class="card">
-                        <img src="img/key/2.png" class="card-img-top" alt="..." class="img-fluid">
+                        <img src="img/key/2.webp" class="card-img-top" alt="..." class="img-fluid">
                         <div class="card-body bg-black">
                             <h5 class="card-title text-yellow programtitle">Communication Design</h5>
                             <p class="card-text text-white subtitle">B.Des in Communication Design</br>M.Des in Communication Design</p>
@@ -291,7 +291,7 @@
                 </div>
                 <div class= "col-lg-4 col-sm-6 col-12">
                     <div class="card">
-                        <img src="img/key/5.png" class="card-img-top" alt="..." class="img-fluid">
+                        <img src="img/key/5.webp" class="card-img-top" alt="..." class="img-fluid">
                         <div class="card-body bg-black">
                             <h5 class="card-title text-yellow programtitle">Interior Spatial and Furniture Design</h5>
                             <p class="card-text text-white subtitle">B.Des in Interior Spatial and Furniture Design</p>
@@ -303,7 +303,7 @@
                 </div>
                 <div class= "col-lg-4 col-sm-6 col-12">
                     <div class="card">
-                        <img src="img/key/3.png" class="card-img-top" alt="..." class="img-fluid">
+                        <img src="img/key/3.webp" class="card-img-top" alt="..." class="img-fluid">
                         <div class="card-body bg-black">
                             <h5 class="card-title text-yellow programtitle">UI/UX Design</h5>
                             <p class="card-text text-white subtitle">B.Des in UI/UX Design<br>M.Des in UI/UX Design</p>
@@ -312,7 +312,7 @@
                 </div>
                 <div class= "col-lg-4 col-sm-6 col-12">
                     <div class="card">
-                        <img src="img/key/4.png" class="card-img-top" alt="..." class="img-fluid">
+                        <img src="img/key/4.webp" class="card-img-top" alt="..." class="img-fluid">
                         <div class="card-body bg-black">
                             <h5 class="card-title text-yellow programtitle">Product Design</h5>
                             <p class="card-text text-white subtitle">B.Des in Product Design</p>
@@ -383,7 +383,7 @@
                             ]; foreach ($institutes as $item): ?>
                         <div class="item">
                             <div class="card-slide">
-                                <img src="img/programs/<?= $item['image']; ?>.png" class="img-fluid" />
+                                <img src="img/programs/<?= $item['image']; ?>.webp" class="img-fluid" />
                                 <div class="overlay">
                                     <?= $item['title']; ?>
                                 </div>
@@ -411,7 +411,7 @@
                             $p2 = ["1", "2", "3","4"];
                             for ($i=0; $i < count($p2); $i++) { ?>
                     <div class="col-lg-3 col-6 mb-3 mb-lg-0 company_01  ">
-                        <img src="img/excellence/<?= $p2[$i];?>.png" loading="lazy" class="border w-100"
+                        <img src="img/excellence/<?= $p2[$i];?>.webp" loading="lazy" class="border w-100"
                             alt="">
                     </div>
                     <?php } ?>
@@ -436,7 +436,7 @@
                             for ($i=0; $i < count($p1); $i++) {
                             ?>
                     <div class=" company_01 mb-3">
-                        <img src="img/recruiters/<?= $p1[$i];?>.png" loading="lazy" class="w-100" alt="">
+                        <img src="img/recruiters/<?= $p1[$i];?>.webp" loading="lazy" class="w-100" alt="">
                     </div>
                     <?php
                             } 
@@ -493,7 +493,7 @@
                             ]; foreach ($institutes as $item): ?>
                         <div class="item">
                             <div class="card-slide">
-                                <img src="img/industryinterface/0<?= $item['image']; ?>.png" class="interface" />
+                                <img src="img/industryinterface/0<?= $item['image']; ?>.webp" class="interface" />
                             </div>
                         </div>
                         <?php endforeach; ?>
@@ -592,7 +592,7 @@
                                 "title" => ""
                             ]
                             ]; foreach ($events as $item): ?>
-                    <div class="item"><img src="img/events/<?= $item['image']; ?>.jpeg" class="gallery-img01">
+                    <div class="item"><img src="img/events/<?= $item['image']; ?>.webp" class="gallery-img01">
                         <div class="text-center pt-1">
                             <h6 class="mb-0 fw-bold"><?= $item['title']; ?></h6>
                         </div>
@@ -626,7 +626,7 @@
                 <div class="col-lg-3 text-lg-end text-center">
                     <img src="img/logo/1.webp" class="hero_logo_01" loading="lazy" alt="">
                 </div>
-                <div class="col-lg-3 b-left text-center pt-4">
+                <div class="col-lg-3 b-left text-center text-lg-start  pt-4">
                     <p class="text-white">Dr. D. Y. Patil Vidyapeeth, Pune. <br>
                         Survey No 87/88, Mumbai Bangalore Express Highway, <br>
                         Tathawade, Pune-411 033 India.</p>

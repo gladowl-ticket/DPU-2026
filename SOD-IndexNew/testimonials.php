@@ -3,16 +3,16 @@ $testimonials = [
   [
     "id" => 1,
     "image" => "1",
-    "short_text" => "Though Ijoined DPU Dr. D. Y. Patil School of Design (DPUSOD) a bit late, I'm confident it was the right choice. Moving to Maharashtra was tough",
-    "full_text" => "Though Ijoined DPU Dr. D. Y. Patil School of Design (DPUSOD) a bit late, I'm confident it was the right choice. Moving to Maharashtra was tough, but the vibrant campus, artistic decor, and world-class studios make it truly worth it.",
+    "short_text" => "Though I joined DPU Dr. D. Y. Patil School of Design (DPUSOD) a bit late, I'm confident it was the right choice. Moving to Maharashtra was tough",
+    "full_text" => "Though I joined DPU Dr. D. Y. Patil School of Design (DPUSOD) a bit late, I'm confident it was the right choice. Moving to Maharashtra was tough, but the vibrant campus, artistic decor, and world-class studios make it truly worth it.",
     "name" => "Guntaj Gill",
     "course" => "Fashion Design and Communication",
   ],
   [
     "id" => 2,
     "image" => "2",
-    "short_text" => "Iam a Visual Communication Design aspirant, and I value this institute's rigorous curriculum, interactive sessions, and inspiring faculty that make learning ",
-    "full_text" => "Iam a Visual Communication Design aspirant, and I value this institute's rigorous curriculum, interactive sessions, and inspiring faculty that make learning engaging and joyful.",
+    "short_text" => "I am a Visual Communication Design aspirant, and I value this institute's rigorous curriculum, interactive sessions, and inspiring faculty that make learning ",
+    "full_text" => "I am a Visual Communication Design aspirant, and I value this institute's rigorous curriculum, interactive sessions, and inspiring faculty that make learning engaging and joyful.",
     "name" => "Swapnangana Senapati",
     "course" => "Communication Design",
   ],
@@ -58,7 +58,7 @@ $testimonials = [
                         </p>
                     </div>
                     <div class="col-lg-4 order-1 order-lg-2 mb-3">
-                        <img class="w-100" src="img/students/<?= $item['image']; ?>.jpg"  alt="">
+                        <img class="w-100" src="img/students/<?= $item['image']; ?>.webp"  alt="">
                     </div>
                 </div>
             <?php endforeach; ?>
