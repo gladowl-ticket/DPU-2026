@@ -2,19 +2,19 @@
     <div class="container programsNew">
 
         <!-- Heading -->
-        <h2 class="mb-lg-3 mb-0 display-5 fw-bold title">Program  <br> <span class="text-red">Details</span></h2>
+        <h2 class="mb-lg-3 mb-0 display-5 fw-bold title">Program <span class="text-red">Details</span></h2>
 
         <!-- Tabs -->
         <ul class="nav nav-pills mb-3 row text-center custom_tabs" id="pills-tab" role="tablist">
-            <li class="nav-item col">
+            <li class="nav-item col px-0">
                 <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
                     type="button" role="tab" aria-controls="pills-home" aria-selected="true">Program Specializations</a>
             </li>
-            <li class="nav-item col">
+            <li class="nav-item col px-0">
                 <a class="nav-link" id="pills-intake-tab" data-bs-toggle="pill" data-bs-target="#pills-intake"
                     type="button" role="tab" aria-controls="pills-intake" aria-selected="false">Intake</a>
             </li>
-            <li class="nav-item col">
+            <li class="nav-item col px-0">
                 <a class="nav-link" id="pills-eligibility-tab" data-bs-toggle="pill" data-bs-target="#pills-eligibility"
                     type="button" role="tab" aria-controls="pills-eligibility" aria-selected="false">Eligibility</a>
             </li>
@@ -65,7 +65,7 @@
                 <div class="row">
                     <div class="col-md-4 selection_box p-3">
                         <h6><strong>Part A:</strong></h6>
-                        <p class="text-danger mb-1">DPU All India Design Aptitude Test</p>
+                        <p class="text-red mb-1">DPU All India Design Aptitude Test</p>
                         <p class="mb-0">Mode - Online Proctored</p>
                         <p class="mb-0">Time - 90 Minutes</p>
                         <p class="mb-0">Marks - 100</p>
@@ -73,7 +73,7 @@
 
                     <div class="col-md-4 selection_box p-3">
                         <h6><strong>Part B:</strong></h6>
-                        <p class="text-danger mb-1">Studio Test - 90 Minutes</p>
+                        <p class="text-red mb-1">Studio Test - 90 Minutes</p>
                         <p class="mb-0">Portfolio Submission & Personal Interview</p>
                         <p class="mb-0">Marks - 100</p>
                     </div>

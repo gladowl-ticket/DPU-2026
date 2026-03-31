@@ -61,10 +61,21 @@
     <section class="hero_section" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <?php include 'header.php';?>
         <div class="position-relative mt-001">
-            <video id="heroVideo" autoplay muted loop playsinline poster="./video/thumbnail.jpg"
+            <video id="heroVideo" autoplay muted loop playsinline poster="img/hero/1.jpg"
                 class="hero-video w-100">
                 <source src="img/hero/1.mp4" type="video/mp4">
             </video>
+            <div class="col-lg-4 pt-5 mt-3  p-3 d-lg-none">
+                    <div class="border-red rounded-3 text-center bg-white">
+                        <img src="img/logo/2.jpg" class="hero_logo_01 mt-50 bg-white border rounded-3" loading="lazy" alt="">
+                        <div class="">
+                            <div class="border-bottom-01 mx-2">
+                                <h4 class="">Register Now</h4>
+                            </div>
+                            <?php include 'form_01.php';?>
+                        </div>
+                    </div>
+                </div>
         </div>
 
     </section>
@@ -72,11 +83,11 @@
     <!-- About us ---------------------------------------------------------------------------------------------------- -->
 
     <section class="" id="about-us">
-        <div class="container bg-white  rounded-3 py-5">
+        <div class="container bg-white  rounded-3 pt-5">
             <div class="row px-3">
-                <div class="col-lg-8 align-items-center border-bottom_01">
+                <div class="col-lg-8 align-items-center">
                     <div class="">
-                        <h2 class="mb-lg-3 mb-0 display-5 fw-bold title">About Institute, <br> <span
+                        <h2 class="mb-lg-3 mb-0 display-5 fw-bold title ">About Institute, <br> <span
                                 class="text-red">Dr. D. Y. Patil School of Design</span></h2>
                         <p align="justify" class="">Established in 2022, DPU | Dr. D. Y. Patil School of Design enriches
                             the legacy of Dr. D. Y. Patil Vidyapeeth, Pune, with a focus on exceptional design
@@ -104,12 +115,12 @@
                             professional institutes have been added under its umbrella.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 ps-lg-5">
-                    <div class="border-red rounded-3 text-center bg-white pt-3">
-                        <img src="img/logo/2.jpg" class="hero_logo_01 mt-50 bg-white" loading="lazy" alt="">
+                <div class="col-lg-4 ps-lg-5 d-none d-lg-grid">
+                    <div class="border-red rounded-3 text-center bg-white p-3">
+                        <img src="img/logo/2.jpg" class="hero_logo_01 mt-50 bg-white border rounded-3" loading="lazy" alt="">
                         <div class="">
                             <div class="border-bottom-01 mx-2">
-                                <h4 class="">Register Now</h4>
+                                <h4 class="fw-bold">Register Now</h4>
                             </div>
                             <?php include 'form_01.php';?>
                         </div>
@@ -117,8 +128,8 @@
                 </div>
             </div>
             <div class="row justify-content-center mb-5">
-                <h2 class="mb-lg-3 mb-0 display-5 fw-bold title">Accolades</h2>
-                <div class="col-lg-3 col-6 d-grid mt-4">
+                <h2 class="mb-0 display-5 fw-bold title">Accolades</h2>
+                <div class="col-lg-3 col-6 d-grid">
                     <div class="d-flex align-items-stretch  justify-content-center  usp_01">
                         <div class="text-center">
                             <h6 class="fw-bold py-2 mb-0 h1 display-4">41<sup>st</sup></h6>
@@ -126,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-6 d-grid mt-4">
+                <div class="col-lg-3 col-6 d-grid">
                     <div class="d-flex align-items-stretch  justify-content-center  usp_01">
                         <div class="text-center">
                             <h6 class="fw-bold py-2 mb-0 h1 display-4">63<sup>rd</sup></h6>
@@ -134,7 +145,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-6 d-grid mt-4">
+                <div class="col-lg-3 col-6 d-grid">
                     <div class="d-flex align-items-stretch  justify-content-center  usp_01">
                         <div class="text-center">
                             <h6 class="fw-bold py-2 mb-0 h1 display-4">A<sup>++</sup></h6>
@@ -142,7 +153,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-6 d-grid mt-4">
+                <div class="col-lg-3 col-6 d-grid">
                     <div class="d-flex align-items-stretch  justify-content-center  usp_01">
                         <div class="text-center">
                             <h6 class="fw-bold py-2 mb-0 h1 display-4">ISO</h6>
@@ -154,12 +165,12 @@
 
             <div class="row">
                 <div class="col-lg-12 ">
-                        <h2 class="mb-lg-3 mb-0 display-5 fw-bold title">Awards and <span class="text-red">Ranks</span></h2>
+                    <h2 class="mb-lg-3 mb-0 display-5 fw-bold title">Awards and <span class="text-red">Ranks</span></h2>
                     <div class="col-lg-12 awards_01 pb-4 owl-carousel justify-content-center text-center">
                         <?php
                                     for ($i=0; $i < 4; $i++) {
                                     ?>
-                        <div class="rounded-3 py-3 border box_shadow mx-lg-3 mx-2">
+                        <div class="rounded-3 py-3 box_shadow mx-lg-3 mx-2">
                             <img src="images/awards/<?= $i+1;?>.jpg" loading="lazy" class="w-100" alt="">
                         </div>
                         <?php
@@ -170,11 +181,11 @@
             </div>
         </div>
     </section>
-    
+
     <!-- WHY---------------------------------------------------------------------------------------------------- -->
     <section class="custom-section pb-5 " id="why-choose">
         <div class="container ">
-            <div class="row g-4 align-items-center">
+            <div class="row align-items-center">
 
                 <!-- LEFT COLUMN -->
                 <div class="col-lg-4 bg-blue pt-2">
@@ -183,12 +194,16 @@
 
                         <ul class="list-unstyled mt-4">
                             <li class="d-flex align-items-top"><span>1</span>Foundation year for basics of Design</li>
-                            <li class="d-flex align-items-top"><span>2</span>Choice Based Elective Subjects as per your specialization</li>
+                            <li class="d-flex align-items-top"><span>2</span>Choice Based Elective Subjects as per your
+                                specialization</li>
                             <li class="d-flex align-items-top"><span>3</span>Block Module Learning</li>
-                            <li class="d-flex align-items-top"><span>4</span>Semester end evaluation by Jury on Portfolio's, Prototypes and Assignments</li>
-                            <li class="d-flex align-items-top"><span>5</span>Live Projects, Graduate Projects, Design Collection</li>
+                            <li class="d-flex align-items-top"><span>4</span>Semester end evaluation by Jury on
+                                Portfolio's, Prototypes and Assignments</li>
+                            <li class="d-flex align-items-top"><span>5</span>Live Projects, Graduate Projects, Design
+                                Collection</li>
                             <li class="d-flex align-items-top"><span>6</span>Study Tours, Studio visits</li>
-                            <li class="d-flex align-items-top"><span>7</span>National and International Immersion programs based on curriculum and practices Annual Fests, Design Fests etc.</li>
+                            <li class="d-flex align-items-top"><span>7</span>National and International Immersion
+                                programs based on curriculum and practices Annual Fests, Design Fests etc.</li>
                         </ul>
                     </div>
                 </div>
@@ -218,7 +233,8 @@
                         <h2 class="mb-0">DPU AIDAT 2026</h2>
                         <p>(DPU AII INDIA DESIGN APTITUDE TEST)</p>
 
-                        <p class="mt-3">Online Proctored Test conducted by Dr. D. Y. Patil Vidyapeeth, PUNE, INDIA For Admission Selection Process to B.Des, M.Des.</p>
+                        <p class="mt-3">Online Proctored Test conducted by Dr. D. Y. Patil Vidyapeeth, PUNE, INDIA For
+                            Admission Selection Process to B.Des, M.Des.</p>
 
                         <h5 class="mt-3 fw-bold">19th APRIL, 2026</h5>
                         <div class="d-flex justify-content-center">
@@ -232,107 +248,129 @@
         </div>
     </section>
     <!-- ----------------------------------------------------------------------------------------------------------- -->
-    
+
     <section>
         <div class="container">
             <div class="row pt-5">
-                        <h2 class="display-5 fw-bold title mb-001">Specializations <br> <span class="text-red">School of Design</span></h2>
-                        <img src="img/key/bg.png" class="w-100" alt="">
+                <h2 class="display-5 fw-bold title mb-001">Specializations <br> <span class="text-red">School of
+                        Design</span></h2>
+                <img src="img/key/bg.png" class="w-100" alt="">
             </div>
         </div>
     </section>
 
     <!-- ----------------------------------------------------------------------------------------------------------- -->
-    <section class="py-lg-5 pb-5 " id="Program">
+    <section class="" id="Program">
         <?php include 'program.php';?>
     </section>
 
 
-<!-- ----------------------------------------------------------------------------------------------------------- -->
-    <section class="institutes-section py-5 overflow-hidden">
-    <div class="container">
-        <div class="row align-items-center">
+    <!-- ----------------------------------------------------------------------------------------------------------- -->
+    <section class="institutes-section overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center justify-content-end">
 
-        <!-- LEFT TEXT -->
-        <div class="col-md-5">
-            <div class="left-content">
-            <h2>
-                Different worlds.<br />
-                <span>One Institute.</span>
-            </h2>
-            </div>
-        </div>
-
-        <!-- RIGHT SLIDER -->
-        <div class="col-md-7 position-relative">
-
-            <div class="bg-shape"></div>
-
-            <div class="owl-carousel institutes_01 custom-nav">
-
-            <?php 
-            $institutes = [
-            [
-                "image" => "1",
-                "title" => "UI UX Design"
-            ],
-            [
-                "image" => "2",
-                "title" => "Interior Design"
-            ],
-            [
-                "image" => "3",
-                "title" => "Fashion Design"
-            ],
-            [
-                "image" => "4",
-                "title" => "Product Design"
-            ]
-            ]; foreach ($institutes as $item): ?>
-                <div class="item">
-                <div class="card-slide">
-                    <img src="img/programs/<?= $item['image']; ?>.png" class="img-fluid" />
-                    <div class="overlay">
-                    <?= $item['title']; ?>
+                <!-- LEFT TEXT -->
+                <div class="col-md-3">
+                    <div class="left-content text-end">
+                        <h2>
+                            Different worlds.<br />
+                            <span>One Institute.</span>
+                        </h2>
                     </div>
                 </div>
+                <div class="col-lg-1"></div>
+
+                <!-- RIGHT SLIDER -->
+                <div class="col-md-7 position-relative">
+
+                    <div class="bg-shape"></div>
+
+                    <div class="owl-carousel institutes_01 custom-nav">
+
+                        <?php 
+                            $institutes = [
+                            [
+                                "image" => "1",
+                                "title" => "Fashion Design and Communication"
+                            ],
+                            [
+                                "image" => "2",
+                                "title" => "Communication Design"
+                            ],
+                            [
+                                "image" => "3",
+                                "title" => "UI UX Design"
+                            ],
+                            [
+                                "image" => "4",
+                                "title" => "Product Design"
+                            ],
+                            [
+                                "image" => "5",
+                                "title" => "Interior Spatial and Furniture Design"
+                            ],
+                            [
+                                "image" => "6",
+                                "title" => "Animation and VFX Design"
+                            ]
+                            ]; foreach ($institutes as $item): ?>
+                        <div class="item">
+                            <div class="card-slide">
+                                <img src="img/programs/<?= $item['image']; ?>.png" class="img-fluid" />
+                                <div class="overlay">
+                                    <?= $item['title']; ?>
+                                </div>
+                            </div>
+                        </div>
+                        <?php endforeach; ?>
+
+                    </div>
                 </div>
-            <?php endforeach; ?>
 
             </div>
         </div>
-
-        </div>
-    </div>
     </section>
-    <!-- recruiters----------------------------------------------------------------------------------------------------------- -->
-    <section class="mb-5 " id="recruiters">
+
+    <!-- Association for Design Excellence----------------------------------------------------------------------------------------------------------- -->
+    <section class="" id="recruiters">
         <div class="container border-bottom bg-white py-5">
             <div class="row justify-content-center company">
                 <div class="col-12">
-                        <h2 class="mb-lg-3 mb-0 display-5 fw-bold title">Association for <span class="text-red">Design Excellence</span></h2>
+                    <h2 class="mb-lg-3 mb-0 display-5 fw-bold title">Association for <span class="text-red">Design
+                            Excellence</span></h2>
                 </div>
-
-
                 <div class="row py-3 justify-content-center text-center m-auto">
                     <?php
                             $p2 = ["1", "2", "3","4"];
-                            for ($i=0; $i < count($p2); $i++) {
-                            ?>
+                            for ($i=0; $i < count($p2); $i++) { ?>
                     <div class="col-lg-3 company_01  ">
-                        <img src="images/placement/management/<?= $p2[$i];?>.png" loading="lazy" class="border w-100" alt="">
+                        <img src="img/excellence/<?= $p2[$i];?>.png" loading="lazy" class="border w-100"
+                            alt="">
                     </div>
                     <?php } ?>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="col-md-12 placement_01 py-3 owl-carousel justify-content-center text-center m-auto">
+    <!-- Placements & Recruiters----------------------------------------------------------------------------------------------------------- -->
+    <section class="mb-5 bg-dark">
+        <div class="container border-bottom py-5">
+            <div class="row justify-content-center company">
+                <div class="col-12">
+                    <h2 class="mb-lg-3 mb-0 display-5 fw-bold title text-center text-white">Placements & Recruiters</h2>
+                </div>
+
+                <div
+                    class="col-md-10 bg-white rounded-3 placement_01 py-5 owl-carousel justify-content-center text-center m-auto">
                     <?php
                             
-                            $p1 = ["1", "2", "3","4", "5", "6", "7", "8", "9", "10", "11",  "12", "13", "14", "15","16", "17", "18", "19", "20", "21","22", "23", "24", "25","26", "27", "28", "29", "30"];
-                            for ($i=1; $i < count($p1); $i++) {
+                            $p1 = ["1", "2", "3","4", "5", "6", "7"];
+                            for ($i=0; $i < count($p1); $i++) {
                             ?>
-                    <div class=" company_01  ">
-                        <img src="images/placement/<?= $p1[$i];?>.png" loading="lazy" class="" alt="">
+                    <div class=" company_01 mb-3">
+                        <img src="img/recruiters/<?= $p1[$i];?>.png" loading="lazy" class="w-100" alt="">
                     </div>
                     <?php
                             } 
@@ -344,24 +382,157 @@
     </section>
 
 
+
+    <!-- Industry Interface----------------------------------------------------------------------------------------------------------- -->
+    <section class="institutes-section pb-5 overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center justify-content-end">
+
+                <!-- LEFT TEXT -->
+                <div class="col-md-3">
+                    <div class="left-content text-end">
+                        <h2>Industry <span>Interface</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+
+                <!-- RIGHT SLIDER -->
+                <div class="col-md-7 position-relative">
+
+                    <div class="bg-shape"></div>
+
+                    <div class="owl-carousel institutes_01 custom-nav">
+
+                        <?php 
+                            $institutes = [
+                            [
+                                "image" => "1",
+                            ],
+                            [
+                                "image" => "2",
+                            ],
+                            [
+                                "image" => "3",
+                            ],
+                            [
+                                "image" => "4",
+                            ],
+                            [
+                                "image" => "5",
+                            ],
+                            [
+                                "image" => "6",
+                            ]
+                            ]; foreach ($institutes as $item): ?>
+                        <div class="item">
+                            <div class="card-slide">
+                                <img src="img/industryinterface/0<?= $item['image']; ?>.png" class="interface" />
+                            </div>
+                        </div>
+                        <?php endforeach; ?>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- ----------------------------------------------------------------------------------------------------------- -->
     <?php include 'testimonials.php';?>
     <!-- ----------------------------------------------------------------------------------------------------------- -->
 
 
-    <!--Life@DPU ------------------------------------------------------------------------------------------------------------------ -->
-    <section class="life-section pt-5" id="gallery">
+    <!--Events & Industry Exposure ------------------------------------------------------------------------------------------------------------------ -->
+    <section class="life-section pt-5 bg-gray" id="gallery">
         <div class="container ">
             <div class="row justify-content-center align-items-center">
-                <div class="col-lg-4">
-                    <h2 class="text-red fw-normal mb-2 display-5 title text-center">Life@DPU</h2>
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold title mb-001">Events & <span class="text-red">Industry Exposure</span>
+                    </h2>
                 </div>
             </div>
             <div class="row">
                 <div class="owl-carousel gallery_carousel_01 py-4">
-                    <?php for ($i=0; $i < 8; $i++) {?>
-                    <div class="item"><img src="images/gallery/<?= $i+1;?>.webp" class="gallery-img01"></div>
-                    <?php } ?>
+                    
+                    <?php
+                            $events = [
+                            [
+                                "image" => "1",
+                                "title" => "Institute Study Tour to Goa <br> <span class='fs-001'>(A Perfect Blend of Learning and Leisure)</span>"
+                            ],
+                            [
+                                "image" => "2",
+                                "title" => "Paris Tour – World of Fashion Beauty and Luxury"
+                            ],
+                            [
+                                "image" => "3",
+                                "title" => "Study Tour to Hettich Experience Centre"
+                            ],
+                            [
+                                "image" => "4",
+                                "title" => "Study Tour to Hettich Experience Centre"
+                            ],
+                            [
+                                "image" => "5",
+                                "title" => "Study Tour to Hettich Experience Centre"
+                            ],
+                            [
+                                "image" => "6",
+                                "title" => "Ceramic Workshop"
+                            ],
+                            [
+                                "image" => "7",
+                                "title" => "Ceramic Workshop"
+                            ],
+                            [
+                                "image" => "8",
+                                "title" => "Ceramic Workshop"
+                            ],
+                            [
+                                "image" => "9",
+                                "title" => "Industrial Visit to Allygram Systems and Technology Pvt. Ltd"
+                            ],
+                            [
+                                "image" => "10",
+                                "title" => "Industrial Visit to Allygram Systems and Technology Pvt. Ltd"
+                            ],
+                            [
+                                "image" => "11",
+                                "title" => "Industrial Visit to Allygram Systems and Technology Pvt. Ltd"
+                            ],
+                            [
+                                "image" => "12",
+                                "title" => "Bamboo Lamp-Making Workshop"
+                            ],
+                            [
+                                "image" => "13",
+                                "title" => "Bamboo Lamp-Making Workshop"
+                            ],
+                            [
+                                "image" => "14",
+                                "title" => "Bamboo Lamp-Making Workshop"
+                            ],
+                            [
+                                "image" => "15",
+                                "title" => "Bamboo Lamp-Making Workshop"
+                            ],
+                            [
+                                "image" => "16",
+                                "title" => ""
+                            ],
+                            [
+                                "image" => "17",
+                                "title" => ""
+                            ]
+                            ]; foreach ($events as $item): ?>
+                    <div class="item"><img src="img/events/<?= $item['image']; ?>.jpeg" class="gallery-img01">
+                        <div class="text-center pt-1">
+                            <h6 class="mb-0 fw-bold"><?= $item['title']; ?></h6>
+                        </div>
+                    </div>
+                        <?php endforeach; ?>
                 </div>
             </div>
 
@@ -372,17 +543,31 @@
 
 
     <!--CTA ------------------------------------------------------------------------------------------------------------------ -->
-    <section class="bg-white pt-lg-3 ">
+    <section class="bg-white">
         <div class="container">
-            <div class="row  bg-img-01  py-5" data-bgimg="images/cta/1.png">
-                <div class="col-lg-8">
-                    <div class="mb-4">
-                        <h3 class=" text-red display-6"><span class="h2">Applications are invited</span> for All
-                            India Proctor Based Online Entrance Test 2026-27 MBA (DPU-CET), BBA (Hons) (DPU-CET) &
-                            B.COM (DPU-CET)</h3>
-                    </div>
+            <div class="row  py-4 justify-content-center">
+                <div class="col-lg-8 mb-4 text-center">
+                    <h3 class="h2">Think Design. Think DPU. <br> A leading institute for Design and Innovation</h3>
                     <button class="btn c_btn py-2 px-4 rounded-pill" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">Apply Now</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+    <section class="bg-dark py-3">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-3 text-end">
+                    <img src="img/logo/1.webp" class="hero_logo_01" loading="lazy" alt="">
+                </div>
+                <div class="col-lg-3 b-left ">
+                    <p class="text-white">Dr. D. Y. Patil Vidyapeeth, Pune. <br>
+                        Survey No 87/88, Mumbai Bangalore Express Highway, <br>
+                        Tathawade, Pune-411 033 India.</p>
                 </div>
             </div>
         </div>
@@ -395,7 +580,7 @@
     <button type="button" class="btn c_btn  px-4 right_button d-lg-none " data-bs-toggle="modal"
         data-bs-target="#exampleModal">Apply Now</button>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog p-0">
+        <div class="modal-dialog">
             <div class="modal-content ">
                 <div class="modal-header">
                     <div class="modalLogo d-flex flex-column justify-content-center align-items-center">
@@ -403,7 +588,7 @@
                     </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body p-0">
+                <div class="modal-body">
                     <?php include 'form_01.php';?>
                 </div>
             </div>

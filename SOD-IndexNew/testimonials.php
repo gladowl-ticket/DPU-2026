@@ -1,177 +1,90 @@
-<!-- Testimonials----------------------------------------------------------------------------------------------------------- -->
-        <section class="bg-grey pb-5" id="success-stories">
-            <div class="container rounded-3 px-lg-1 px-0 py-1 ">
-                <div class="row justify-content-end align-items-center">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="text-red fw-normal mb-2 display-5 title text-center">Testimonials</h2>
+<?php
+$testimonials = [
+  [
+    "id" => 1,
+    "image" => "1",
+    "short_text" => "Though Ijoined DPU Dr. D. Y. Patil School of Design (DPUSOD) a bit late, I'm confident it was the right choice. Moving to Maharashtra was tough",
+    "full_text" => "Though Ijoined DPU Dr. D. Y. Patil School of Design (DPUSOD) a bit late, I'm confident it was the right choice. Moving to Maharashtra was tough, but the vibrant campus, artistic decor, and world-class studios make it truly worth it.",
+    "name" => "Guntaj Gill",
+    "course" => "Fashion Design and Communication",
+  ],
+  [
+    "id" => 2,
+    "image" => "2",
+    "short_text" => "Iam a Visual Communication Design aspirant, and I value this institute's rigorous curriculum, interactive sessions, and inspiring faculty that make learning ",
+    "full_text" => "Iam a Visual Communication Design aspirant, and I value this institute's rigorous curriculum, interactive sessions, and inspiring faculty that make learning engaging and joyful.",
+    "name" => "Swapnangana Senapati",
+    "course" => "Communication Design",
+  ],
+  [
+    "id" => 3,
+    "image" => "3",
+    "short_text" => "I'm a Product Design student at DPUSOD,  confident of excelling with the top-notch  tools, resources, and hands-on exposure.  Regular industry visits, guest ",
+    "full_text" => "I'm a Product Design student at DPUSOD, confident of excelling with the top-notch tools, resources, and hands-on exposure. Regular industry visits, guest sessions, and portfolio development each semester keep me career-ready and growing. ",
+    "name" => "Aarush Nagvekar",
+    "course" => "Product Design",
+  ],
+  [
+    "id" => 4,
+    "image" => "4",
+    "short_text" => " DPUSOD is a vibrant, professional space to explore design-no blackboards, just smar boards and cozy, aesthetic learning areas With celebrations year-roun.",
+    "full_text" => " DPUSOD is a vibrant, professional space to explore design-no blackboards, just smar boards and cozy, aesthetic learning areas With celebrations year-round, every day here feels special.",
+    "name" => "Rishika Dubey",
+    "course" => "Interior Spatial and Furniture Design",
+  ]
+];
+?>
+
+<!-- Testimonials Section -->
+<section class="py-5" id="success-stories">
+    <div class="container rounded-3 px-lg-1 px-0 py-1">
+
+        <h2 class="display-5 mb-3 fw-bold title">Expressions</h2>
+
+        <div class="row testimonals_01 owl-carousel">
+
+            <?php foreach ($testimonials as $item): ?>
+                <div class="row gapStudentName py-4 mx-3 align-items-stretch">
+                    <div class="col-lg-8 d-flex ps-lg-3 ps-2 flex-column justify-content-center ">
+                        <h5 class="fw-bold mb-0"><?= $item['name']; ?></h5>
+                        <p class="mb-3 fw-500"><?= $item['course']; ?></p>
+                        
+                        <p class="testimonial-text">
+                            <?= $item['short_text']; ?>
+                            <a href="#" class="fw-bold text-red" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal<?= $item['id']; ?>">
+                                ... Read More
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="w-100" src="img/students/<?= $item['image']; ?>.jpg"  alt="">
                     </div>
                 </div>
-                <div class="row testimonals_01 owl-carousel d-grid">
+            <?php endforeach; ?>
 
-                    <div class="col-lg-12  item testimonial-items  mb-4 item px-lg-3 px-5 py-3">
-                        <div class="row">
-                            <div class="bg-white rounded-3 px-4 pt-3 pb-1">
-
-                                
-                                <div
-                                    class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start gapStudentName w-full pt-0 pt-lg-3">
-                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonial/1.png" alt="">
-
-                                    <div class="d-flex ps-lg-3 ps-2 flex-column justify-content-center">
-                                        <p class="text-justify testimonial-text">My journey at Global Business School and Research Centre has been nothing short of transformative. As an Agri Business Management student, I had the opportunity to connect theory with real-world insights through industrial visits,<a href="" class="read-more-btn testimonial_read_more fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal1">... Read More</a> </p>
-
-                                        <p class="studentName_01 text-dark fw-bold mb-0">Aaditya Katkar </p>
-                                        <p class="studentName_01 text-dark  mb-0">MBA (Agri Business Management) | Batch 2023–25 </p>
-                                        <p class="studentName_01 text-dark  mb-0"><b>Placed at:</b> HDFC Bank as Agriculture Officer </p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+        </div>
+    </div>
+</section>
 
 
-                    <div class="col-lg-12  item testimonial-items  mb-4 item px-lg-3 px-5 py-3">
-                        <div class="row">
-                            <div class="bg-white rounded-3 px-4 pt-3 pb-1">
+<!-- Modals -->
+<?php foreach ($testimonials as $item): ?>
+<div class="modal fade" id="exampleModal<?= $item['id']; ?>" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
 
-                                
-                                <div
-                                    class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start gapStudentName w-full pt-0 pt-lg-3">
-                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonial/2.png" alt="">
-
-                                    <div class="d-flex ps-lg-3 ps-2 flex-column justify-content-center">
-                                        <p class="text-justify testimonial-text">GBSRC has been a turning point in my academic and professional journey. As an Agri Business Management student, I was exposed to a perfect blend of practical learning and industry exposure. The curriculum is dynamic, and the constant<a href="" class="read-more-btn testimonial_read_more fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal2">... Read More</a></p>
-
-                                        <p class="studentName_01 text-dark fw-bold mb-0">Bhakti Kumbhar</p>
-                                        <p class="studentName_01 text-dark  mb-0">MBA (Agri Business Management) | Batch 2023–25 </p>
-                                        <p class="studentName_01 text-dark  mb-0"><b>Placed at:</b> AMUL as Territory Sales In-charge - I </p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-12  item testimonial-items  mb-4 item px-lg-3 px-5 py-3">
-                        <div class="row">
-                            <div class="bg-white rounded-3 px-4 pt-3 pb-1">
-
-                                
-                                <div
-                                    class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start gapStudentName w-full pt-0 pt-lg-3">
-                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonial/3.png" alt="">
-
-                                    <div class="d-flex ps-lg-3 ps-2 flex-column justify-content-center">
-                                        <p class="text-justify testimonial-text">Choosing GBSRC for my MBA in Agri Business Management has been one of the best decisions of my life. The institute’s focus on holistic development helped me grow academically and professionally. With activities like industry interactions, <a href="" class="read-more-btn testimonial_read_more fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal3">... Read More</a></p>
-
-                                        <p class="studentName_01 text-dark fw-bold mb-0">Omkar Chavan </p>
-                                        <p class="studentName_01 text-dark  mb-0">MBA (Agri Business Management) | Batch 2023–25 </p>
-                                        <p class="studentName_01 text-dark  mb-0"><b>Placed at:</b> HDFC Life Insurance as Executive Trainee </p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-12  item testimonial-items  mb-4 item px-lg-3 px-5 py-3">
-                        <div class="row">
-                            <div class="bg-white rounded-3 px-4 pt-3 pb-1">
-
-                                
-                                <div
-                                    class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start gapStudentName w-full pt-0 pt-lg-3">
-                                    <img class="studentImg mb-2 mb-lg-0 " src="images/testimonial/4.png" alt="">
-
-                                    <div class="d-flex ps-lg-3 ps-2 flex-column justify-content-center">
-                                        <p class="text-justify testimonial-text">My experience at Global Business School and Research Centre has been truly enriching. Pursuing a dual specialization in Finance and Marketing allowed me to explore diverse dimensions of management with practical exposure and academic excellence. <a href="" class="read-more-btn testimonial_read_more fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal4">... Read More</a></p>
-
-                                        <p class="studentName_01 text-dark fw-bold mb-0">Purusharthwardhan Rathore </p>
-                                        <p class="studentName_01 text-dark  mb-0">MBA (Finance and Marketing) | Batch 2023–25</p>
-                                        <p class="studentName_01 text-dark  mb-0"><b>Placed at:</b> Yotta as Senior Executive</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-        </section>
 
-<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p class="text-justify testimonial-text">My journey at Global Business School and Research Centre has been nothing short of transformative. As an Agri Business Management student, I had the opportunity to connect theory with real-world insights through industrial visits, certification programs, and expert guest sessions. Serving as the General Secretary of the Student Council further sharpened my leadership and organizational skills. From celebrating vibrant festivals on campus to participating in skill-building workshops, every moment here was a learning experience. The faculty support, personalized placement training, and the career guidance I received played a pivotal role in my placement at HDFC Bank. I feel proud and prepared to step into the industry, carrying with me the values and vision of GBSRC.</p>
+            <div class="modal-body">
+                <p><?= $item['full_text']; ?></p>
+                <p class="fw-bold mb-0"><?= $item['name']; ?></p>
+                <p class="mb-0"><?= $item['course']; ?></p>
+            </div>
 
-                                        <p class="studentName_01 text-dark fw-bold mb-0">Aaditya Katkar </p>
-                                        <p class="studentName_01 text-dark  mb-0">MBA (Agri Business Management) | Batch 2023–25 </p>
-                                        <p class="studentName_01 text-dark  mb-0"><b>Placed at:</b> HDFC Bank as Agriculture Officer </p>
-      </div>
+        </div>
     </div>
-  </div>
 </div>
-
-<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-          <p class="text-justify testimonial-text">GBSRC has been a turning point in my academic and professional journey. As an Agri Business Management student, I was exposed to a perfect blend of practical learning and industry exposure. The curriculum is dynamic, and the constant encouragement from faculty pushed me to explore beyond textbooks. My placement at AMUL is a reflection of the continuous support and structured guidance provided by the placement cell. The certification courses, hands-on training, and real-world case studies helped me gain the confidence to step into the corporate world. I’ll always cherish the vibrant culture of GBSRC—be it festival celebrations, industrial visits, or teamwork during college events. These experiences have not only made me industry-ready but also personally enriched.</p>
-
-                                        <p class="studentName_01 text-dark fw-bold mb-0">Bhakti Kumbhar</p>
-                                        <p class="studentName_01 text-dark  mb-0">MBA (Agri Business Management) | Batch 2023–25 </p>
-                                        <p class="studentName_01 text-dark  mb-0"><b>Placed at:</b> AMUL as Territory Sales In-charge - I </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-          <p class="text-justify testimonial-text">Choosing GBSRC for my MBA in Agri Business Management has been one of the best decisions of my life. The institute’s focus on holistic development helped me grow academically and professionally. With activities like industry interactions, field visits, certification programs, and practical projects, I gained valuable insights into the real-world application of agri-business concepts. The placement team at GBSRC guided me throughout the recruitment process, and their personalized support helped me secure a position at HDFC Life Insurance. I’ll always remember the vibrant student life here—cultural events, teamwork during festivals, and the friendships I’ve made. GBSRC has not only shaped my career but also given me memories for a lifetime</p>
-
-                                        <p class="studentName_01 text-dark fw-bold mb-0">Omkar Chavan </p>
-                                        <p class="studentName_01 text-dark  mb-0">MBA (Agri Business Management) | Batch 2023–25 </p>
-                                        <p class="studentName_01 text-dark  mb-0"><b>Placed at:</b> HDFC Life Insurance as Executive Trainee </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p class="text-justify testimonial-text">My experience at Global Business School and Research Centre has been truly enriching. Pursuing a dual specialization in Finance and Marketing allowed me to explore diverse dimensions of management with practical exposure and academic excellence. GBSRC’s ecosystem is built to nurture talent through industry-oriented certification courses, interactive guest lectures, and hands-on learning. The institute’s personalized approach to placement training played a key role in helping me secure a position at Yotta as a Senior Executive. Beyond academics, what makes GBSRC special is its vibrant campus life—celebrating festivals, engaging in student-driven initiatives, and being part of a culture that fosters leadership and innovation. I’m proud to be a part of this transformative journey</p>
-
-                                        <p class="studentName_01 text-dark fw-bold mb-0">Purusharthwardhan Rathore </p>
-                                        <p class="studentName_01 text-dark  mb-0">MBA (Finance and Marketing) | Batch 2023–25</p>
-                                        <p class="studentName_01 text-dark  mb-0"><b>Placed at:</b> Yotta as Senior Executive</p>
-      </div>
-    </div>
-  </div>
-</div>
+<?php endforeach; ?>

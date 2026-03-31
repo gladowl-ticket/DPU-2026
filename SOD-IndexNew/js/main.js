@@ -42,7 +42,7 @@
         '<i class="bi bi-chevron-right"></i>',
       ],
       responsive: {
-        0: { items: 1 },
+        0: { items: 2 },
         576: { items: 2 },
         768: { items: 2 },
         992: { items: 4 },
@@ -94,17 +94,17 @@
       loop: !0,
       center: !1,
       dots: !1,
-      nav: !1,
+      nav: 1,
       rtl: true,
       navText: [
-        '<i class="bi bi-chevron-left"></i>',
         '<i class="bi bi-chevron-right"></i>',
+        '<i class="bi bi-chevron-left"></i>',
       ],
       responsive: {
         0: { items: 2 },
         576: { items: 2 },
         768: { items: 3 },
-        992: { items: 5 },
+        992: { items: 6 },
       },
     }),
     a(".testimonial-carousel").owlCarousel({
@@ -191,7 +191,7 @@
     }),
     $(".gallery_carousel_01")
       .owlCarousel({
-        autoplay: true,
+        autoplay: false,
         loop: true,
         margin: -50,
         nav: true,

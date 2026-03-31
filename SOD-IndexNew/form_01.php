@@ -1,1 +1,1 @@
-<iframe aria-label='DPU-GBSRC-2026' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.in/gladowlwebsolutionspvtltd/form/DPUGBSRC2026/formperma/1n-Dr4IN18aDukEgZPEwK9bESyIQoZO0oAENSjqcg3k'></iframe>
+<iframe aria-label='DPU - Design Index' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.in/gladowlwebsolutionspvtltd/form/DYschoolofdesignPune2026/formperma/gFz_Ni1OvIernuttHgH-Rg6Rsd5mSNcU34LTqIJssz0'></iframe>
