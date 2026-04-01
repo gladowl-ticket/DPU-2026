@@ -8,7 +8,7 @@
         <ul class="nav nav-pills mb-3 row text-center custom_tabs" id="pills-tab" role="tablist">
             <li class="nav-item col px-0">
                 <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Program Specializations</a>
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Specializations</a>
             </li>
             <li class="nav-item col px-0">
                 <a class="nav-link" id="pills-intake-tab" data-bs-toggle="pill" data-bs-target="#pills-intake"
@@ -21,7 +21,7 @@
         </ul>
 
         <!-- Tab Content -->
-        <div class="tab-content custom_tab_content p-lg-4" id="pills-tabContent">
+        <div class="tab-content custom_tab_content p-lg-3" id="pills-tabContent">
 
             <!-- TAB 1 -->
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"

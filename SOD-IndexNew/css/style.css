@@ -57,12 +57,12 @@ h6 {
   background-color: var(--red);
 }
 
-.bg-black{
+.bg-black {
   background-color: var(--dark);
 }
 
-.text-yellow{
-  color:var(--yellow);
+.text-yellow {
+  color: var(--yellow);
 }
 
 .border-bottom_01 {
@@ -157,7 +157,7 @@ h6 {
   background-color: var(--red);
 }
 .h_partner.h_part_apply {
-  background-image: url(../images/bg1.webp);
+  background-image: url(../img/bg1.webp);
   background-position: top;
 }
 .h_partner .h_btn,
@@ -305,7 +305,7 @@ h6 {
   color: var(--light);
 }
 .hero_logo_01 {
-  height: 60px;
+  height: 40px;
   object-fit: contain;
 }
 .box_shadow img {
@@ -518,7 +518,7 @@ h6 {
 .ChildTabContent .tab-content .accordion-button:not(.collapsed)::after,
 .mobilePrograms .accordion-button:not(.collapsed)::after {
   transform: rotate(0);
-  background-image: url(../images/program/close.png);
+  background-image: url(../img/program/close.png);
   background-size: 10px 10px !important;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -528,7 +528,6 @@ h6 {
 }
 .ChildTabContent .tab-content .accordion-button::after,
 .mobilePrograms .accordion-button::after {
-  background-image: url(../images/program/arrow1.png);
   background-size: 15px 20px !important;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -734,9 +733,18 @@ span.brownTriangle {
 .programsNew li {
   display: grid;
 }
+.container-fluid.h_nav.px-lg-5.sticky-top {
+  background: #fff;
+}
 @media (min-width: 992px) {
+  .container-fluid.h_nav.px-lg-5.sticky-top {
+    background: #00000047;
+  }
+  .mt-001 {
+    margin-top: -6rem;
+  }
   .programsNew li {
-    display: unset;
+    display: list-item;
   }
   .usp_01 p {
     font-size: unset;
@@ -923,9 +931,6 @@ span.brownTriangle {
 .scholarship-list li {
   padding: 5px 0;
 }
-.container-fluid.h_nav.px-lg-5.sticky-top {
-  background: #00000047;
-}
 .navbar .navbar-nav .nav-link {
   color: #ffffff;
   font-size: 14px;
@@ -1107,7 +1112,7 @@ span.brownTriangle {
 
 /* MIDDLE BOX */
 .middle-box {
-  background: url("../images/why/1.jpg") center/cover no-repeat;
+  background: url("../img/why/1.jpg") center/cover no-repeat;
   position: relative;
   padding: 30px;
   height: 445px !important;
@@ -1219,13 +1224,10 @@ span.brownTriangle {
   color: var(--red);
 }
 .mt-50 {
-  margin-top: -55px;
+  margin-top: -30px;
 }
 .border-red {
   border: solid 2px var(--blue);
-}
-.mt-001 {
-  margin-top: -6rem;
 }
 .border-bottom-01 {
   border-bottom: 2px solid var(--blue);
@@ -1325,7 +1327,7 @@ span.brownTriangle {
 
 /* LEFT RED BOX */
 .program_left {
-  width: 35%;
+  width: 40%;
   background-color: #a61c0f;
   color: #fff;
   padding: 15px;
@@ -1456,14 +1458,12 @@ span.brownTriangle {
   border-left: solid 1px var(--yellow);
 }
 
-
-.programtitle{
+.programtitle {
   font-size: 22px;
-    font-weight: 600;
+  font-weight: 600;
 }
 
-.hrstyle{
-  color:#fff !important;
+.hrstyle {
+  color: #fff !important;
   height: 2px;
-
 }

@@ -29,7 +29,7 @@
       responsive: { 0: { items: 1 }, 576: { items: 1 }, 768: { items: 2 } },
     }),
     a(".awards_01").owlCarousel({
-      autoplay: !0,
+      autoplay: true,
       autoplayTimeout: 2e3,
       smartSpeed: 500,
       margin: 0,
@@ -150,7 +150,7 @@
       },
     }),
     a(".gallary_01").owlCarousel({
-      autoplay: !0,
+      autoplay: true,
       autoplayTimeout: 2e3,
       smartSpeed: 500,
       margin: 25,
@@ -191,7 +191,7 @@
     }),
     $(".gallery_carousel_01")
       .owlCarousel({
-        autoplay: false,
+        autoplay: true,
         loop: true,
         margin: -50,
         nav: true,

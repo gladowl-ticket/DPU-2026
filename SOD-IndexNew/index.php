@@ -13,9 +13,9 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="images/logo/favicon.ico" loading="lazy" rel="icon">
+    <link href="img/logo/favicon.ico" loading="lazy" rel="icon">
 
-    <link rel="preload" as="image" href="images/hero/1.png" type="image/webp">
+    <link rel="preload" as="image" href="img/hero/1.png" type="image/webp">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -30,7 +30,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel="preload" as="image" href="images/hero/1.png" />
+    <link rel="preload" as="image" href="img/hero/1.png" />
     <!-- Google Tag Manager -->
     <script>
         (function (w, d, s, l, i) {
@@ -58,9 +58,9 @@
 
     <!-- ======================================================================================================= -->
 
-    <section class="hero_section" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <section class="hero_section">
         <?php include 'header.php';?>
-        <div class="position-relative mt-001">
+        <div class="position-relative mt-001" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <video id="heroVideo" autoplay muted loop playsinline poster="img/hero/1.jpg"
                 class="hero-video w-100">
                 <source src="img/hero/1.mp4" type="video/mp4">
@@ -172,7 +172,7 @@
                                     for ($i=0; $i < 4; $i++) {
                                     ?>
                         <div class="rounded-3 py-3 box_shadow mx-lg-3 mx-2">
-                            <img src="images/awards/<?= $i+1;?>.jpg" loading="lazy" class="w-100" alt="">
+                            <img src="img/awards/<?= $i+1;?>.jpg" loading="lazy" class="w-100" alt="">
                         </div>
                         <?php
                                     } 
@@ -213,7 +213,7 @@
                 <div class="col-lg-4 ps-lg-0 px-0">
                     <div class="middle-box h-100 text-white d-flex align-items-center py-2">
                         <div class="overlay-content">
-                            <h2>WHY MANAGEMENT COURSES?</h2>
+                            <h2 class="text-uppercase">WHY Design at DPU?</h2>
 
                             <ul class="list-unstyled mt-3">
                                 <li>› Seasoned Advisory Board Members</li>
@@ -626,7 +626,7 @@
                 <div class="col-lg-3 text-lg-end text-center">
                     <img src="img/logo/1.webp" class="hero_logo_01" loading="lazy" alt="">
                 </div>
-                <div class="col-lg-3 b-left text-center pt-4">
+                <div class="col-lg-3 b-left text-center text-lg-start  pt-4">
                     <p class="text-white">Dr. D. Y. Patil Vidyapeeth, Pune. <br>
                         Survey No 87/88, Mumbai Bangalore Express Highway, <br>
                         Tathawade, Pune-411 033 India.</p>
