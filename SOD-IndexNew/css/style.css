@@ -518,7 +518,7 @@ h6 {
 .ChildTabContent .tab-content .accordion-button:not(.collapsed)::after,
 .mobilePrograms .accordion-button:not(.collapsed)::after {
   transform: rotate(0);
-  background-image: url(../img/program/close.png);
+  background-image: url(../images/program/close.png);
   background-size: 10px 10px !important;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -1112,7 +1112,7 @@ span.brownTriangle {
 
 /* MIDDLE BOX */
 .middle-box {
-  background: url("../img/why/1.jpg") center/cover no-repeat;
+  background: url("../images/why/1.jpg") center/cover no-repeat;
   position: relative;
   padding: 30px;
   height: 445px !important;

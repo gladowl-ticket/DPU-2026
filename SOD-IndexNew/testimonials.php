@@ -58,7 +58,7 @@ $testimonials = [
                         </p>
                     </div>
                     <div class="col-lg-4 order-1 order-lg-2 mb-3">
-                        <img class="w-100" src="img/students/<?= $item['image']; ?>.jpg"  alt="">
+                        <img class="w-100" src="img/students/<?= $item['image']; ?>.webp"  alt="">
                     </div>
                 </div>
             <?php endforeach; ?>
