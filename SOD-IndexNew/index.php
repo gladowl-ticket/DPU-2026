@@ -15,7 +15,7 @@
     <!-- Favicon -->
     <link href="img/logo/favicon.ico" loading="lazy" rel="icon">
 
-    <link rel="preload" as="image" href="images/hero/1.png" type="image/webp">
+    <link rel="preload" as="image" href="img/hero/1.webp" type="image/webp">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -30,7 +30,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel="preload" as="image" href="images/hero/1.png" />
+    <link rel="preload" as="image" href="img/hero/1.webp" />
     <!-- Google Tag Manager -->
     <script>
         (function (w, d, s, l, i) {
@@ -60,8 +60,8 @@
 
     <section class="hero_section">
         <?php include 'header.php';?>
-        <div class="position-relative mt-001">
-            <video id="heroVideo" autoplay muted loop playsinline poster="img/hero/1.jpg"
+        <div class="position-relative mt-001" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <video id="heroVideo" autoplay muted loop playsinline poster="img/hero/1.webp"
                 class="hero-video w-100">
                 <source src="img/hero/1.mp4" type="video/mp4">
             </video>
@@ -172,7 +172,7 @@
                                     for ($i=0; $i < 4; $i++) {
                                     ?>
                         <div class="rounded-3 py-3 box_shadow mx-lg-3 mx-2">
-                            <img src="images/awards/<?= $i+1;?>.jpg" loading="lazy" class="w-100" alt="">
+                            <img src="img/awards/<?= $i+1;?>.webp" loading="lazy" class="w-100" alt="">
                         </div>
                         <?php
                                     } 
