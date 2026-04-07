@@ -86,7 +86,7 @@ Join GBSRC’s AI-Embedded MBA to become a visionary leader of tomorrow’s busi
 </p>',
         'eligibility' => '<p>Graduate (10+2+3 OR 10+2+4) in any discipline from a recognized university, with not less than 50% and (reserved category not less than 45%) overall aggregate marks. Candidates appearing for the final year examination may also apply. <br><br>Candidates who have registered / appeared for any of the following national level entrance exams with a valid score.</p>
             <ul>
-                <li>All India Entrance Test 2026 (DPU Test)</li>
+                <li>All India Entrance Test 2026 (DPU CET)</li>
                 <li>CAT 2025</li>
                 <li>XAT 2025</li>
                 <li>CMAT 2026</li>
