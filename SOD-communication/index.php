@@ -6,8 +6,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DPU School of Design, Pune — B.Des in Fashion, UI/UX, Product & more. Ranked, certified, and placement-ready.
-        Apply now for 2026 admissions.</title>
+    <title>DPU School of Design, Pune — B.Des in Fashion, UI/UX, Product & more. Ranked, certified, and placement-ready. Apply now for 2026 admissions.</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -31,6 +30,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="preload" as="image" href="img/hero/1.webp" />
+    
     <!-- Google Tag Manager -->
     <script>
         (function (w, d, s, l, i) {
@@ -220,16 +220,13 @@
                             <h2 class="text-uppercase">WHY Design at DPU?</h2>
 
                             <ul class="list-unstyled mt-3">
-                                <li>› Drawing Studio</li>
-                                <li>› CAD Studio</li>
-                                <li>› Illustration & Graphic Design Studio</li>
-                                <li>› Photography Studio</li>
-                                <li>› Visual Merchandise Studio</li>
-                                <li>› Drawing Studio</li>
-                                <li>› CAD Studio</li>
-                                <li>› Illustration & Graphic Design Studio</li>
-                                <li>› Photography Studio</li>
-                                <li>› Visual Merchandise Studio</li>
+                                <li>› Seasoned Advisory Board Members</li>
+                                <li>› In-House Faculty comes seeded Institutes in Design to spearhead the courses</li>
+                                <li>› Mentors from IIT's, NID, NIFT and cream design Schools</li>
+                                <li>› Robust industry led curriculum</li>
+                                <li>› World class infrastructure for conducive practise environment</li>
+                                <li>› Strong Industry Connect</li>
+                                <li>› Promote students through Incubation and start-up centre</li>
                             </ul>
                         </div>
                     </div>

@@ -13,7 +13,7 @@
           <img class="lazyload " src="img/programs/001.png">
         </div>
         <!-- Left Content -->
-        <div class="col-md-7">
+        <div class="col-md-7 col-11">
           <div class="banner-left">
             <h5>Interior Space & Furniture Design ( B.DES Programme) </h5>
 
@@ -33,7 +33,7 @@
         </div>
       </div>
       <!-- Bottom Box -->
-      <div class="program-box mt-5">
+      <div class="program-box mt-5 p-">
         <div class="row">
           <!-- B.DES -->
           <div class="col-md-12 border-left-custom">
@@ -49,12 +49,12 @@
 
 
       <!-- Top Banner -->
-      <div class="row align-items-center banner-wrapper position-relative pt-5">
+      <div class="row align-items-center banner-wrapper position-relative mt-5">
          <div class="program-img text-end">
           <img class="lazyload " src="img/programs/001.png">
         </div>
         <!-- Left Content -->
-        <div class="col-md-7">
+        <div class="col-md-7 col-11">
           <div class="banner-left">
             <h5>B.Sc. Hons. in Interior Design</h5>
 
