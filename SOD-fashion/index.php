@@ -478,9 +478,9 @@
                         <div class="item">
                             <div class="card-slide">
                                 <img src="img/programs/<?= $item['image']; ?>.png" class="img-fluid" />
-                                <div class="overlay">
+                                <!-- <div class="overlay">
                                     <?= $item['title']; ?>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <?php endforeach; ?>
