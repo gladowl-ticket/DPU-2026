@@ -455,39 +455,39 @@
                             $institutes = [
                             [
                                 "image" => "01",
-                                "title" => "Animation and VFX Design"
+                                "title" => ""
                             ],
                             [
                                 "image" => "02",
-                                "title" => "Animation and VFX Design"
+                                "title" => ""
                             ],
                             [
                                 "image" => "03",
-                                "title" => "Animation and VFX Design"
+                                "title" => ""
                             ],
                             [
                                 "image" => "04",
-                                "title" => "Animation and VFX Design"
+                                "title" => ""
                             ],
                             [
                                 "image" => "05",
-                                "title" => "Animation and VFX Design"
+                                "title" => ""
                             ],
                             [
                                 "image" => "06",
-                                "title" => "Animation and VFX Design"
+                                "title" => ""
                             ],
                             [
                                 "image" => "07",
-                                "title" => "Animation and VFX Design"
+                                "title" => ""
                             ],
                             [
                                 "image" => "08",
-                                "title" => "Animation and VFX Design"
+                                "title" => ""
                             ],
                             [
                                 "image" => "09",
-                                "title" => "Animation and VFX Design"
+                                "title" => ""
                             ]
                             ]; foreach ($institutes as $item): ?>
                         <div class="item">
@@ -633,35 +633,43 @@
                     <?php
                             $events = [
                             [
-                                "image" => "01",
+                                "image" => "1",
                                 "title" => ""
                             ],
                             [
-                                "image" => "02",
+                                "image" => "2",
                                 "title" => ""
                             ],
                             [
-                                "image" => "03",
+                                "image" => "3",
                                 "title" => ""
                             ],
                             [
-                                "image" => "04",
+                                "image" => "4",
                                 "title" => ""
                             ],
                             [
-                                "image" => "05",
+                                "image" => "5",
                                 "title" => ""
                             ],
                             [
-                                "image" => "06",
+                                "image" => "6",
                                 "title" => ""
                             ],
                             [
-                                "image" => "07",
+                                "image" => "7",
                                 "title" => ""
                             ],
                             [
-                                "image" => "08",
+                                "image" => "8",
+                                "title" => ""
+                            ],
+                            [
+                                "image" => "9",
+                                "title" => ""
+                            ],
+                            [
+                                "image" => "10",
                                 "title" => ""
                             ]
                             ]; foreach ($events as $item): ?>
