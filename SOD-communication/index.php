@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DPU School of Design, Pune — B.Des in Fashion, UI/UX, Product & more. Ranked, certified, and placement-ready. Apply now for 2026 admissions.</title>
+    <title>DPU School of Design, Pune — B.Des & M.Des in Communication Design. Train under industry experts and craft compelling visuals that communicate, influence and inspire. Apply now for 2026 admissions.</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -378,12 +378,12 @@
     <?php include 'testimonials.php';?>
     <!-- ----------------------------------------------------------------------------------------------------------- -->
 
-    <!--Events & Industry Exposure ------------------------------------------------------------------------------------------------------------------ -->
+    <!--Gallery ------------------------------------------------------------------------------------------------------------------ -->
     <section class="life-section pt-5 bg-gray" id="gallery">
         <div class="container ">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-12 text-center mb-5">
-                    <h2 class="display-5 fw-bold title mb-001 text-center">Events & <span class="text-red">Industry Exposure</span>
+                    <h2 class="display-5 fw-bold title mb-001 text-center"><span class="text-red">Gallery</span>
                     </h2>
                 </div>
             </div>
@@ -392,79 +392,21 @@
                     
                     <?php
                             $events = [
-                            [
-                                "image" => "1",
-                                "title" => "Institute Study Tour to Goa <br> <span class='fs-001'>(A Perfect Blend of Learning and Leisure)</span>"
-                            ],
-                            [
-                                "image" => "2",
-                                "title" => "Paris Tour – World of Fashion Beauty and Luxury"
-                            ],
-                            [
-                                "image" => "3",
-                                "title" => "Study Tour to Hettich Experience Centre"
-                            ],
-                            [
-                                "image" => "4",
-                                "title" => "Study Tour to Hettich Experience Centre"
-                            ],
-                            [
-                                "image" => "5",
-                                "title" => "Study Tour to Hettich Experience Centre"
-                            ],
-                            [
-                                "image" => "6",
-                                "title" => "Ceramic Workshop"
-                            ],
-                            [
-                                "image" => "7",
-                                "title" => "Ceramic Workshop"
-                            ],
-                            [
-                                "image" => "8",
-                                "title" => "Ceramic Workshop"
-                            ],
-                            [
-                                "image" => "9",
-                                "title" => "Industrial Visit to Allygram Systems and Technology Pvt. Ltd"
-                            ],
-                            [
-                                "image" => "10",
-                                "title" => "Industrial Visit to Allygram Systems and Technology Pvt. Ltd"
-                            ],
-                            [
-                                "image" => "11",
-                                "title" => "Industrial Visit to Allygram Systems and Technology Pvt. Ltd"
-                            ],
-                            [
-                                "image" => "12",
-                                "title" => "Bamboo Lamp-Making Workshop"
-                            ],
-                            [
-                                "image" => "13",
-                                "title" => "Bamboo Lamp-Making Workshop"
-                            ],
-                            [
-                                "image" => "14",
-                                "title" => "Bamboo Lamp-Making Workshop"
-                            ],
-                            [
-                                "image" => "15",
-                                "title" => "Bamboo Lamp-Making Workshop"
-                            ],
-                            [
-                                "image" => "16",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "17",
-                                "title" => ""
-                            ]
+                                [ "image" => "1"],
+                                [ "image" => "2"],
+                                [ "image" => "3"],
+                                [ "image" => "4"],
+                                [ "image" => "5"],
+                                [ "image" => "6"],
+                                [ "image" => "7"],
+                                [ "image" => "8"],
+                                [ "image" => "9"],
+                                [ "image" => "10"],
+                                [ "image" => "11"],
+                                [ "image" => "12"]
                             ]; foreach ($events as $item): ?>
-                    <div class="item"><img src="img/events/<?= $item['image']; ?>.webp" class="gallery-img01">
-                        <div class="text-center pt-1">
-                            <h6 class="mb-0 fw-bold"><?= $item['title']; ?></h6>
-                        </div>
+                    <div class="item">
+                        <img src="img/events/<?= $item['image']; ?>.jpg" class="gallery-img01">
                     </div>
                         <?php endforeach; ?>
                 </div>
@@ -479,7 +421,7 @@
         <div class="container">
             <div class="row  py-4 justify-content-center">
                 <div class="col-lg-8 mb-4 text-center">
-                    <h3 class="h2">Think Design. Think DPU. <br> A leading institute for Design and Innovation</h3>
+                    <h3 class="h2">The World Reads What Designers Say Without Words. <br> A program that sharpens your visual voice to move, persuade and leave a lasting mark.</h3>
                     <button class="btn c_btn py-2 px-4 rounded-pill" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">Apply Now</button>
                 </div>
