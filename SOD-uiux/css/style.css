@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Metrophobic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --red: #9a2827;
@@ -7,17 +7,17 @@
   --yellow: #d79e2f;
   --blue: #095c7e;
   --grey: #f3f2f4;
-  --font01: "Poppins", sans-serif;
-  --cfont: "Poppins", sans-serif;
-  --headfont: "Poppins", sans-serif;
-  --roboto: "Poppins", sans-serif;
+  --font01: "Archivo", sans-serif;
+  --cfont: "Archivo", sans-serif;
+  --headfont: "Archivo", sans-serif;
+  --roboto: "Archivo", sans-serif;
 }
 .accordion-item {
   border: unset !important;
 }
 body {
   font-size: 14px;
-  font-family: "Arial", sans-serif !important;
+  font-family: "Archivo", sans-serif;
   color: var(--dark);
   background-color: var(--bs-white);
   font-display: swap;
@@ -34,13 +34,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Arial", sans-serif !important;
+  font-family: "Archivo", sans-serif;
 }
 .hero-text,
 .subtitle,
 .title,
 .title_01 {
-  font-family: "Arial", sans-serif !important;
+  font-family: "Archivo", sans-serif;
 }
 .copyright a:hover,
 .text-yellow {

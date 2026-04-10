@@ -193,7 +193,7 @@
   <div class="container">
 
     
-    <h2 class="mb-lg-3 mb-0 display-5 fw-bold title ">B.Des. Fashion Design and <span
+    <h2 class="mb-lg-3 mb-0 display-5 fw-bold title ">B.Des Fashion Design and <span
                                 class="text-red">Communication</span></h2>
 
     <!-- Top Banner -->
@@ -204,7 +204,7 @@
       <!-- Left Content -->
       <div class="col-lg-7">
         <div class="banner-left">
-          <h3>OFFERED IN : B.DES</h3>
+          <h3>OFFERED IN : B.Des</h3>
           <p><b>Exam Accepted :</b> DPU AIDAT 2026</p>         
           
           <p>
