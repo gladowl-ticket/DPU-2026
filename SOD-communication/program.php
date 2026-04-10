@@ -10,7 +10,7 @@
       <!-- Top Banner -->
       <div class="row align-items-center banner-wrapper position-relative">
         <div class="program-img text-end">
-          <img class="lazyload " src="img/programs/001.png">
+          <img class="lazyload one" src="img/programs/1.jpg">
         </div>
         <!-- Left Content -->
         <div class="col-md-7 col-11">
@@ -46,7 +46,7 @@
       <!-- Top Banner -->
       <div class="row align-items-center banner-wrapper position-relative mt-5">
          <div class="program-img text-end">
-          <img class="lazyload " src="img/programs/001.png">
+          <img class="lazyload two" src="img/programs/2.jpg">
         </div>
         <!-- Left Content -->
         <div class="col-md-7 col-11">
