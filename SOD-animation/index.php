@@ -205,7 +205,7 @@
       <div class="col-lg-7">
         <div class="banner-left">
           <h3>B.Sc. (Hons.) in Animation and VFX Design</h3>
-          <p><b>Exam Accepted :</b> DPU AIDAT 2026</p><br>     
+          <br>
           
           <p>
             <b>Eligibility :</b>         
