@@ -30,7 +30,7 @@ $testimonials = [
     "short_text" => "Hi! I am Aniket! Pursuing my Graphics, Animation & Vfx programme from Dr. D. Y. Patil School of Design, Pune. There is a lot to talk about. Like other institutes, I believe, our institute is one of the",
     "full_text" => "Hi! I am Aniket! Pursuing my Graphics, Animation & Vfx programme from Dr. D. Y. Patil School of Design, Pune. There is a lot to talk about. Like other institutes, I believe, our institute is one of the best amongst the design schools in Pune. From studies and sessions to engaging in activities, I have had enough exposure to explore subjects and develop life skills. I already have friends and after coming here, the directory has increased with best buddies. We are moulded and trained to think and perform like a professional in one’s own field. Institute works on our overall development including communication, grooming, corporate etiquettes and mannerism, team skills, behavioural skills, social sensitivity, apart from technical skills and I am sure we will be groomed to aspire for being a successful entrepreneur of tomorrow. Institute invests in us, but we have to be committed, do the hard work and practice every day to earn a better life.",
     "name" => "Aniket Indure",
-    "course" => "Interior Spatial and Furniture Design",
+    "course" => "Graphics Animation & Vfx (Batch: 2023 – 27)",
   ]
 ];
 ?>
