@@ -10,7 +10,7 @@
       <!-- Top Banner -->
       <div class="row align-items-center banner-wrapper position-relative">
         <div class="program-img text-end">
-          <img class="lazyload " src="img/programs/001.png">
+          <img class="lazyload " src="img/programs/001.jpg">
         </div>
         <!-- Left Content -->
         <div class="col-lg-7">
@@ -19,7 +19,7 @@
 
             <div class="row mt-4">
               <div class="col-12">
-                <p class="text-white"><b>Exam Accepted:</b> DPU AIDAT 2026</p><br>
+                <p class="text-white"><b>Exam Accepted:</b> DPU AIDAT | UCEED | NID</p><br>
               </div>  
               <div class="col-12">
                 <p class="text-white"><b>Eligibility:</b> Candidates must be 10 + 2 from any discipline and from a recognized university or board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.</p><br>
@@ -48,7 +48,7 @@
       <!-- Top Banner -->
       <div class="row align-items-center banner-wrapper position-relative pt-5">
          <div class="program-img1 text-end">
-          <img class="lazyload " src="img/programs/001.png">
+          <img class="lazyload " src="img/programs/002.jpg">
         </div>
         <!-- Left Content -->
         <div class="col-lg-7">
@@ -61,7 +61,7 @@
               </div>
 
               <div class="col-12">
-                <p class="text-white"><b>Duration:</b>2 years full-time </p><br>
+                <p class="text-white"><b>Duration:</b> 2 years full-time </p><br>
               </div>
             </div>
           </div>
