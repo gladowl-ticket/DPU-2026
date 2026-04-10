@@ -1370,8 +1370,11 @@ span.brownTriangle {
   position: absolute;
   right: 0;
 }
-.program-img img {
-  height: 270px;
+.program-img .one {
+  height: 408px;
+}
+.program-img .two {
+  height: 395px;
 }
 
 @media (min-width: 992px) {
@@ -1385,7 +1388,7 @@ span.brownTriangle {
   .banner-left {
     background: #095c7e;
     color: #fff;
-    padding: 50px;
+    padding: 90px;
     clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
   }
   .container-fluid.h_nav.px-lg-5.sticky-top {
