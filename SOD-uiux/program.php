@@ -15,7 +15,7 @@
         <!-- Left Content -->
         <div class="col-lg-7">
           <div class="banner-left">
-            <h5>User Experience Design (B.DES Programme) </h5>
+            <h5>User Experience Design (B.Des Programme) </h5>
 
             <div class="row mt-4">
               <div class="col-12">
@@ -46,13 +46,13 @@
 
       <!-- Top Banner -->
       <div class="row align-items-center banner-wrapper position-relative pt-5">
-         <div class="program-img text-end">
+         <div class="program-img1 text-end">
           <img class="lazyload " src="img/programs/001.png">
         </div>
         <!-- Left Content -->
         <div class="col-lg-7">
           <div class="banner-left">
-            <h5>User Experience Design (M.DES Programme)</h5>
+            <h5>User Experience Design (M.Des Programme)</h5>
 
             <div class="row mt-4">
               <div class="col-11">

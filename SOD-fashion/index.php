@@ -206,11 +206,12 @@
         <div class="banner-left">
           <h3>B.Des. Fashion Design and Communication</h3>
           <p><b>Exam Accepted :</b> DPU AIDAT 2026</p>         
-          
+          <br>
           <p>
             <b>Eligibility :</b>         
               Candidates must be 10 + 2 from any discipline and from a recognized university or board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.            
           </p>
+          <br>
 
           <p><b>Duration :</b> 4 years full-time</p>
         </div>
