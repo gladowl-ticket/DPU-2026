@@ -1,1 +1,1 @@
-<iframe aria-label='DPU - Design Index' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.in/gladowlwebsolutionspvtltd/form/DYschoolofdesignPune2026/formperma/gFz_Ni1OvIernuttHgH-Rg6Rsd5mSNcU34LTqIJssz0'></iframe>
+<iframe aria-label='DY school of design- Communication 2026' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.in/gladowlwebsolutionspvtltd/form/DYschoolofdesignCommunication2026/formperma/1EGj-ELv1eFXhCWgALDSZNcxIqz17zj9KyrM1wOAa34'></iframe>

@@ -207,7 +207,7 @@
             center: false,
           },
           600: {
-            items: 2,
+            items: 1,
             center: false,
           },
           991: {

@@ -5,15 +5,15 @@
     <div class="container">
 
       <!-- Heading -->
-                    <h2 class="mb-lg-3 mb-0 display-5 fw-bold title text-center">Programs <span class="text-red">Offered</span></h2>
+                    <h2 class="mb-md-3 mb-0 display-5 fw-bold title text-center">Programs <span class="text-red">Offered</span></h2>
 
       <!-- Top Banner -->
       <div class="row align-items-center banner-wrapper position-relative">
-        <div class="program-img text-end">
-          <img class="lazyload " src="img/programs/001.png">
+        <div class="program-img text-end d-none d-lg-block">
+          <img class="lazyload " src="img/programs/01.png">
         </div>
         <!-- Left Content -->
-        <div class="col-md-7 col-11">
+        <div class="col-lg-7 col-12 ">
           <div class="banner-left">
             <h5>Interior Space & Furniture Design ( B.DES Programme) </h5>
 
@@ -36,7 +36,7 @@
       <div class="program-box mt-5 p-">
         <div class="row">
           <!-- B.DES -->
-          <div class="col-md-12 border-left-custom">
+          <div class="col-lg-12 border-left-custom">
             <h5>Program Highlights</h5>
             <p>The Bachelor of Design (B.Des) in Interior, Spatial and Furniture Design is a 4-year full-time programme
               that builds a strong foundation in spatial planning, furniture design, materials, and human-centered
@@ -50,11 +50,11 @@
 
       <!-- Top Banner -->
       <div class="row align-items-center banner-wrapper position-relative mt-5">
-         <div class="program-img text-end">
-          <img class="lazyload " src="img/programs/001.png">
+         <div class="program-img text-end d-none d-lg-block">
+          <img class="lazyload " src="img/programs/02.png">
         </div>
         <!-- Left Content -->
-        <div class="col-md-7 col-11">
+        <div class="col-lg-7 col-12">
           <div class="banner-left">
             <h5>B.Sc. Hons. in Interior Design</h5>
 
@@ -77,7 +77,7 @@
       <div class="program-box mt-5">
         <div class="row">
           <!-- B.DES -->
-          <div class="col-md-12 border-left-custom">
+          <div class="col-lg-12 border-left-custom">
             <h5>Program Highlights</h5>
             <p>The B.Sc. (Hons.) in Interior Design integrates conceptual thinking, floor plans, site assessment,
               materials science, and spatial implementation through a student-centered learning approach. The program
