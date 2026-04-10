@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --red: #9a2827;
@@ -1374,15 +1374,18 @@ span.brownTriangle {
   position: absolute;
   right: 0;
 }
-.program-img img {
-  height: 270px;
+.program-img .one {
+  height: 363px;
+}
+.program-img .two {
+  height: 384px;
 }
 
 @media (min-width: 992px) {
   .banner-left {
     background: #095c7e;
     color: #fff;
-    padding: 50px;
+    padding: 90px;
     clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
   }
   .container-fluid.h_nav.px-lg-5.sticky-top {

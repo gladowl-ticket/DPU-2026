@@ -61,7 +61,8 @@
     <section class="hero_section">
         <?php include 'header.php';?>
         <div class="position-relative mt-001" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="img/hero/1.jpg" class="w-100" alt="">
+           <img src="img/hero/1.jpg" class="w-100 d-none d-lg-flex" alt="">
+            <img src="img/hero/2.jpg" class="w-100 d-lg-none d-flex" alt="">
             <div class="col-lg-4 pt-5 mt-3  p-3 d-lg-none">
                     <div class="border-red rounded-3 text-center bg-white">
                         <img src="img/logo/2.webp" class="hero_logo_01 mt-50 bg-white border rounded-3" loading="lazy" alt="">
@@ -313,7 +314,7 @@
                             ]; foreach ($institutes as $item): ?>
                         <div class="item">
                             <div class="card-slide">
-                                <img src="img/infra/0<?= $item['image']; ?>.png" class="img-fluid" />
+                                <img src="img/infra/<?= $item['image']; ?>.jpg" class="img-fluid" />
                             </div>
                         </div>
                         <?php endforeach; ?>
@@ -398,12 +399,7 @@
                                 [ "image" => "4"],
                                 [ "image" => "5"],
                                 [ "image" => "6"],
-                                [ "image" => "7"],
-                                [ "image" => "8"],
-                                [ "image" => "9"],
-                                [ "image" => "10"],
-                                [ "image" => "11"],
-                                [ "image" => "12"]
+                                [ "image" => "7"]
                             ]; foreach ($events as $item): ?>
                     <div class="item">
                         <img src="img/events/<?= $item['image']; ?>.jpg" class="gallery-img01">
@@ -421,7 +417,8 @@
         <div class="container">
             <div class="row  py-4 justify-content-center">
                 <div class="col-lg-8 mb-4 text-center">
-                    <h3 class="h2">The World Reads What Designers Say Without Words. <br> A program that sharpens your visual voice to move, persuade and leave a lasting mark.</h3>
+                    <h3 class="h2">The World Reads What Designers Say Without Words.</h3>
+                    <p>A program that sharpens your visual voice to move, persuade and leave a lasting mark.</p>
                     <button class="btn c_btn py-2 px-4 rounded-pill" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">Apply Now</button>
                 </div>
