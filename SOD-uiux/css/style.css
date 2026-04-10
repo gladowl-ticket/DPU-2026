@@ -1487,7 +1487,7 @@ span.brownTriangle {
 .banner-left {
   background: #095c7e;
   color: #fff;
-  padding: 80px;
+  padding: 100px;
   clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
 }
 
@@ -1538,14 +1538,14 @@ span.brownTriangle {
   right: 0;
 }
 .program-img img {
-  height: 394px;
+  height: 432px;
 }
 .program-img1 {
   position: absolute;
   right: 0;
 }
 .program-img1 img {
-  height: 364px;
+  height: 400px;
 }
 
 @media (max-width: 767px) {
