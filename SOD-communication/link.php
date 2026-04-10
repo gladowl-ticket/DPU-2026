@@ -1,5 +1,5 @@
 <?php
-   define('LINK', 'http://localhost/myprojects/gladowl_projects/2026/DPU-2026/SOD-communication/');
+   define('LINK', 'https://schoolofdesign.dpu.edu.in/communication_design_admissions_open/');
    // define('LINK', 'https://gladowl.in/dpu-2026/interior/');
 ?>
 

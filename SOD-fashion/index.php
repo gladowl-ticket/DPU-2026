@@ -431,7 +431,7 @@
 
                 <!-- LEFT TEXT -->
                 <div class="col-lg-3">
-                    <div class="left-content text-lg-end">
+                    <div class="left-content text-lg-end text-center">
                         <h2>
                             Different worlds.<br />
                             <span>One Institute.</span>
@@ -676,7 +676,7 @@
             <div class="row  py-4 justify-content-center">
                 <div class="col-lg-8 mb-4 text-center">
                     <h3 class="h2">Your Runway Starts Here.</h3>
-                    <p>A leading institute for Join India's most prestigious Fashion Design & Communication program.</p>
+                    <p>Join India's most prestigious Fashion Design & Communication program.</p>
                     <button class="btn c_btn py-2 px-4 rounded-pill" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">Apply Now</button>
                 </div>

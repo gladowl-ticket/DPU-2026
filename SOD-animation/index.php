@@ -433,7 +433,7 @@
 
                 <!-- LEFT TEXT -->
                 <div class="col-lg-3">
-                    <div class="left-content text-lg-end">
+                    <div class="left-content text-lg-end text-center">
                         <h2>
                             Different worlds.<br />
                             <span>One Institute.</span>
