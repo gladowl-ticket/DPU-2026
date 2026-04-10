@@ -1,1 +1,0 @@
-<iframe aria-label='DY school of design- UI UX Design 2026' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.in/gladowlwebsolutionspvtltd/form/DYschoolofdesignUIUXDesign2026/formperma/qdmu9dQxQrraXxl8yve_4rHjWqXxDHSnkPBBInxNI5g'></iframe>
