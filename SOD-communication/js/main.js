@@ -206,10 +206,6 @@
             items: 1,
             center: false,
           },
-          600: {
-            items: 2,
-            center: false,
-          },
           991: {
             items: 3,
             center: true,

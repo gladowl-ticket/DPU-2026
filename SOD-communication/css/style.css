@@ -741,7 +741,7 @@ span.brownTriangle {
   background: #095c7e;
   color: #fff;
   padding: 22px 16px;
-  clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 .scholarship-category {
   margin-bottom: 20px;
@@ -1375,10 +1375,10 @@ span.brownTriangle {
   right: 0;
 }
 .program-img .one {
-  height: 363px;
+  height: 374px;
 }
 .program-img .two {
-  height: 384px;
+  height: 394px;
 }
 
 @media (min-width: 992px) {
