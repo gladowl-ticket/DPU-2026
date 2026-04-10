@@ -1487,7 +1487,7 @@ span.brownTriangle {
 .banner-left {
   background: #095c7e;
   color: #fff;
-  padding: 70px;
+  padding: 80px;
   clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
 }
 
@@ -1538,14 +1538,14 @@ span.brownTriangle {
   right: 0;
 }
 .program-img img {
-  height: 322px;
+  height: 384px;
 }
 .program-img1 {
   position: absolute;
   right: 0;
 }
 .program-img1 img {
-  height: 344px;
+  height: 364px;
 }
 
 
@@ -1563,4 +1563,10 @@ span.brownTriangle {
     padding: 30px !important;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
+}
+
+.banner-left h3{
+    color: #fbb017;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
