@@ -19,6 +19,7 @@
 
             <div class="row mt-4">
               <div class="col-12 mb-3">
+                <p class="mb-4"><b>Exam Accepted :</b>  DPU AIDAT | UCEED | NID</p>
                 <p class="text-white"><b>Eligibility:</b> Candidates must be 10 + 2 from any discipline and from a recognized university or board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.</p>
               </div>
 
