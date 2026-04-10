@@ -10,12 +10,12 @@
       <!-- Top Banner -->
       <div class="row align-items-center banner-wrapper position-relative">
         <div class="program-img text-end d-none d-lg-block">
-          <img class="lazyload " src="img/programs/01.png">
+          <img class="lazyload one" src="img/programs/01.png">
         </div>
         <!-- Left Content -->
         <div class="col-lg-7 col-12 ">
           <div class="banner-left">
-            <h3>OFFERED IN : Interior Space & Furniture Design ( B.DES Programme) </h3>
+            <h3>Interior Space & Furniture Design ( B.DES Programme) </h3>
 
             <div class="row mt-4">
               <div class="col-12">
@@ -51,12 +51,12 @@
       <!-- Top Banner -->
       <div class="row align-items-center banner-wrapper position-relative mt-5">
          <div class="program-img text-end d-none d-lg-block">
-          <img class="lazyload " src="img/programs/02.png">
+          <img class="lazyload two" src="img/programs/02.png">
         </div>
         <!-- Left Content -->
         <div class="col-lg-7 col-12">
           <div class="banner-left">
-            <h3>OFFERED IN : B.Sc. Hons. in Interior Design</h3>
+            <h3>B.Sc. Hons. in Interior Design</h3>
 
             <div class="row mt-4">
               <div class="col-11">
