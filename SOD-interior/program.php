@@ -5,7 +5,7 @@
     <div class="container">
 
       <!-- Heading -->
-                    <h2 class="mb-md-3 mb-0 display-5 fw-bold title text-center">Programs <span class="text-red">Offered</span></h2>
+                    <h2 class="mb-md-3 mb-0 display-5 fw-bold title text-center text-lg-start">Programs <span class="text-red">Offered</span></h2>
 
       <!-- Top Banner -->
       <div class="row align-items-center banner-wrapper position-relative">
@@ -15,20 +15,12 @@
         <!-- Left Content -->
         <div class="col-lg-7 col-12 ">
           <div class="banner-left">
-            <h3>Interior Space & Furniture Design ( B.DES Programme) </h3>
-
-            <div class="row mt-4">
-              <div class="col-12">
-                <p class="text-white fw-bold"><b>Eligibility:</b></p>
-                <p class="">Candidate with minimum of 50% in 10 + 2 from any stream and recognized <br> board is
-                  eligible to apply. Candidates appearing for 10 + 2 may also apply</p>
-              </div>
-
-              <div class="col-12">
-                <p class="text-white fw-bold"><b>Duration:</b></p>
-                <p class="">4-year full-time programme </p>
-              </div>
-            </div>
+            <h3>B.Des in Interior Spatial and Furniture Design</h3>
+            <p><b>Exam Accepted :</b> DPU AIDAT 2026</p><br>   
+            <p class="text-white "><b>Eligibility :</b> Candidate with minimum of 50% in 10 + 2 from any stream and recognized <br> board is
+                  eligible to apply. Candidates appearing for 10 + 2 may also apply</p>  
+            <br>
+                  <p class="text-white "><b>Duration :</b> 4-year full-time programme </p>
           </div>
         </div>
       </div>
@@ -57,19 +49,11 @@
         <div class="col-lg-7 col-12">
           <div class="banner-left">
             <h3>B.Sc. Hons. in Interior Design</h3>
-
-            <div class="row mt-4">
-              <div class="col-11">
-                <p class="text-white fw-bold"><b>Eligibility:</b></p>
-                <p class="">Candidates must be 10 + 2 from any discipline and from a recognized university or board with
+            <br>
+            <p class="text-white"><b>Eligibility :</b> Candidates must be 10 + 2 from any discipline and from a recognized university or board with
                   a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.</p>
-              </div>
-
-              <div class="col-12">
-                <p class="text-white fw-bold"><b>Duration:</b></p>
-                <p class="">4 years full-time </p>
-              </div>
-            </div>
+            <br>
+            <p class="text-white"><b>Duration :</b> 4 years full-time </p>
           </div>
         </div>
       </div>

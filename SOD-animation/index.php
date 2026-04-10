@@ -193,8 +193,8 @@
   <div class="container">
 
     
-    <h2 class="mb-lg-3 mb-0 display-5 fw-bold title ">B.Sc. (Hons.) in Animation and  <span
-                                class="text-red">VFX Design</span></h2>
+    <h2 class="mb-lg-3 mb-0 display-5 fw-bold title ">Program  <span
+                                class="text-red">Offered</span></h2>
 
     <!-- Top Banner -->
     <div class="row align-items-center banner-wrapper position-relative">
@@ -204,8 +204,8 @@
       <!-- Left Content -->
       <div class="col-lg-7">
         <div class="banner-left">
-          <h3>OFFERED IN : B.Sc. (Hons.)</h3>
-          <p><b>Exam Accepted :</b> DPU AIDAT 2026</p><br>     
+          <h3>B.Sc. (Hons.) in Animation and VFX Design</h3>
+          <br>
           
           <p>
             <b>Eligibility :</b>         
