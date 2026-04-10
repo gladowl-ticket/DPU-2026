@@ -20,7 +20,7 @@
             <p class="text-white "><b>Eligibility :</b> Candidate with minimum of 50% in 10 + 2 from any stream and recognized <br> board is
                   eligible to apply. Candidates appearing for 10 + 2 may also apply</p>  
             <br>
-                  <p class="text-white "><b>Duration :</b> 4-year full-time programme </p>
+                  <p class="text-white "><b>Duration :</b> 4-year full-time </p>
           </div>
         </div>
       </div>
