@@ -15,7 +15,7 @@
         <!-- Left Content -->
         <div class="col-lg-7 col-12 ">
           <div class="banner-left">
-            <h5>Interior Space & Furniture Design ( B.DES Programme) </h5>
+            <h3>OFFERED IN : Interior Space & Furniture Design ( B.DES Programme) </h3>
 
             <div class="row mt-4">
               <div class="col-12">
@@ -56,7 +56,7 @@
         <!-- Left Content -->
         <div class="col-lg-7 col-12">
           <div class="banner-left">
-            <h5>B.Sc. Hons. in Interior Design</h5>
+            <h3>OFFERED IN : B.Sc. Hons. in Interior Design</h3>
 
             <div class="row mt-4">
               <div class="col-11">

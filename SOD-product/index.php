@@ -1042,6 +1042,17 @@ if( document.readyState == "complete" ){
 }
 </script>
 
+    <script>
+        document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
+        link.addEventListener("click", function () {
+            let navbar = document.querySelector(".navbar-collapse");
+            let bsCollapse = new bootstrap.Collapse(navbar, {
+            toggle: false,
+            });
+            bsCollapse.hide(); // close navbar
+        });
+        });
+    </script>
 </body>
 
 </html>
