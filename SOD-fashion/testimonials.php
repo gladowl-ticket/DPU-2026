@@ -11,26 +11,10 @@ $testimonials = [
   [
     "id" => 2,
     "image" => "2",
-    "short_text" => "I am a Visual Communication Design aspirant, and I value this institute's rigorous curriculum, interactive sessions, and inspiring faculty that make learning ",
-    "full_text" => "I am a Visual Communication Design aspirant, and I value this institute's rigorous curriculum, interactive sessions, and inspiring faculty that make learning engaging and joyful.",
-    "name" => "Swapnangana Senapati",
-    "course" => "Communication Design",
-  ],
-  [
-    "id" => 3,
-    "image" => "3",
-    "short_text" => "I'm a Product Design student at DPUSOD,  confident of excelling with the top-notch  tools, resources, and hands-on exposure.  Regular industry visits, guest ",
-    "full_text" => "I'm a Product Design student at DPUSOD, confident of excelling with the top-notch tools, resources, and hands-on exposure. Regular industry visits, guest sessions, and portfolio development each semester keep me career-ready and growing. ",
-    "name" => "Aarush Nagvekar",
-    "course" => "Product Design",
-  ],
-  [
-    "id" => 4,
-    "image" => "4",
-    "short_text" => " DPUSOD is a vibrant, professional space to explore design-no blackboards, just smar boards and cozy, aesthetic learning areas With celebrations year-roun.",
-    "full_text" => " DPUSOD is a vibrant, professional space to explore design-no blackboards, just smar boards and cozy, aesthetic learning areas With celebrations year-round, every day here feels special.",
-    "name" => "Rishika Dubey",
-    "course" => "Interior Spatial and Furniture Design",
+    "short_text" => "My Institute experience has been truly enriching and inspiring. The well-equipped infrastructure provides a perfect space for learning and creativity. The faculty is supportive, approachable, and always ready to guide us.",
+    "full_text" => "My Institute experience has been truly enriching and inspiring. The well-equipped infrastructure provides a perfect space for learning and creativity. The faculty is supportive, approachable, and always ready to guide us. The campus has a vibrant and positive atmosphere that makes every day enjoyable. Cultural events are actively organized, adding energy and new opportunities beyond academics. Overall, it has been a fulfilling and rewarding journey.",
+    "name" => "Saanvi More",
+    "course" => "B.Des – Fashion Design & Fashion Communication",
   ]
 ];
 ?>
@@ -58,7 +42,7 @@ $testimonials = [
                         </p>
                     </div>
                     <div class="col-lg-4 order-1 order-lg-2 mb-3">
-                        <img class="w-100" src="img/students/<?= $item['image']; ?>.jpg"  alt="">
+                        <img class="w-100" src="img/students/<?= $item['image']; ?>.png"  alt="">
                     </div>
                 </div>
             <?php endforeach; ?>

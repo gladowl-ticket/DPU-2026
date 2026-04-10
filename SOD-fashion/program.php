@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="row px-3">
-                    <div class="col-md-4 selection_box p-3">
+                    <div class="col-lg-4 selection_box p-3">
                         <h6><strong>Part A:</strong></h6>
                         <p class="text-red mb-1 fw-bold">DPU All India Design Aptitude Test</p>
                         <p class="mb-0">Mode - Online Proctored</p>
@@ -71,14 +71,14 @@
                         <p class="mb-0">Marks - 100</p>
                     </div>
 
-                    <div class="col-md-4 selection_box p-3">
+                    <div class="col-lg-4 selection_box p-3">
                         <h6><strong>Part B:</strong></h6>
                         <p class="text-red mb-1 fw-bold">Studio Test - 90 Minutes</p>
                         <p class="mb-0">Portfolio Submission & Personal Interview</p>
                         <p class="mb-0">Marks - 100</p>
                     </div>
 
-                    <div class="col-md-4 selection_box p-3">
+                    <div class="col-lg-4 selection_box p-3">
                         <p class="mb-0">
                             Meritorious students will be granted admission to
                             B.Des, M.Des Programme
@@ -95,82 +95,82 @@
                     <div class="intake_table">
 
                         <div class="row no-gutters intake_row">
-                            <div class="col-md-8 intake_left">
+                            <div class="col-lg-8 intake_left">
                                 B.Des in Fashion Design and Communication
                             </div>
-                            <div class="col-md-4 intake_right">
+                            <div class="col-lg-4 intake_right">
                                 30 Seats
                             </div>
                         </div>
 
                         <div class="row no-gutters intake_row">
-                            <div class="col-md-8 intake_left">
+                            <div class="col-lg-8 intake_left">
                                 B.Des in Interior Spatial and Furniture Design
                             </div>
-                            <div class="col-md-4 intake_right">
+                            <div class="col-lg-4 intake_right">
                                 30 Seats
                             </div>
                         </div>
 
                         <div class="row no-gutters intake_row">
-                            <div class="col-md-8 intake_left">
+                            <div class="col-lg-8 intake_left">
                                 B.Des in Communication Design
                             </div>
-                            <div class="col-md-4 intake_right">
+                            <div class="col-lg-4 intake_right">
                                 30 Seats
                             </div>
                         </div>
 
                         <div class="row no-gutters intake_row">
-                            <div class="col-md-8 intake_left">
+                            <div class="col-lg-8 intake_left">
                                 B.Des in UI/UX Design
                             </div>
-                            <div class="col-md-4 intake_right">
+                            <div class="col-lg-4 intake_right">
                                 30 Seats
                             </div>
                         </div>
 
                         <div class="row no-gutters intake_row">
-                            <div class="col-md-8 intake_left">
+                            <div class="col-lg-8 intake_left">
                                 B.Des in Product Design
                             </div>
-                            <div class="col-md-4 intake_right">
+                            <div class="col-lg-4 intake_right">
                                 30 Seats
                             </div>
                         </div>
 
                         <div class="row no-gutters intake_row">
-                            <div class="col-md-8 intake_left">
+                            <div class="col-lg-8 intake_left">
                                 M.Des in Communication Design
                             </div>
-                            <div class="col-md-4 intake_right">
+                            <div class="col-lg-4 intake_right">
                                 15 Seats
                             </div>
                         </div>
 
                         <div class="row no-gutters intake_row">
-                            <div class="col-md-8 intake_left">
+                            <div class="col-lg-8 intake_left">
                                 M.Des in User Experience Design
                             </div>
-                            <div class="col-md-4 intake_right">
+                            <div class="col-lg-4 intake_right">
                                 15 Seats
                             </div>
                         </div>
 
                         <div class="row no-gutters intake_row">
-                            <div class="col-md-8 intake_left">
+                            <div class="col-lg-8 intake_left">
                                 B.Sc. Honours in Interior Design
                             </div>
-                            <div class="col-md-4 intake_right">
+                            <div class="col-lg-4 intake_right">
                                 60 Seats
                             </div>
                         </div>
 
                         <div class="row no-gutters intake_row">
-                            <div class="col-md-8 intake_left">
+                            <div class="col-lg-8 intake_left">
                                 B.Sc. Honours in Animation and VFX Design
                             </div>
-                            <div class="col-md-4 intake_right">
+                            <div class="col-lg-4 intake_right">
                                 60 Seats
                             </div>
                         </div>
