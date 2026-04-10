@@ -209,7 +209,7 @@
           <br>
           <p>
             <b>Eligibility :</b>         
-              Candidates must be 10 + 2 from any discipline and from a recognized university or board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.            
+    Candidates must be 10 + 2 from any discipline and from a recognized university or board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.            
           </p>
           <br>
 

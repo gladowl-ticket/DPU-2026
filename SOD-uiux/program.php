@@ -5,7 +5,7 @@
     <div class="container">
 
       <!-- Heading -->
-                    <h2 class="mb-lg-3 mb-0 display-5 fw-bold title text-center">Programs <span class="text-red">Offered</span></h2>
+                    <h2 class="mb-lg-3 mb-0 display-5 fw-bold title text-center text-lg-start">Programs <span class="text-red">Offered</span></h2>
 
       <!-- Top Banner -->
       <div class="row align-items-center banner-wrapper position-relative">
@@ -15,17 +15,18 @@
         <!-- Left Content -->
         <div class="col-lg-7">
           <div class="banner-left">
-            <h5>User Experience Design (B.Des Programme) </h5>
+            <h3>B.Des in User Experience Design</h3>
 
             <div class="row mt-4">
               <div class="col-12">
-                <p class="text-white fw-bold"><b>Eligibility:</b></p>
-                <p class="">Candidates must be 10 + 2 from any discipline and from a recognized university or board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.</p>
+                <p class="text-white"><b>Exam Accepted:</b> DPU AIDAT 2026</p><br>
+              </div>  
+              <div class="col-12">
+                <p class="text-white"><b>Eligibility:</b> Candidates must be 10 + 2 from any discipline and from a recognized university or board with a minimum of 45% for Open and minimum of 40% for others. Freshers may also apply.</p><br>
               </div>
 
               <div class="col-12">
-                <p class="text-white fw-bold"><b>Duration:</b></p>
-                <p class="">4 years full-time</p>
+                <p class="text-white"><b>Duration:</b> 4 years full-time</p>
               </div>
             </div>
           </div>
@@ -52,17 +53,15 @@
         <!-- Left Content -->
         <div class="col-lg-7">
           <div class="banner-left">
-            <h5>User Experience Design (M.Des Programme)</h5>
+            <h3> M.Des in User Experience Design</h3>
 
             <div class="row mt-4">
               <div class="col-11">
-                <p class="text-white fw-bold"><b>Eligibility:</b></p>
-                <p class="">Candidates must have a Bachelor's degree in Design, Fine Arts, Architecture, Engineering, or related fields with a minimum of 45% marks for Open category and 40% marks for other categories. Freshers may also apply.</p>
+                <p class="text-white"><b>Eligibility:</b> Candidates must have a Bachelor's degree in Design, Fine Arts, Architecture, Engineering, or related fields with a minimum of 45% marks for Open category and 40% marks for other categories. Freshers may also apply.</p><br>
               </div>
 
               <div class="col-12">
-                <p class="text-white fw-bold"><b>Duration:</b></p>
-                <p class="">2 years full-time </p>
+                <p class="text-white"><b>Duration:</b>2 years full-time </p><br>
               </div>
             </div>
           </div>

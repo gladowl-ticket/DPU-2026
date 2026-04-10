@@ -307,11 +307,14 @@
                             ],
                             [
                                 "image" => "10",
+                            ],
+                            [
+                                "image" => "11",
                             ]
                             ]; foreach ($institutes as $item): ?>
                         <div class="item">
                             <div class="card-slide">
-                                <img src="img/infra/0<?= $item['image']; ?>.png" class="img-fluid" />
+                                <img src="img/infra/<?= $item['image']; ?>.jpg" class="img-fluid" />
                             </div>
                         </div>
                         <?php endforeach; ?>
