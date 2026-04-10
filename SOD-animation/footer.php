@@ -3,7 +3,7 @@
     <div class="container-fluid copyright py-4 mb-4 mb-md-0">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
+                <div class="col-lg-12 text-center">
                     <span class="text-dark">© Copyright 2026 Dr. D.Y. Patil Vidyapeeth, Pune. Designed and developed by
                         <img src="img/logo/gladowl_logo.webp" height="20"  loading="lazy" alt=""></span>
                 </div>

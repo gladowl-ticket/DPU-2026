@@ -13,7 +13,7 @@
           <img class="lazyload " src="img/programs/001.png">
         </div>
         <!-- Left Content -->
-        <div class="col-md-7">
+        <div class="col-lg-7">
           <div class="banner-left">
             <h5>User Experience Design (B.DES Programme) </h5>
 
@@ -35,7 +35,7 @@
       <div class="program-box mt-5">
         <div class="row">
           <!-- B.DES -->
-          <div class="col-md-12 border-left-custom">
+          <div class="col-lg-12 border-left-custom">
             <h5>Program Highlights</h5>
             <p>UIUX Design also known as Interaction Design is built for creators who want to craft meaningful digital experiences. As one of India's emerging ui ux design course in Pune destinations, DPU blends creativity, compassion, and technology to prepare students for the fast-paced world of digital products and interfaces.<br>
             From websites and mobile apps to smart interfaces and immersive ecosystems, students learn to design intuitive digital journeys that align with human behaviour. With modern studios, expert mentorship, and real-world exposure, DPU continues to rise among the best colleges for UI UX design in India.</p>
@@ -50,7 +50,7 @@
           <img class="lazyload " src="img/programs/001.png">
         </div>
         <!-- Left Content -->
-        <div class="col-md-7">
+        <div class="col-lg-7">
           <div class="banner-left">
             <h5>User Experience Design (M.DES Programme)</h5>
 
@@ -72,7 +72,7 @@
       <div class="program-box mt-5">
         <div class="row">
           <!-- B.DES -->
-          <div class="col-md-12 border-left-custom">
+          <div class="col-lg-12 border-left-custom">
             <h5>Program Highlights</h5>
             <p>The program blends design thinking, user research, prototyping, usability testing, and interface development. Students explore apps, web platforms, wearable devices, and emerging interactive technologies, learning to design experiences that are accessible, functional, and visually refined.<br>
             Hands-on projects, workshops, and industry-focused assignments help students build both conceptual understanding and practical skill. Emphasis on empathy and innovation equips graduates to anticipate user needs and craft digital solutions that delight and engage.<br>
