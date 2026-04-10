@@ -1,1 +1,0 @@
-<iframe aria-label='DY school of design- Fashion Design 2026' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.in/gladowlwebsolutionspvtltd/form/DYschoolofdesignFashionDesign2026/formperma/vXRROcTf9m8Rzd8gUHn2jzK3LBRjUwqSTPw63rEzq48'></iframe>

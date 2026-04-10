@@ -1,1 +1,0 @@
-<iframe aria-label='DY school of design- Interior Design 2026' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.in/gladowlwebsolutionspvtltd/form/DYschoolofdesignInteriorDesign2026/formperma/N-y6dduWJIqR_D7USvTP_q57yq66y5JiLGsv-O4NzZo'></iframe>
