@@ -15,7 +15,7 @@
         <!-- Left Content -->
         <div class="col-md-7 col-11">
           <div class="banner-left">
-            <h5>B.Des in Communication Design </h5>
+            <h3>B.Des in Communication Design </h3>
 
             <div class="row mt-4">
               <div class="col-12">
@@ -51,7 +51,7 @@
         <!-- Left Content -->
         <div class="col-md-7 col-11">
           <div class="banner-left">
-            <h5>M.des in Communication Design</h5>
+            <h3>M.des in Communication Design</h3>
 
             <div class="row mt-4">
               <div class="col-11">
