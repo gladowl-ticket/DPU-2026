@@ -741,7 +741,7 @@ span.brownTriangle {
   background: #095c7e;
   color: #fff;
   padding: 22px 16px;
-  clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 .scholarship-category {
   margin-bottom: 20px;
@@ -773,10 +773,6 @@ span.brownTriangle {
 }
 .scholarship-list li {
   padding: 5px 0;
-}
-.navbar .navbar-nav .nav-link {
-  color: #ffffff;
-  font-size: 14px;
 }
 .view-more-btn {
   color: var(--yellow);
@@ -1379,6 +1375,13 @@ span.brownTriangle {
 }
 
 @media (min-width: 992px) {
+  .banner-left {
+    clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 14px;
+  }
   .banner-left {
     background: #095c7e;
     color: #fff;
