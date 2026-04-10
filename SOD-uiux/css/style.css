@@ -1481,7 +1481,6 @@ span.brownTriangle {
 
 /* Banner */
 .banner-wrapper {
-  background: #fff;
   position: relative;
 }
 
@@ -1540,4 +1539,28 @@ span.brownTriangle {
 }
 .program-img img {
   height: 322px;
+}
+.program-img1 {
+  position: absolute;
+  right: 0;
+}
+.program-img1 img {
+  height: 344px;
+}
+
+
+@media (max-width: 767px) {
+.program-img1 {
+  display:none !important;
+}
+.program-img {
+  display:none !important;
+}
+
+.banner-left {
+    background: #095c7e;
+    color: #fff;
+    padding: 30px !important;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
 }
