@@ -59,10 +59,6 @@
 
     <section class="hero_section">
         <div class="position-relative mt-001" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <!-- <video id="heroVideo" autoplay muted loop playsinline poster="img/hero/1.jpg"
-                class="hero-video w-100">
-                <source src="img/hero/1.mp4" type="video/mp4">
-            </video> -->
             <div class="d-none d-md-block"> 
                 <img src="img/hero/1.png" class="img-fluid">
             </div>
@@ -280,7 +276,7 @@
 </section>
 
     <!-- WHY---------------------------------------------------------------------------------------------------- -->
-    <section class="custom-section pb-5 my-5" id="why-choose">
+    <section class="custom-section pb-lg-5 my-5" id="why-choose">
         <div class="container ">
             <div class="row align-items-center">
 
@@ -434,7 +430,7 @@
 
                 <!-- LEFT TEXT -->
                 <div class="col-lg-3">
-                    <div class="left-content text-lg-end">
+                    <div class="left-content text-lg-end text-center">
                         <h2>
                             Different worlds.<br />
                             <span>One Institute.</span>
@@ -1046,6 +1042,17 @@ if( document.readyState == "complete" ){
 }
 </script>
 
+    <script>
+        document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
+        link.addEventListener("click", function () {
+            let navbar = document.querySelector(".navbar-collapse");
+            let bsCollapse = new bootstrap.Collapse(navbar, {
+            toggle: false,
+            });
+            bsCollapse.hide(); // close navbar
+        });
+        });
+    </script>
 </body>
 
 </html>

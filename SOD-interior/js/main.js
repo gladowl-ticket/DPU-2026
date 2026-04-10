@@ -216,6 +216,7 @@
           },
         },
       })
+
       .$("a.nav-link")
       .on("click", function (a) {
         (a.preventDefault(),
