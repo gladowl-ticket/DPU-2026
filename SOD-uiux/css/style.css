@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --red: #9a2827;
@@ -737,6 +737,10 @@ span.brownTriangle {
   background: #fff;
 }
 @media (min-width: 992px) {
+  .navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 14px;
+  }
   .container-fluid.h_nav.px-lg-5.sticky-top {
     background: #00000047;
   }
@@ -930,10 +934,6 @@ span.brownTriangle {
 }
 .scholarship-list li {
   padding: 5px 0;
-}
-.navbar .navbar-nav .nav-link {
-  color: #ffffff;
-  font-size: 14px;
 }
 .view-more-btn {
   color: var(--yellow);
@@ -1538,7 +1538,7 @@ span.brownTriangle {
   right: 0;
 }
 .program-img img {
-  height: 384px;
+  height: 394px;
 }
 .program-img1 {
   position: absolute;
@@ -1548,25 +1548,24 @@ span.brownTriangle {
   height: 364px;
 }
 
-
 @media (max-width: 767px) {
-.program-img1 {
-  display:none !important;
-}
-.program-img {
-  display:none !important;
-}
+  .program-img1 {
+    display: none !important;
+  }
+  .program-img {
+    display: none !important;
+  }
 
-.banner-left {
+  .banner-left {
     background: #095c7e;
     color: #fff;
     padding: 30px !important;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-}
+  }
 }
 
-.banner-left h3{
-    color: #fbb017;
-    font-weight: 700;
-    margin-bottom: 20px;
+.banner-left h3 {
+  color: #fbb017;
+  font-weight: 700;
+  margin-bottom: 20px;
 }

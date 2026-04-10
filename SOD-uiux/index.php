@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DPU School of Design, Pune — B.Des in UI/UX Design. Train under industry experts and design digital experiences that are intuitive, beautiful and built for real users. Apply now for 2026 admissions.</title>
+    <title>DPU School of Design, Pune — B.Des & M.Des in UI/UX and User Experience Design. Train under industry experts and design digital experiences that are intuitive, beautiful and built for real users. Apply now for 2026 admissions.</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -59,7 +59,8 @@
 
     <section class="hero_section">
         <div class="position-relative mt-001" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="img/hero/1.jpg" class="w-100" alt="">
+            <img src="img/hero/1.jpg" class="w-100 d-lg-block d-none" alt="">
+            <img src="img/hero/2.jpg" class="w-100 d-block d-lg-none" alt="">
             <div class="col-lg-4 pt-5 mt-3  p-3 d-lg-none">
                     <div class="border-red rounded-3 text-center bg-white">
                         <img src="img/logo/2.webp" class="hero_logo_01 mt-50 bg-white border rounded-3" loading="lazy" alt="">
@@ -90,7 +91,7 @@
                             education. Our programs empower students to creatively solve real-world design challenges by
                             blending innovation, technical skill, and design empathy. We offer an AICTE-approved
                             Bachelor of Design with specializations in Fashion Design, Communication Design, Interior
-                            Spatial & Furniture, Product Design, UX Design and Animation, and VFX Design. Supported by
+                            Spatial & Furniture, Product Design, UX Design and Animation & VFX Design. Supported by
                             cutting-edge facilities and guided by experts from premier institutes like NID and IIT, our
                             faculty fosters a dynamic learning environment shaping the institute as best design
                             institutes across India. DPU SOD strives to be a leading hub for design innovation and
@@ -129,14 +130,14 @@
                     <div class="d-flex align-items-stretch  justify-content-center  usp_01">
                         <div class="text-center">
                             <h6 class="fw-bold py-2 mb-0 h1 display-4">41<sup>st</sup></h6>
-                            <p class="pb-0 h5 ">in University category by NIRF </p>
+                            <p class="pb-0 h5 ">Best Curriculum Award by ASSOCHAM, 2023 </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6 d-grid">
                     <div class="d-flex align-items-stretch  justify-content-center  usp_01">
                         <div class="text-center">
-                            <h6 class="fw-bold py-2 mb-0 h1 display-4">63<sup>rd</sup></h6>
+                            <h6 class="fw-bold py-2 mb-0 h1 display-4">71<sup>st</sup></h6>
                             <p class="pb-0 h5">in Overall category by NIRF</p>
                         </div>
                     </div>
@@ -409,57 +410,9 @@
                             [
                                 "image" => "5",
                                 "title" => ""
-                            ],
-                            [
-                                "image" => "6",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "7",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "8",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "9",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "10",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "11",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "12",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "13",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "14",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "15",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "16",
-                                "title" => ""
-                            ],
-                            [
-                                "image" => "17",
-                                "title" => ""
                             ]
                             ]; foreach ($events as $item): ?>
-                    <div class="item"><img src="img/events/<?= $item['image']; ?>.webp" class="gallery-img01">
+                    <div class="item"><img src="img/events/<?= $item['image']; ?>.jpg" class="gallery-img01">
                         <div class="text-center pt-1">
                             <h6 class="mb-0 fw-bold"><?= $item['title']; ?></h6>
                         </div>
@@ -478,7 +431,7 @@
             <div class="row  py-4 justify-content-center">
                 <div class="col-lg-8 mb-4 text-center">
                     <h3 class="h2">Good UX Is Invisible. Great Designers Make It That Way. </h3>
-                    <p> A program that trains you to build digital worlds people navigate without thinking twice.</p>
+                    <p> Programs that train you to build digital worlds people navigate without thinking twice.</p>
                     <button class="btn c_btn py-2 px-4 rounded-pill" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">Apply Now</button>
                 </div>
@@ -833,7 +786,18 @@ if( document.readyState == "complete" ){
 }
 </script>
 
-
+</script>
+        <script>
+        document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
+        link.addEventListener("click", function () {
+            let navbar = document.querySelector(".navbar-collapse");
+            let bsCollapse = new bootstrap.Collapse(navbar, {
+            toggle: false,
+            });
+            bsCollapse.hide(); // close navbar
+        });
+        });
+    </script>
 </body>
 
 </html>
