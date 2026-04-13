@@ -141,7 +141,7 @@
                 <div class="col-lg-3 col-6 d-grid">
                     <div class="d-flex align-items-stretch  justify-content-center  usp_01">
                         <div class="text-center">
-                            <h6 class="fw-bold py-2 mb-0 h1 display-4">63<sup>rd</sup></h6>
+                            <h6 class="fw-bold py-2 mb-0 h1 display-4">71<sup>st</sup></h6>
                             <p class="pb-0 h5">in Overall category by NIRF</p>
                         </div>
                     </div>
