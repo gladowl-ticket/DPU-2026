@@ -95,7 +95,7 @@
                             education. Our programs empower students to creatively solve real-world design challenges by
                             blending innovation, technical skill, and design empathy. We offer an AICTE-approved
                             Bachelor of Design with specializations in Fashion Design, Communication Design, Interior
-                            Spatial & Furniture, Product Design, UX Design and Animation, and VFX Design. Supported by
+                            Spatial & Furniture, Product Design, UX Design and Animation & VFX Design. Supported by
                             cutting-edge facilities and guided by experts from premier institutes like NID and IIT, our
                             faculty fosters a dynamic learning environment shaping the institute as best design
                             institutes across India. DPU SOD strives to be a leading hub for design innovation and
@@ -230,14 +230,16 @@
 
                 <!-- RIGHT COLUMN -->
                 <div class="col-lg-4 bg-blue py-3">
-                    <div class="right-box h-100 text-center d-flex flex-column justify-content-center">
-                        <h2 class="mb-0">DPU AIDAT 2026</h2>
-                        <p>(DPU AII INDIA DESIGN APTITUDE TEST)</p>
+                    <div class="right-box h-100  d-flex flex-column justify-content-center">
+                        <h2 class="mb-0" style="font-size: 28px !important;">DPU SCHOOL OF DESIGN </h2>
+                        <p style="font-size: 16px !important;">(Admissions Closing Soon)</p>
 
-                        <p class="mt-3">Online Proctored Test conducted by Dr. D. Y. Patil Vidyapeeth, PUNE, INDIA For
-                            Admission Selection Process to B.Des, M.Des.</p>
-
-                        <h5 class="mt-3 fw-bold">19th APRIL, 2026</h5>
+                        <p class="mt-3">Apply for B.Des | M.Des | B.Sc (Hons.) Programs</p>
+                        <p class="fw-bold">Specializations Offered:</p>
+                        <p>Fashion Design | Communication Design | Interior Spatial & Furniture |
+Product Design | UX Design | Animation & VFX Design
+                        </p>            
+                                
                         <div class="d-flex justify-content-center">
                             <a href="" class="btn c_btn py-2 px-3 rounded-pill border bg-red" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">APPLY NOW</a>
