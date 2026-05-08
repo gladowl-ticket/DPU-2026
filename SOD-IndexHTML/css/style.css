@@ -518,7 +518,7 @@ h6 {
 .ChildTabContent .tab-content .accordion-button:not(.collapsed)::after,
 .mobilePrograms .accordion-button:not(.collapsed)::after {
   transform: rotate(0);
-  background-image: url(../img/program/close.png);
+  background-image: url(../img/program/close.webp);
   background-size: 10px 10px !important;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -737,10 +737,6 @@ span.brownTriangle {
   background: #fff;
 }
 @media (min-width: 992px) {
-  .navbar .navbar-nav .nav-link {
-    color: #ffffff;
-    font-size: 14px;
-  }
   .container-fluid.h_nav.px-lg-5.sticky-top {
     background: #00000047;
   }
@@ -935,6 +931,10 @@ span.brownTriangle {
 .scholarship-list li {
   padding: 5px 0;
 }
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 14px;
+}
 .view-more-btn {
   color: var(--yellow);
 }
@@ -1112,7 +1112,7 @@ span.brownTriangle {
 
 /* MIDDLE BOX */
 .middle-box {
-  background: url("../img/why/1.jpg") center/cover no-repeat;
+  background: url("../img/why/1.webp") center/cover no-repeat;
   position: relative;
   padding: 30px;
   height: 445px !important;
