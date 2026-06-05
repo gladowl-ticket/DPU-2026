@@ -1212,4 +1212,25 @@ span.brownTriangle {
   .custom-width{
   width: 100% !important;
 }
+.carousel-indicators{
+  bottom: 40px !important;
 }
+}
+
+.carousel-control-prev i,
+.carousel-control-next i{
+    font-size: 40px;
+    color: #9A2926;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    opacity: 1;
+}
+.carousel-indicators [data-bs-target]{
+  background-color: #9A2926;
+}
+
